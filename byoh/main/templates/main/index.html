@@ -2,4 +2,8 @@
 
 {% block body %}
     <h1> This is a H1 header from index.html injected into layout.HTML </h1>
+    <br>
+    <br>
+    <a href="{% url 'main:user' %}">Go to user.html</a>
+    <a href="{% url 'users:register' %}">Register a new user</a>
 {% endblock %}

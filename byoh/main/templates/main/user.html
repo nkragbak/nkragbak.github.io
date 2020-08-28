@@ -1,0 +1,8 @@
+{% extends "main/layout.html" %}
+
+{% block body %}
+    <h2> This is a H2 header from user.html injected into layout.HTML </h2>
+    <br>
+    <br>
+    <a href="{% url 'main:index' %}">Go to index.html</a>
+{% endblock %}

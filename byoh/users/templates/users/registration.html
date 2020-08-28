@@ -1,0 +1,20 @@
+{% extends "main/layout.html" %}
+
+{% block body %}
+    <h1> Create new user </h1>
+    <br>
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="Username">
+        <br>
+        <br>
+        <br>
+        <input type="password" name="password" placeholder="Password">
+        <br>
+        <br>
+        <input type="password" name="password2" placeholder="Confirm Password"> 
+        <input type="submit">
+    </form>
+    <br>
+    <a href="{% url 'main:user' %}">Go to user.html</a>
+{% endblock %}
