@@ -1,0 +1,1 @@
+https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/courseware/ SQL, models, migrations 1:40:30 for user reg/login
