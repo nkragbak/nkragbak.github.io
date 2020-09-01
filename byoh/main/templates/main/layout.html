@@ -15,7 +15,7 @@
     <body id="grid">
         <header id="grid-header"> 
             <img src="{% static 'main/myHero4.png' %}" alt="byoh image">
-            <p id="header-user">My profile/Settings</p>
+            <span style="float:right;" id="header-user">My profile/Settings</span>
         </header>
         <nav id="grid-nav">
             <a href="" class="nav-links">my Hero</a>
@@ -23,6 +23,14 @@
             <a href="" class="nav-links">Connect</a>
         </nav>
         <div id="grid-body"> {% block body %} {% endblock %} </div>
+
+        <script src="{% static 'main/script.js' %}"></script>
+        {% if user %}
+            <script>
+               // {{ user.username }} = document.querySelector("#header-user")
+            
+            </script>
+        {% endif %}
             <!-- Uncomment to add Bootstrap javascript src
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

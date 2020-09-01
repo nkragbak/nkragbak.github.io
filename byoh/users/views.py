@@ -7,7 +7,8 @@ from django.urls import reverse
 def index(request):
     if not request.user.is_authenticated:
         return HttpResponseRedirect(reverse("login"))
-    return render(request, "users/user.html")
+    return render(request, "main/index.html")
+    # return render(request, "users/user.html")
 
 def register(request):
     return render(request, "users/registration.html")
