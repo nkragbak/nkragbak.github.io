@@ -1,0 +1,14 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="{% static 'main/styles.css' %}" >
+        <title>Welcome, Hero</title>
+    </head>
+    <body class="frontpage-body">
+        {% block body %}
+        {% endblock %}
+        <a href="{% url 'register' %}">Register a new user</a>
+    </body>
+</html>

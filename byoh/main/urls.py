@@ -5,5 +5,6 @@ from . import views
 app_name = "main"
 urlpatterns = [
     path("", views.index, name="index"),
-    path("user", views.user, name="user"),
+    path("connect", views.connect, name="connect"),
+    path("library", views.library, name="library"),
 ]

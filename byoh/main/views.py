@@ -5,5 +5,8 @@ from django.http import HttpResponse
 def index(request):
     return render(request, "main/index.html")
 
-def user(request):
-    return render(request, "main/user.html")
+def connect(request):
+    return render(request, "main/connect.html")
+
+def library(request):
+    return render(request, "main/library.html")

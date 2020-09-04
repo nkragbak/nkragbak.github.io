@@ -1,5 +1,12 @@
-body {
-    background-color: rgb(104, 206, 184);
+/* these are the CSS comment tags */
+
+#layout-grid-body {
+    background-color: burlywood;
+    margin: 0;
+    display: grid;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    grid-template-columns: 160px auto;
 }
 
 header {
@@ -8,17 +15,13 @@ header {
 }
 
 nav {
-    background-color: lavender;
-    height: 500px;
-    padding-top: 40px;
-}
-
-#grid {
-    background-color: lightblue;
-    display: grid;
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
-    grid-template-columns: 140px auto;
+    background-color: rgb(79, 241, 214);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS'; /*, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
 }
 
 #grid-header {
@@ -30,19 +33,33 @@ nav {
     font-style: italic;
 }
 
-.nav-links {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 0px 4px;
-    height: 50px;
-    width: 120px;
-    text-align: center;
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+nav ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    list-style: none;
+}
+
+nav ul li a {
+    color: #000000;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-   /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);*/
+    display: block;
+    
+
+}
+
+nav ul li:hover {
+    background: #FFFFFF;
+}
+
+nav ul li a:hover {
+    color: #cf0101;
+}
+
+.frontpage-body {
+    background-color: cornflowerblue;
 }

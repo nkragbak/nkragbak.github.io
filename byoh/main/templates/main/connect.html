@@ -1,0 +1,10 @@
+{% extends "main/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <h2>connect.html</h2>
+    <img src="{% static 'main/images/worldmapexample.jpg' %}" height="800px" alt="world map">
+    <br>
+    <a href="{% url 'register' %}">Register a new user</a>
+    <a href="{% url 'login' %}">Log in</a>
+{% endblock %}
