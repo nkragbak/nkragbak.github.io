@@ -13,6 +13,8 @@ Beta
   - Add Feed
   - Add friends/Connect functionality
   - Add chat functionality
+  - metric/US conversion
+  - Gender options
   
  Later
   - Add quests/paths
