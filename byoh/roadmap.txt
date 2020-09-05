@@ -13,3 +13,7 @@ Beta
   - Add Feed
   - Add friends/Connect functionality
   - Add chat functionality
+  
+ Later
+  - Add quests/paths
+  - Add achievements
