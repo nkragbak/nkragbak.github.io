@@ -54,8 +54,8 @@ nav {
 #layout-grid-body {
     background-color: lightblue;
     display: grid;
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
     grid-template-columns: 140px auto;
 }
 
@@ -63,9 +63,10 @@ nav {
 
 .grid-index-wrapper {
     display: grid;
-    grid-template-columns: 300px auto;
-    grid-gap: 10px;
-    background-color: #fff;
+    grid-template-columns: 600px auto;
+    height: 500px;
+    grid-gap: 2px;
+    /*background-color: #fff;*/
     color: #444;
 }
 
@@ -75,4 +76,12 @@ nav {
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
+  }
+
+  /* 'App:Users' themes */
+
+  /* Frontpage Login */
+
+  .frontpage-body {
+      background-color: lightseagreen;
   }
