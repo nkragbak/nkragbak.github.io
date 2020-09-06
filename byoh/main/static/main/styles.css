@@ -1,27 +1,8 @@
-/* these are the CSS comment tags */
-
-#layout-grid-body {
-    background-color: burlywood;
-    margin: 0;
-    display: grid;
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
-    grid-template-columns: 160px auto;
-}
+/* Header including it's grid */
 
 header {
     background-color: beige;
     height: 70px;
-}
-
-nav {
-    background-color: rgb(79, 241, 214);
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS'; /*, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
 }
 
 #grid-header {
@@ -33,33 +14,65 @@ nav {
     font-style: italic;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0px;
-}
-nav ul li {
-    padding: 15px;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-    border-top: 1px solid rgba(255,255,255,0.05);
-    list-style: none;
+/* Navigation bar including it's grid */
+
+nav {
+    background-color: lavender;
+    height: 500px;
+    /*padding-top: 40px;*/
 }
 
-nav ul li a {
-    color: #000000;
+#grid-nav-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 6fr;
+    background-color: #fff;
+    color: #444;
+}
+
+.grid-nav {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+   /* padding: 0px 4px;*/
+    height: 50px;
+   /* width: auto;*/
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.4s;    
+}
+
+.grid-nav a {
     text-decoration: none;
-    display: block;
-    
-
 }
 
-nav ul li:hover {
-    background: #FFFFFF;
+/* Layout.html including it's grid */
+
+#layout-grid-body {
+    background-color: lightblue;
+    display: grid;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    grid-template-columns: 140px auto;
 }
 
-nav ul li a:hover {
-    color: #cf0101;
+/* Index.html including it's grid */
+
+.grid-index-wrapper {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
 }
 
-.frontpage-body {
-    background-color: cornflowerblue;
-}
+.grid-index {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }

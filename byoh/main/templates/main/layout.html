@@ -17,23 +17,21 @@
             {% if user %}
                 <span style="float:right;" id="header-user" >
                     {{ user.username }} 
-                      <br>
-                   <a href="{% url 'logout' %}">logout</a>
-                       <br>
+                        <br>
+                    <a href="{% url 'logout' %}">logout</a>
+                        <br>
                     <a href="{% url 'login' %}">login</a>
                 </span>
             {% endif %}
         </header>
-        <nav id="grid-nav">
-            <ul>
-                <li><a href="{% url 'main:index' %}" class="nav-links">my Hero</a></li>
-                <li><a href="{% url 'main:library' %}" class="nav-links">Library</a></li>
-                <li><a href="{% url 'main:connect' %}" class="nav-links"><img
+        <nav id="grid-nav-wrapper">
+            <div class="grid-nav"><a href="{% url 'main:index' %}" class="nav-links">my Hero</a></div>
+            <div class="grid-nav"><a href="{% url 'main:library' %}" class="nav-links">Library</a></div>
+            <div class="grid-nav"><a href="{% url 'main:connect' %}" class="nav-links"><img
                         src="{% static 'main/connect-icon.svg' %}" 
                         alt="triangle with all three sides equal"
                         height="30px"
-                    />  Connect</a></li>
-            </ul>
+                    />  Connect</a></div>
         </nav>
         <div id="grid-body"> {% block body %} {% endblock %} </div>
 

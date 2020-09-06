@@ -1,6 +1,14 @@
 {% extends "main/layout.html" %}
 
 {% block body %}
+    <div class="grid-index-wrapper">
+        <div class="grid-index avatar">
+            Avatar + stats
+        </div>
+        <div class="grid-index exercises">
+            excercise path
+        </div>
+    </div>
     <h1> This is a H1 header from index.html injected into layout.HTML </h1>
     <h1> Welcome, {{ request.user.first_name }} </h1>
 
