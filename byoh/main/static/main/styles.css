@@ -1,12 +1,15 @@
 /* Header including it's grid */
 
 header {
-    background-color: beige;
+    background-color: lavenderblush;
     height: 70px;
 }
 
 #grid-header {
     grid-column: 1 / span 2;
+    box-shadow: 3px 3px 6px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 #header-user {
@@ -17,7 +20,7 @@ header {
 /* Navigation bar including it's grid */
 
 nav {
-    background-color: lavender;
+    background-color: lavenderblush;
     height: 500px;
     /*padding-top: 40px;*/
 }
@@ -26,23 +29,23 @@ nav {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr 6fr;
-    background-color: #fff;
-    color: #444;
+    box-shadow: 3px 3px 6px;
+    border-radius: 8px;
 }
 
 .grid-nav {
     background-color: #4CAF50;
     border: none;
-    color: white;
-   /* padding: 0px 4px;*/
     height: 50px;
-   /* width: auto;*/
     text-align: center;
     font-size: 16px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
-    transition-duration: 0.4s;    
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    /* padding-top: 1em; play around later */
+    /* padding: 3px; play around later */
 }
 
 .grid-nav a {
@@ -52,10 +55,10 @@ nav {
 /* Layout.html including it's grid */
 
 #layout-grid-body {
-    background-color: lightblue;
+    background-color: #aeffaf;
     display: grid;
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
     grid-template-columns: 140px auto;
 }
 
@@ -64,19 +67,65 @@ nav {
 .grid-index-wrapper {
     display: grid;
     grid-template-columns: 600px auto;
-    height: 500px;
-    grid-gap: 2px;
-    /*background-color: #fff;*/
-    color: #444;
+    grid-template-rows: 800px auto;
+    height: 80%;
+    grid-gap: 8px;
 }
 
 .grid-index {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
     padding: 20px;
     font-size: 150%;
+    box-shadow: 3px 3px 6px;
   }
+
+        /* Stats table */
+
+table {
+    border-collapse: collapse;
+
+}
+
+.table-captions {
+    text-align: right;
+    padding: 10px;
+    width: 130px;
+}
+
+.table-values {
+    border: 1px solid;
+    width: 50px;
+    text-align: center;
+
+}
+
+.table-spacer {
+    height: 30px;
+}
+
+        /* exercise items */
+
+.exercise-items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 16px;
+
+
+}
+
+.exercise-item {
+    background-color: rgb(255, 35, 35);
+    height: 30px;
+    width: 30px;
+    color: black;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 150%;
+    box-shadow: 3px 3px 6px;
+}
+
 
   /* 'App:Users' themes */
 

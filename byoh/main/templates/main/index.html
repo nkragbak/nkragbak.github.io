@@ -1,21 +1,101 @@
 {% extends "main/layout.html" %}
+{% load static %}
 
 {% block body %}
     <div class="grid-index-wrapper">
         <div class="grid-index avatar">
-            Avatar + stats
+            <h3> Welcome, {{ request.user.first_name }} </h3>
+
+            <table>
+                <tr>
+                    <td rowspan="12">
+                        <img class="avatar" src="{% static 'main/tempavatar.png'%}" height="500px">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-captions">Chest</td>
+                    <td class="table-values">01</td>
+                </tr>
+                <tr>
+                    <td class="table-captions">Back</td>
+                    <td class="table-values">01</td>
+                </tr>
+                <tr>
+                    <td class="table-captions">Arms</td>
+                    <td class="table-values">01</td>
+                </tr>
+                <tr>
+                    <td class="table-captions">Core</td>
+                    <td class="table-values">01</td>
+                </tr>
+                <tr>
+                    <td class="table-captions">Legs</td>
+                    <td class="table-values">01</td>
+                </tr>
+                    <tr class=table-spacer>
+                    </tr>
+                <tr>
+                    <td class="table-captions">Stamina</td>
+                    <td class="table-values">01</td>
+                </tr>
+                    <tr class=table-spacer>
+                    </tr>
+                <tr>
+                    <td class="table-captions">Agility</td>
+                    <td class="table-values">01</td>
+                </tr>
+                    <tr class=table-spacer>
+                    </tr>
+                <tr>
+                    <td class="table-captions">Speed</td>
+                    <td class="table-values">01</td>
+                </tr>
+            </table>
+
+            <ul>
+                <li>Username: {{ request.user.username}} </li>
+                <li>Email: {{ request.user.email }} </li>
+            </ul>
+            
         </div>
+
+
         <div class="grid-index exercises">
-            exercise path
+            <div class="exercise-items-wrapper">
+                <div class="exercise-item">1</div>
+                <div class="exercise-item">2</div>
+                <div class="exercise-item">3</div>
+                <div class="exercise-item">4</div>
+                <div class="exercise-item">5</div>
+                <div class="exercise-item">6</div>
+                <div class="exercise-item">7</div>
+                <div class="exercise-item">8</div>
+                <div class="exercise-item">9</div>
+                <div class="exercise-item">10</div>
+                <div class="exercise-item">11</div>
+                <div class="exercise-item">12</div>
+                <div class="exercise-item">13</div>
+                <div class="exercise-item">14</div>
+                <div class="exercise-item">15</div>
+            </div>
+            <p>
+                [Dynamically insert 'items' 1)ID, 2)name, 3) icon (category), 4) calculation ]
+            </p>
+                <br>
+            <p>
+                VV / FV <br> BW, Weights, Equipment, Speed, Endurange, Agility
+            </p>
+        </div>
+
+        <div class="grid-index feed">
+            <p>Insert feed</p>
+        </div>
+
+        <div class="grid-index friends">
+            <p>Insert Friends section</p>
         </div>
     </div>
-    <h1> This is a H1 header from index.html injected into layout.HTML </h1>
-    <h1> Welcome, {{ request.user.first_name }} </h1>
 
-    <ul>
-        <li>Username: {{ request.user.username}} </li>
-        <li>Email: {{ request.user.email }} </li>
-    </ul>
     
     
 {% endblock %}

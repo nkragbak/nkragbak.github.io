@@ -33,7 +33,13 @@
                         height="30px"
                     />  Connect</a></div>
         </nav>
-        <div id="grid-body"> {% block body %} {% endblock %} </div>
+        <div id="grid-body">
+            {% block body %} {% endblock %}
+        </div>
+
+        <div class="grid-layout-element footer">
+            <p>Footer content</p>
+        </div>
 
         <script src="{% static 'main/script.js' %}"></script>
     </body>
