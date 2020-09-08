@@ -84,25 +84,31 @@ nav {
         /* Stats table */
 
 table {
-    border-collapse: collapse;
-
+    /*border-collapse: collapse;*/
+    border-radius: 8px;
 }
 
 .table-captions {
     text-align: right;
     padding: 10px;
-    width: 130px;
+    width: 100px;
 }
 
 .table-values {
-    border: 1px solid;
-    width: 50px;
+    border: 2px solid;
+    border-radius: 8px;
+    border-style: inset;
+    width: 46px;
     text-align: center;
-
+    font-size: larger;
 }
 
 .table-spacer {
-    height: 30px;
+    height: 24px;
+}
+
+.avatar {
+    padding-left: 30px;
 }
 
         /* exercise items */
@@ -111,12 +117,10 @@ table {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     grid-gap: 16px;
-
-
 }
 
 .exercise-item {
-    background-color: rgb(255, 35, 35);
+    background-color: rgb(68, 120, 233);
     height: 30px;
     width: 30px;
     color: black;
@@ -126,7 +130,14 @@ table {
     box-shadow: 3px 3px 6px;
 }
 
+.exercise-items-explainer-wrapper {
+    display: grid;
+    width:10%;
+}
 
+.exercise-item-explainer {
+    column-span: all;
+}
   /* 'App:Users' themes */
 
   /* Frontpage Login */
