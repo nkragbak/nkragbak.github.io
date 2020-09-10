@@ -9,10 +9,11 @@
         <title>Insert placeholder</title>
 
         <link rel="shortcut icon" type="image/png" href="{% static 'main/favicon.ico' %}"/>
-        <link rel="stylesheet" href="{% static 'main/styles.css' %}" >
+        <link rel="stylesheet" href="{% static 'main/styles.css' %}">
+        <link rel="script" href="{% static 'main/script.js' %}">
     </head>
     <body id="layout-grid-body">
-        <header id="grid-header"> 
+        <header class="grid-header"> 
             <img src="{% static 'main/myHero4.png' %}" alt="byoh image">
             {% if user %}
                 <span style="float:right;" id="header-user" >

@@ -4,7 +4,11 @@
 {% block body %}
     <div class="grid-index-wrapper">
         <div class="grid-index avatar">
-            <h3> Welcome, {{ request.user.first_name }} </h3>
+            <h3>
+                Welcome, {{ request.user.first_name }}
+                <button class="focus-selector">Currently pursuing:</button>
+                <button class="quest-button">Take on a Quest!</button>
+            </h3>
 
             <table>
                 <tr>
@@ -12,7 +16,7 @@
                         <img class="avatar" src="{% static 'main/tempavatar2.png'%}" height="500px">
                     </td>
                 </tr>
-                <tr class=table-spacer>
+                <tr class="table-spacer">
                 </tr>
                 <tr>
                     <td class="table-captions">Chest</td>
@@ -34,19 +38,19 @@
                     <td class="table-captions">Legs</td>
                     <td class="table-values">01</td>
                 </tr>
-                    <tr class=table-spacer>
+                    <tr class="table-spacer">
                     </tr>
                 <tr>
                     <td class="table-captions">Stamina</td>
                     <td class="table-values">01</td>
                 </tr>
-                    <tr class=table-spacer>
+                    <tr class="table-spacer">
                     </tr>
                 <tr>
                     <td class="table-captions">Agility</td>
                     <td class="table-values">01</td>
                 </tr>
-                    <tr class=table-spacer>
+                    <tr class="table-spacer">
                     </tr>
                 <tr>
                     <td class="table-captions">Speed</td>
@@ -63,12 +67,38 @@
 
 
         <div class="grid-index exercises">
-            <div class="exercise-items-explainer-wrapper">
-                <div class="exercise-item-explainer">
-                    Bodyweight, etc.
+            <div class="exercise-items-topbar">
+                <form name="myform">
+                    sort by:
+                    <select name="mylist" onChange="nav()">
+                    <option value="http://www.wikipedia.org">Wikipedia</option>
+                    <option value="http://www.deviantart.com">DeviantArt</option>
+                    <option value="http://www.flickr.com">Flickr</option>
+                    <option value="http://www.twitter.com">Twitter</option>
+                    <option value="Equipment">Equipment required</option>
+                    <option value="Focus">Exercise focus</option>
+                    </select>
+                    </form>
+            </div>
+            <div class="exercise-items-leftbar">
+                <div class="explainers">                
+                    legend:
+                    <img class="legend chest" src="{% static 'main/images/chest.png'%}" height="32px">
+                    <img class="legend arms" src="{% static 'main/images/arms.png'%}" height="32px">
+                    <img class="legend core" src="{% static 'main/images/core.png'%}" height="32px">
+                    <img class="legend back" src="{% static 'main/images/back.png'%}" height="32px">
+                    <img class="legend legs" src="{% static 'main/images/legs.png'%}" height="32px">
+                    <br><br>
+                    <img class="legend stamina" src="{% static 'main/images/stamina.png'%}" height="32px">
+                    <img class="legend agility" src="{% static 'main/images/agility.png'%}" height="32px">
+                    <img class="legend speed" src="{% static 'main/images/speed.png'%}" height="32px">
+                    <br><br>
+                    <img class="legend dumbbell" src="{% static 'main/images/dumbbell.png'%}" height="32px">
+                    <img class="legend bodyweight" src="{% static 'main/images/bodyweight.png'%}" height="32px">
+                    <img class="legend household" src="{% static 'main/images/household.png'%}" height="32px">
+                    <img class="legend equipmisc" src="{% static 'main/images/equipmisc.png'%}" height="32px">
                 </div>
             </div>
-
             <div class="exercise-items-wrapper">
                 <div class="exercise-item">1</div>
                 <div class="exercise-item">2</div>
@@ -86,13 +116,6 @@
                 <div class="exercise-item">14</div>
                 <div class="exercise-item">15</div>
             </div>
-            <p>
-                [Dynamically insert 'items' 1)ID, 2)name, 3) icon (category), 4) calculation ]
-            </p>
-                <br>
-            <p>
-                VV / FV <br> BW, Weights, Equipment, Speed, Endurange, Agility
-            </p>
         </div>
 
         <div class="grid-index feed">
@@ -102,6 +125,7 @@
         <div class="grid-index friends">
             <p>Insert Friends section</p>
         </div>
+    
     </div>
 
     
