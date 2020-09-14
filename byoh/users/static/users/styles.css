@@ -1,0 +1,17 @@
+  /* 'App:Users' themes */
+
+  /* Frontpage Login */
+  
+  body  {
+    background-color: lightseagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+    
+}
+
+h3 {
+    font-size: 56px;
+    margin-top: 3em;
+}
+

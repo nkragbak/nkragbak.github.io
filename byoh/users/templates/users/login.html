@@ -5,6 +5,7 @@
     {% if message %}
         <div> {{ message }} </div>
     {% endif %}
+    <br>
 
     <form action="{% url 'login' %}" method="POST">
         {% csrf_token %}

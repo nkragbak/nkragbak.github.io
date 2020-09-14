@@ -3,10 +3,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <link rel="stylesheet" href="{% static 'main/styles.css' %}" >
+    <link rel="stylesheet" href="{% static 'users/styles.css' %}" >
         <title>Welcome, Hero</title>
     </head>
     <body class="frontpage-body">
+        <h3>Welcome to beyourownhero.com</h3>
         {% block body %}
         {% endblock %}
         <a href="{% url 'register' %}">Register a new user</a>

@@ -7,4 +7,5 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("connect", views.connect, name="connect"),
     path("library", views.library, name="library"),
+    path("quests", views.quests, name="quests"),
 ]

@@ -1,0 +1,49 @@
+{% extends "main/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <div class="userconfig-body">
+
+    <p> Name: <input type="text" id="first_name" name="first_name" value="{{request.user.first_name}}"></input> <input type="text" id="last_name" name="last_name" value="{{request.user.last_name}}"></input> <button value="change_name">change(*)</button></p>
+    <p>
+        <form action="/action_page.php">
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight" name="weight" min="1" max="200">
+            <input type="submit" value="Update(*)">
+        </form>
+    </p>
+    <p>
+        Unit of measure:
+        <select>
+            <option value="metric">Metric (m/kg)</option>
+            <option value="Imerial">Imperial (yd/lb)(*)</option>
+        </select>
+    </p>
+
+    <br>
+    <br>
+
+    <p style="font-weight: bold;">Privacy settings:</p>
+    <p>
+        Visibililty of my name and feed (videos will always be hidden to non-friends):
+        <select>
+            <option value="Standard">Visible to everyone who visits my profile (standard)</option>
+            <option value="Onlyfriends">Only visible to friends</option>
+        </select>
+    </p>
+    <p>
+        Accepting friend requests:
+        <select id="friendselect">
+            <option value="standard" title="Other heroes searching for your name or browse the Connect map are able to find you and request friendship."> Accepting friend requests (standard)</option>
+            <option value="outwardreaching" title="Like standard, but on the Connect map, your profile will stand out along with others with the same setting enabled.">Actively searching for workout buddies</option>
+            <option value="private" title="You will be represented on the Connect map by a grey icon, and your name will not appear in search results. Suitable if you prefer to use the website as a personal ... only.">Hidden to other Heroes</option>
+        </select>
+    </p>
+
+    <br>
+    
+    <button>Save changes(*)</button>
+    <button>Cancel(*)</button>
+
+</div>    
+{% endblock %}

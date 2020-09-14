@@ -10,3 +10,6 @@ def connect(request):
 
 def library(request):
     return render(request, "main/library.html")
+
+def quests(request):
+    return render(request, "main/quests.html")

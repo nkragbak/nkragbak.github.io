@@ -16,7 +16,7 @@
         <header class="grid-header"> 
             <img src="{% static 'main/myHero4.png' %}" alt="byoh image">
             {% if user %}
-                <span style="float:right;" id="header-user" >
+                <span id="header-user" >
                     {{ user.username }} 
                         <br>
                     <a href="{% url 'logout' %}">logout</a>
@@ -27,19 +27,21 @@
         </header>
         <nav id="grid-nav-wrapper">
             <div class="grid-nav"><a href="{% url 'main:index' %}" class="nav-links">my Hero</a></div>
-            <div class="grid-nav"><a href="{% url 'main:library' %}" class="nav-links">Library</a></div>
+            <div class="grid-nav"><a href="{% url 'main:library' %}" class="nav-links">Quests & <br> Achievements(*)</a></div>
+            <div class="grid-nav"><a href="{% url 'main:library' %}" class="nav-links">Library(*)</a></div>
             <div class="grid-nav"><a href="{% url 'main:connect' %}" class="nav-links"><img
                         src="{% static 'main/connect-icon.svg' %}" 
                         alt="triangle with all three sides equal"
                         height="30px"
-                    />  Connect</a></div>
+                    />  Connect(*)</a></div>
+            <div class="grid-nav"><a href="{% url 'userconfig' %}" class="nav-links">Configuration(*)</a></div>
         </nav>
         <div id="grid-body">
             {% block body %} {% endblock %}
         </div>
 
         <div class="grid-layout-element footer">
-            <p>Footer content</p>
+            <p>footer content</p>
         </div>
 
         <script src="{% static 'main/script.js' %}"></script>
