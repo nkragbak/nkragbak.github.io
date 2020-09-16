@@ -4,10 +4,67 @@
 {% block body %}
     <div class="quests-wrapper">
         <div class="quests">
-            a
+            <h2>Quests</h2>
+
+            <table>
+                <tr>
+                    <th class="quest-table-header">Singleplayer</th>
+                    <th class="quest-table-header">Multiplayer</th>
+                </tr>
+                <tr>
+                    <td class="sp questlist">
+                        <select class="sp listbox" name="sp listbox" size="14">
+                            <option value="Merceders"> Stamina novice </option>
+                            <option value="BMW"> Allrounder </option>
+                            <option value="Jaguar"> Agile warrior </option>
+                            <option value="Lamborghini"> Treehugger </option>
+                            <option value="Ferrari"> Speed king, mk. I </option>
+                            <option value="Ford"> Core enthusiast, mk. I </option>
+                            <option value="Jaguar"> Walk the line </option>
+                        </select>
+                    </td>
+                    <td class="mp questlist">
+                        <select class="mp listbox" name="mp listbox" size="14">
+                            <option value="Merceders"> Dual ... </option>
+                            <option value="BMW"> "On the double!" </option>
+                            <option value="Jaguar"> Double trouble </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="pursue-quest sp">Pursue selected quest(*)</button>
+                    </td>
+                    <td>
+                        <button class="pursue-quest mp">Pursue selected quest(*)</button>
+                    </td>
+                </tr>
+            </table>
+            <button class="create-quest">Create new quest...(*)</button>
+
         </div>
+
+
         <div class="achievements">
-            b
+            <h2>Achievements</h2>
+            
+            <table>
+                <tr>
+                    <th class="achievements-table-header">Achivements earned</th>
+                    <th class="achievements-table-header">Locked:</th>
+                </tr>
+                <tr>
+                    <td class="achievement earned">
+                        some cool achievement
+                    </td>
+                    <td class="achievement locked">
+                        some other cool achievement
+                    </td>
+                </tr>
+            </table>
+            
+
+            
         </div>
     </div>
 {% endblock %}

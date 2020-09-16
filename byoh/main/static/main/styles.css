@@ -6,6 +6,7 @@
     grid-column-gap: 6px;
     grid-row-gap: 6px;
     grid-template-columns: 140px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Header including it's grid */
@@ -42,25 +43,29 @@ nav {
 .grid-nav {
     background-color: #4CAF50;
     border: none;
-    /*height: 50px;*/
+    height: 50px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
     transition-duration: 0.1s;
     border-radius: 8px;
     margin-top: 1em;
+    line-height: 50px;
+    
     /* padding-top: 1em; play around later */
     /* padding: 3px; play around later */
 }
 
+.nav-links {
+    text-decoration: none;
+}
 .grid-nav:hover {
     background-color: lightcoral;
 }
-.grid-nav a {
-    text-decoration: none;
-}
+
+
+        /* footer */
 
 .footer {
     /*background-color: lightgrey;*/
@@ -158,7 +163,6 @@ table {
     color: black;
     border-radius: 8px;
     padding: 14px;
-    font-size: 150%;
     box-shadow: 3px 3px 6px;
 }
 
@@ -185,16 +189,47 @@ table {
     
 }
         /* Quests & Achievements */
+
 .quests-wrapper {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.quests-wrapper h2 {
+    text-align: center;
 }
 
 .quests, .achievements {
+    background-color: white;
     box-shadow: 3px 3px 6px;
     border-radius: 8px;
-    padding: 4px;
+    padding: 20px;
 }
 
+.listbox {
+    width: 250px;
+
+}
+
+.achievement {
+    border: 2px solid;
+    border-radius: 8px;
+    border-style: inset;
+    width: 260px;
+    height: 300px;
+    background-color: rgb(230, 228, 228);
+}
+
+.pursue-quest {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    /*float: right;*/
+}
+
+.create-quest {
+    float: right;
+}
         /* User config */ 
         
 .userconfig-body {
@@ -206,4 +241,8 @@ table {
 }
 option .standard:hover {
     text-decoration-color: lightcoral;
+}
+
+input, #country {
+    margin-top: 1em;
 }

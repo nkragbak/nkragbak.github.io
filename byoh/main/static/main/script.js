@@ -10,3 +10,10 @@ function nav()
    }
 
    // userconfig
+
+
+   // Quests and Achievements
+
+//function onselect(){
+//   pseudo: show description field of quest on div beneath listbox 
+//}

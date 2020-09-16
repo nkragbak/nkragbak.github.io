@@ -26,15 +26,15 @@
             {% endif %}
         </header>
         <nav id="grid-nav-wrapper">
-            <div class="grid-nav"><a href="{% url 'main:index' %}" class="nav-links">my Hero</a></div>
-            <div class="grid-nav"><a href="{% url 'main:library' %}" class="nav-links">Quests & <br> Achievements(*)</a></div>
-            <div class="grid-nav"><a href="{% url 'main:library' %}" class="nav-links">Library(*)</a></div>
-            <div class="grid-nav"><a href="{% url 'main:connect' %}" class="nav-links"><img
+            <a href="{% url 'main:index' %}" class="nav-links"><div class="grid-nav">my Hero</div></a>
+            <a href="{% url 'main:quests' %}" class="nav-links"><div class="grid-nav">Quests +(*)</div></a>
+            <a href="{% url 'main:library' %}" class="nav-links"><div class="grid-nav">Library(*)</div></a>
+            <a href="{% url 'main:connect' %}" class="nav-links"><div class="grid-nav"><img
                         src="{% static 'main/connect-icon.svg' %}" 
                         alt="triangle with all three sides equal"
                         height="30px"
-                    />  Connect(*)</a></div>
-            <div class="grid-nav"><a href="{% url 'userconfig' %}" class="nav-links">Configuration(*)</a></div>
+                    />  Connect(*)</div></a>
+            <a href="{% url 'userconfig' %}" class="nav-links"><div class="grid-nav">Configuration(*)</div></a>
         </nav>
         <div id="grid-body">
             {% block body %} {% endblock %}
