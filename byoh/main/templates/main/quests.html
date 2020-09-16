@@ -66,5 +66,18 @@
 
             
         </div>
+
+        <div class="testdiv">
+
+            <div>
+                {% for city in cities %}
+
+                <p>d {{ city.value }} </p>
+
+                {% endfor %}
+                d{{ cities }}
+            </div>
+
+        </div>
     </div>
 {% endblock %}
