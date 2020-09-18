@@ -9,8 +9,9 @@ function nav()
    window.location.href = url_add;
    }
 
+
 function seedict(){
-   alert('yo');
+   alert('yo2');
 }
    // userconfig
 

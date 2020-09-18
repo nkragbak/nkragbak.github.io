@@ -3,30 +3,13 @@ next Github repo:
   - proper Readme.md 
 
   User profile:
-  email - unique
-  password
-  first + last name
-  weight
-  location (nation, which +30.000 city closest to?)
-  time of signup
-  time of last login
-  is staff
-  is superuser
-  is  active
-  chest
-  back
-  arms
-  core
-  legs
-  stamina
-  agility
-  speed
-  sort by:
-  currently oursuing
+
+
+
+  currently pursuing
   active quest
   Friends list:
   Feed:
-  Unit of measurement
   visibility (privacy)
   accepting friend requests
 

@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import os, csv
+import csv
 
 
 # Create your views here.
@@ -14,13 +14,14 @@ def library(request):
     return render(request, "main/library.html")
 
 def quests(request):
-    cities = {}
-    with open('main/static/main/worldcities.csv', newline="", encoding="utf8") as csvfile:
-        reader = csv.reader(csvfile, delimiter=",")
-        line_count = 0
-        for row in reader:
-            if line_count == 0: 
-                line_count +=1
-            else:
-                cities['city'] = row[1]
-    return render(request, 'main/quests.html', cities)
+    return render(request, "main/quests.html")
+    
+    
+    
+#    cities = {}
+#    fields = []
+#    rows = []
+
+#    with open('main/static/main/worldcities.csv', 'r', encoding="utf8") as csvfile:
+#        reader = csv.reader(csvfile)
+    
