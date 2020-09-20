@@ -1,10 +1,14 @@
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
 from django.http import HttpResponse
+from django.urls import reverse
 import csv
 
 
 # Create your views here.
 def index(request):
+    if not request.user.is_authenticated:
+        return HttpResponseRedirect(reverse("login"))
     return render(request, "main/index.html")
 
 def connect(request):
@@ -15,13 +19,4 @@ def library(request):
 
 def quests(request):
     return render(request, "main/quests.html")
-    
-    
-    
-#    cities = {}
-#    fields = []
-#    rows = []
-
-#    with open('main/static/main/worldcities.csv', 'r', encoding="utf8") as csvfile:
-#        reader = csv.reader(csvfile)
     

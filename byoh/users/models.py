@@ -57,14 +57,14 @@ class User(AbstractBaseUser):
 
 
 
-    chest           = models.FloatField(default=1)
-    back            = models.FloatField(default=1)
-    arms            = models.FloatField(default=1)
-    core            = models.FloatField(default=1)
-    legs            = models.FloatField(default=1)
-    stamina         = models.FloatField(default=1)
-    agility         = models.FloatField(default=1)
-    speed           = models.FloatField(default=1)
+    chest           = models.DecimalField(max_digits=4, decimal_places=2, default=1)
+    back            = models.DecimalField(max_digits=4, decimal_places=2, default=1)
+    arms            = models.DecimalField(max_digits=4, decimal_places=2, default=1)
+    core            = models.DecimalField(max_digits=4, decimal_places=2, default=1)
+    legs            = models.DecimalField(max_digits=4, decimal_places=2, default=1)
+    stamina         = models.DecimalField(max_digits=4, decimal_places=2, default=1)
+    agility         = models.DecimalField(max_digits=4, decimal_places=2, default=1)
+    speed           = models.DecimalField(max_digits=4, decimal_places=2, default=1)
 
     sort_by         = models.BooleanField(default=True)
 #    active_quest    = models.

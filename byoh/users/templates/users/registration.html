@@ -1,19 +1,30 @@
 {% extends "users/frontpage.html" %}
 
 {% block body %}
-    <h1> Create new user </h1>
-    <br>
-    <form method="POST">
-        {% csrf_token %}
-        <input type="text" name="username" placeholder="Username">
+    <div class="registerdiv">
+        <h2> Create new user </h2>
         <br>
-        <br>
-        <br>
-        <input type="password" name="password" placeholder="Password">
-        <br>
-        <br>
-        <input type="password" name="password2" placeholder="Confirm Password"> 
-        <input type="submit" value="Registrér">
-    </form>
-    <br>
+        <form method="POST">
+            {% csrf_token %}
+
+            {% for field in registration_form %}
+                <p>
+                    {{field.label_tag}}
+                    {{field}}
+
+                    {% if field.help_text %}
+                        <small style="color: grey;">{{field.help_text}}</small>
+                    {% endif %}
+
+                    {% for error in field.errors %}
+                        <small style="color: red;">{{error}}</small>
+                    {% endfor %}
+                </p>
+
+
+            {% endfor %}
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
 {% endblock %}

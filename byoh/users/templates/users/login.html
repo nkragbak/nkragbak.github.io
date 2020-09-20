@@ -9,7 +9,7 @@
 
     <form action="{% url 'login' %}" method="POST">
         {% csrf_token %}
-        <input type="text" name="username" placeholder="Username">
+        <input type="text" name="email" placeholder="email">
         <br>
         <br>
         <br>
@@ -17,5 +17,7 @@
         <br>
         <input type="submit" value="Login">
     </form>
+
+    <a href="{% url 'register' %}">Register a new user</a>
 
 {% endblock %}
