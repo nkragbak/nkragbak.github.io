@@ -20,49 +20,44 @@
                 </tr>
                 <tr>
                     <td class="table-captions">Chest</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values"> {{request.user.chest}} </td>
                 </tr>
                 <tr>
                     <td class="table-captions">Back</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values"> {{request.user.back}} </td>
                 </tr>
                 <tr>
                     <td class="table-captions">Arms</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values" id="testid"> {{request.user.arms}} </td>
                 </tr>
                 <tr>
                     <td class="table-captions">Core</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values"> {{request.user.core}} </td>
                 </tr>
                 <tr>
                     <td class="table-captions">Legs</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values"> {{request.user.legs}} </td>
                 </tr>
                     <tr class="table-spacer">
-                    </tr>
+                </tr>
                 <tr>
                     <td class="table-captions">Stamina</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values"> {{request.user.stamina}} </td>
                 </tr>
                     <tr class="table-spacer">
-                    </tr>
+                </tr>
                 <tr>
                     <td class="table-captions">Agility</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values"> {{request.user.agility}} </td>
                 </tr>
                     <tr class="table-spacer">
-                    </tr>
+                </tr>
                 <tr>
                     <td class="table-captions">Speed</td>
-                    <td class="table-values">01</td>
+                    <td class="table-values"> {{request.user.speed}} </td>
                 </tr>
             </table>
 
-            <ul>
-                <li>Username: {{ request.user.username}} </li>
-                <li>Email: {{ request.user.email }} </li>
-            </ul>
-            
         </div>
 
 

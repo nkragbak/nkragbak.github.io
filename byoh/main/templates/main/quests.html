@@ -66,5 +66,28 @@
 
             
         </div>
+
+        <div class="testdiv">
+        Sandbox div:
+        <ul>
+            {% for row in byer %} 
+  <li>{{row.msg}} - {{row.topic}}</li>
+ {% endfor %}
+            </ul>
+            {% for key in cities %}
+            inside for loop:
+               <p> {{ fields }} </p>
+
+            {% endfor %}
+
+            <div>
+                <br>
+                <br>
+                out of for loop: {{ fields|default:"nothing" }}
+            </div>
+            <button onclick="seedict()">see dict</button>
+
+        </div>
     </div>
+
 {% endblock %}

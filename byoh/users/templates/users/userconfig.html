@@ -10,8 +10,20 @@
                 <label for="first_name">Name:</label>
                 <input type="text" id="first_name" name="first_name" value="{{request.user.first_name}}"></input> <input type="text" id="last_name" name="last_name" value="{{request.user.last_name}}"></input>
                 <br>
+                <label for="password1">New Password:</label>
+                <input type="password" id="password1">
+                <br>
+                <label for="password2">Confirm New Password:</label>
+                <input type="password" id="password2">
+                <br>
                 <label for="weight">Weight:</label>
-                <input type="number" id="weight" name="weight" min="1" max="200"> kg
+                <input type="number" id="weight" name="weight" min="30" max="200" value="{{request.user.weight}}"> kg
+                <br>
+                <label for="weight">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" value="{{request.user.dob}}"> 
+                <input type="checkbox" id="agevisible" name="agevisible" value="agevisible">
+                <label for="agevisible"> age visible </label>
+                <a href='#' title="For no reason really. We would just like to be able to say happy birthday to you occasionally. If you wish, you can make your age visible on your Hero page, but no one will ever be able do see your specific date of birth">why though?</a>
                 <br>
                 <label for="country">Country:</label>
                 <select id="country">
@@ -268,6 +280,7 @@
                 <br>
                 <label for="city">Nearest city:</label>
                 <input type="list" id="city" name="city">
+                Geo-data provided by courtesy of ...
                 <br>
                 <input type="submit" value="Update(*)">
             </form>

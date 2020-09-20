@@ -109,7 +109,10 @@ table {
     border-style: inset;
     width: 46px;
     text-align: center;
-    font-size: larger;
+    font-weight: bold;
+    font-size: 1.6em;
+    /*color: #3498db;*/
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #3498db;
 }
 
 .table-spacer {
@@ -245,4 +248,9 @@ option .standard:hover {
 
 input, #country {
     margin-top: 1em;
+}
+
+.testdiv {
+    background-color: darksalmon;
+    height: 200px;
 }
