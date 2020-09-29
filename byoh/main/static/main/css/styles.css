@@ -9,6 +9,21 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+a:visited {
+    color: blue;
+}
+
+button {
+    border-style: solid 1px;
+    border-color: darkblue;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
 /* Header including it's grid */
 
 
@@ -112,7 +127,7 @@ table {
     font-weight: bold;
     font-size: 1.6em;
     /*color: #3498db;*/
-    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #3498db;
+    /*text-shadow: 1px 1px 0 #fff, 2px 2px 0 #0003a5;*/
 }
 
 .table-spacer {
@@ -161,13 +176,77 @@ table {
 
 .exercise-item {
     background-color: rgb(179, 179, 179);
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     color: black;
     border-radius: 8px;
-    padding: 14px;
+    padding: 6px;
     box-shadow: 3px 3px 6px;
+    box-sizing: border-box;
+    font-size: 0.7em;
+       
 }
+
+.exercise-level {
+    /*font-family: 'Georgia', 'serif', 'Liberation Serif', 'Times New Roman';
+    /*font-weight: bold;*/
+    white-space: nowrap;
+}
+
+table.exercise-item-table {
+   /* border: solid;*/
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 50px;
+}
+
+table.exercise-item-table > tr {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+td.exercise-item-table {
+    white-space: nowrap;
+    overflow: hidden;
+    /*border:1px solid;*/
+}
+
+.vvfv {
+    float: right;
+}
+/*
+.chest-background {
+    background-image: url('../images/chest.png');
+}
+
+.back-background {
+    background-image: url('../images/back.png');
+}
+
+.arms-background {
+    background-image: url('../images/arms.png');
+}
+
+.core-background {
+    background-image: url('../images/core.png');
+}
+
+.legs-background {
+    background-image: url('../images/legs.png');
+}
+
+.stamina-background {
+    background-image: url('../images/stamina.png');
+}
+
+.agility-background {
+    background-image: url('../images/agility.png');
+}
+
+.speed-background {
+    background-image: url('../images/speed.png');
+}
+*/
 
 #five, #thirteen, #seventeen, #two, #twentytwo {
     background-color: rgb(95, 184, 6);
@@ -253,4 +332,7 @@ input, #country {
 .testdiv {
     background-color: darksalmon;
     height: 200px;
+    overflow-y: auto;
+    overflow-x: scroll;
+    column-count: 6;
 }

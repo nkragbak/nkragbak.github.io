@@ -66,16 +66,33 @@ class User(AbstractBaseUser):
     agility         = models.DecimalField(max_digits=4, decimal_places=2, default=1)
     speed           = models.DecimalField(max_digits=4, decimal_places=2, default=1)
 
-    sort_by         = models.BooleanField(default=True)
+    EQUIPMENT       = 'E'
+    CATEGORY        = 'C'
+
+    SORT_BY_CHOICES = [
+        (EQUIPMENT, 'Equipment'),
+        (CATEGORY, 'Category'),
+    ]
+
+    sort_by         = models.CharField(max_length=1, choices=SORT_BY_CHOICES, default=EQUIPMENT)
+
 #    active_quest    = models.
 #    pursuing
-    measurement     = models.BooleanField(default=True)
+
+    METRIC          = 'M'
+    IMPERIAL        = 'I'
+
+    MEASUREMENT_CHOICES = [
+        (METRIC, 'Metric'),
+        (IMPERIAL, 'Imperial'),
+    ]
+
+    Measurement     = models.CharField(max_length=1, choices=MEASUREMENT_CHOICES, default=METRIC)
     privacy1        = models.PositiveSmallIntegerField(default=1)
     privacy2        = models.PositiveSmallIntegerField(default=1)
 
 #   friends list
 #   feed
-
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ['first_name', 'last_name', 'city']

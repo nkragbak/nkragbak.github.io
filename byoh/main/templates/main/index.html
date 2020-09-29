@@ -103,39 +103,64 @@
                 </div>
             </div>
             <div class="exercise-items-wrapper">
-                <div class="exercise-item">1</div>
-                <div class="exercise-item" id="two">2</div>
-                <div class="exercise-item">3</div>
-                <div class="exercise-item">4</div>
-                <div class="exercise-item" id="five">5</div>
-                <div class="exercise-item">6</div>
-                <div class="exercise-item" id="seven">7</div>
-                <div class="exercise-item">8</div>
-                <div class="exercise-item" >9</div>
-                <div class="exercise-item" id="ten">10</div>
-                <div class="exercise-item">11</div>
-                <div class="exercise-item">12</div>
-                <div class="exercise-item" id="thirteen">13</div>
-                <div class="exercise-item">14</div>
-                <div class="exercise-item">15</div>
-                <div class="exercise-item">16</div>
-                <div class="exercise-item" id="seventeen">17</div>
-                <div class="exercise-item">18</div>
-                <div class="exercise-item">19</div>
-                <div class="exercise-item">20</div>
-                <div class="exercise-item">21</div>
-                <div class="exercise-item" id="twentytwo">22</div>
-                <div class="exercise-item">23</div>
-                <div class="exercise-item">24</div>
-                <div class="exercise-item">25</div>
-                <div class="exercise-item">26</div>
-                <div class="exercise-item">27</div>
-                <div class="exercise-item">28</div>
-                <div class="exercise-item">29</div>
-                <div class="exercise-item">30</div>
-                <div class="exercise-item">31</div>
-                <div class="exercise-item">32</div>
 
+                {% if error %}
+                    {{ error }}
+                {% else %}
+                    {% for x in exercise %}
+
+                        <div class="exercise-item
+                            {% if x.primary_focus == 'CH' %} chest-background
+                            {% elif x.primary_focus == 'B'%} back-background
+                            {% elif x.primary_focus == 'AR'%} arms-background
+                            {% elif x.primary_focus == 'CO'%} core-background
+                            {% elif x.primary_focus == 'L'%} legs-background
+                            {% elif x.primary_focus == 'ST'%} stamina-background
+                            {% elif x.primary_focus == 'AG'%} agility-background
+                            {% elif x.primary_focus == 'SP'%} speed-background {% endif %}">
+
+                            <table class="exercise-item-table">
+                                <tr>
+                                    <td  class="exercise-item-table"colspan="2">{{x.name}}</td>
+                                </tr>
+                                <tr class="exercise-item-table" height="20px";>
+                                    <td class="exercise-item-table"></td>
+                                    <td class="exercise-item-table">
+                                        {% if x.video_verified %}
+                                        <img class="vvfv" src="{% static 'main/images/vv.svg' %}" height="14px">
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                <tr class="exercise-item-table">
+                                    <td class="exercise-level">
+                                        lv. VII
+                                    </td>
+                                    <td class="exercise-item-table">
+                                            {% if x.friend_verified %}
+                                            <img class="vvfv" src="{% static 'main/images/fv.svg' %}" height="14px">
+                                            {% endif %}
+                                    </td>
+                                </tr>
+                            </table>                        
+                            
+
+                     <!--    {% if x.friend_verified %}
+                                <img style="float:right" src="{% static 'main/images/fv.svg' %}" height="14px">
+                            {% endif %}
+
+                            {% if x.video_verified %}
+                                <img style="float:right" src="{% static 'main/images/vv.svg' %}" height="14px">
+                            {% endif %}
+
+                            <p id="exercise-level" class="exercise-level">lv. VII</p>
+                        -->   
+                        </div>
+                        
+
+
+                    {% endfor %}
+
+                {% endif %}
             </div>
         </div>
 

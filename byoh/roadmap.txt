@@ -1,10 +1,10 @@
 Alpha
   - Bug: <Header> only show 'login'/'logout' when appropiate - DONE
   - color scheme
-  - animated avatar + fixed avatar
+  - fixed avatar
   - Modern UI
   - extend user class - DONE
-  - Add two items to test primary functionality
+  - Add ten items to test primary functionality
   - Email + pw signup - DONE
   
 Beta
@@ -16,6 +16,7 @@ Beta
   - Add chat functionality
   - metric/US conversion
   - Gender options
+  - animated avatar
   
  Later
   - Add quests/paths

@@ -14,20 +14,20 @@
                 <tr>
                     <td class="sp questlist">
                         <select class="sp listbox" name="sp listbox" size="14">
-                            <option value="Merceders"> Stamina novice </option>
-                            <option value="BMW"> Allrounder </option>
-                            <option value="Jaguar"> Agile warrior </option>
-                            <option value="Lamborghini"> Treehugger </option>
-                            <option value="Ferrari"> Speed king, mk. I </option>
-                            <option value="Ford"> Core enthusiast, mk. I </option>
-                            <option value="Jaguar"> Walk the line </option>
+                            <option value="Merceders"> Stamina novice (*)</option>
+                            <option value="BMW"> Allrounder (**)</option>
+                            <option value="Jaguar"> Agile warrior (***) </option>
+                            <option value="Lamborghini"> Treehugger (**)</option>
+                            <option value="Ferrari"> Speed king, mk. I (**)</option>
+                            <option value="Ford"> Core enthusiast, mk. I (*)</option>
+                            <option value="Jaguar"> Walk the line (**)</option>
                         </select>
                     </td>
                     <td class="mp questlist">
                         <select class="mp listbox" name="mp listbox" size="14">
-                            <option value="Merceders"> Dual ... </option>
-                            <option value="BMW"> "On the double!" </option>
-                            <option value="Jaguar"> Double trouble </option>
+                            <option value="Merceders"> Dual ... (**)</option>
+                            <option value="BMW"> "On the double!" (***)</option>
+                            <option value="Jaguar"> Double trouble (****)</option>
                         </select>
                     </td>
                 </tr>
@@ -37,6 +37,14 @@
                     </td>
                     <td>
                         <button class="pursue-quest mp">Pursue selected quest(*)</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>(*) = Beginner</p>
+                        <p>(**) = Easy/Moderate</p>
+                        <p>(***) = Moderate/Hard</p>
+                        <p>(****) = Expert</p>
                     </td>
                 </tr>
             </table>
@@ -69,22 +77,85 @@
 
         <div class="testdiv">
         Sandbox div:
-        <ul>
-            {% for row in byer %} 
-  <li>{{row.msg}} - {{row.topic}}</li>
- {% endfor %}
-            </ul>
-            {% for key in cities %}
-            inside for loop:
-               <p> {{ fields }} </p>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
 
-            {% endfor %}
 
-            <div>
-                <br>
-                <br>
-                out of for loop: {{ fields|default:"nothing" }}
-            </div>
             <button onclick="seedict()">see dict</button>
 
         </div>
