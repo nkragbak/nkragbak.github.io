@@ -2,13 +2,16 @@
 
 // alert('yo');
 
-function nav()
+function sortBy()
    {
-   var w = document.myform.mylist.selectedIndex;
-   var url_add = document.myform.mylist.options[w].value;
+   var w = document.sortForm.sortList.selectedIndex;
+   var url_add = document.sortForm.sortList.options[w].value;
    window.location.href = url_add;
    }
 
+function eIHover() {
+   document.getElementById("explainers").style.color = "red";
+}
 
 function seedict(){
    alert('yo2');
@@ -21,8 +24,6 @@ function seedict(){
 //function onselect(){
 //   pseudo: show description field of quest on div beneath listbox 
 //}
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -38,9 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       stat.innerHTML = x;
    });
-
-
-
-
 
 });

@@ -166,7 +166,8 @@ table {
 
 .exercise-items-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr auto;
+    grid-auto-flow: column;
     grid-gap: 16px;
     grid-row: 2/3;
     grid-column: 2/3;
@@ -183,8 +184,7 @@ table {
     padding: 6px;
     box-shadow: 3px 3px 6px;
     box-sizing: border-box;
-    font-size: 0.7em;
-       
+    font-size: 0.7em;     
 }
 
 .exercise-level {
