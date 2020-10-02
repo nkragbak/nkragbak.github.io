@@ -144,8 +144,58 @@
                                             {% endif %}
                                     </td>
                                 </tr>
-                            </table>                        
-                            
+                            </table>   
+
+                            <div class="tooltip">
+                                <table id="tooltip-table">
+                                    <tr>
+                                        <td style="font-weight:bold; text-align: center;" colspan="2">{{x.name}}</td>
+                                    </tr>
+                                    <tr height="auto">
+                                        <td width="160px" height="120px" style="vertical-align:text-top">
+                                            <p style="font-weight:bold"> Description:</p>
+                                            <p>{{x.description}}</p>
+                                        </td>
+                                        <td class="tooltip-buttons" rowspan="2">
+                                            <p> {{x.level_1}} <button style="padding:0.2em;"> Lvl. I    </button></p>
+                                            <p> {{x.level_2}} <button style="padding:0.2em;"> Lvl. II   </button></p>
+                                            <p> {{x.level_3}} <button style="padding:0.2em;"> Lvl. III  </button></p>
+                                            <p> {{x.level_4}} <button style="padding:0.2em;"> Lvl. IV   </button></p>
+                                            <p> {{x.level_5}} <button style="padding:0.2em;"> Lvl. V    </button></p>
+                                            <p> {{x.level_6}} <button style="padding:0.2em;"> Lvl. IV   </button></p>
+                                            <p> {{x.level_7}} <button style="padding:0.2em;"> Lvl. IIV  </button></p>
+                                            <p> {{x.level_8}} <button style="padding:0.2em;"> Lvl. XII  </button></p>
+                                            <p> {{x.level_9}} <button style="padding:0.2em;"> Lvl. XI   </button></p>
+                                            <p> {{x.level_10}} <button style="padding:0.2em;"> Lvl. X    </button></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:text-top; text-align: center;">
+                                            <img src="{% static 'main/images/homer.gif' %}" height="80px">
+                                        </td>                                       
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">more...</a></td>
+                                        <td>
+                                            {% if x.friend_verified %}
+                                            <img class="vvfv" src="{% static 'main/images/fv.svg' %}" height="20px">
+                                            <p>verified by <a href="#">{friend.name}</p></a>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            {% if x.video_verified %}
+                                            <img class="vvfv" src="{% static 'main/images/vv.svg' %}" height="20px">
+                                            <p><a href="#">video verified</a></p>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                </table>
+                               
+                            </div>
+
                         </div>
                         
 

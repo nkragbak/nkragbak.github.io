@@ -25,8 +25,9 @@ function seedict(){
 //   pseudo: show description field of quest on div beneath listbox 
 //}
 
-document.addEventListener('DOMContentLoaded', () => {
 
+      // seems DOMContentLoaded is unnessecary if script tage is low in layout.html
+//document.addEventListener('DOMContentLoaded', () => {
 
       //    format stats ex. '03'   //     
    var stats = document.getElementsByClassName("table-values");
@@ -40,4 +41,4 @@ document.addEventListener('DOMContentLoaded', () => {
       stat.innerHTML = x;
    });
 
-});
+//});
