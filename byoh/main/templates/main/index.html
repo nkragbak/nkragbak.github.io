@@ -1,5 +1,7 @@
 {% extends "main/layout.html" %}
+
 {% load static %}
+
 
 {% block title %} my Hero {% endblock %}
 
@@ -23,6 +25,7 @@
                 <tr>
                     <td class="table-captions">Chest</td>
                     <td class="table-values"> {{request.user.chest}} </td>
+                    <div class="stats-tooltip">example</div>
                 </tr>
                 <tr>
                     <td class="table-captions">Back</td>
@@ -171,6 +174,7 @@
                                     </tr>
                                     <tr>
                                         <td style="vertical-align:text-top; text-align: center;">
+                                            <img src="{{x.tooltip_illustration}}" height="80px">
                                             <img src="{% static 'main/images/homer.gif' %}" height="80px">
                                         </td>                                       
                                     </tr>

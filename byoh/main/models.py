@@ -1,4 +1,5 @@
 from django.db import models
+from users.models import User 
 
 #Lot of logic is still required before implementation;
 #- Lvl. I - X ?
@@ -46,10 +47,11 @@ class exercise_item(models.Model):
     primary_focus       = models.CharField(max_length=2, choices=FOCUS_CHOICES, default=CHEST)
     secondary_focus     = models.CharField(max_length=2, choices=FOCUS_CHOICES, default=NIL)
     description         = models.TextField(max_length=500)
-    tooltip_illustration = models.FilePathField(path="main/static/main/images/tooltip illustrations", default="arms.png")
+    tooltip_illustration = models.FilePathField(path="main/static/main/images/tooltip illustrations", default="missing.gif")
     friend_verified     = models.BooleanField(default=False)
     video_verified      = models.BooleanField(default=False)
     date_added          = models.DateTimeField(verbose_name="date added", auto_now_add=True)
+    users               = models.ManyToManyField(User, through='UserExercises')
 
 
     level_1             = models.CharField(max_length=30, default="6 reps")
@@ -66,16 +68,32 @@ class exercise_item(models.Model):
     def __str__(self):
         return self.name
 
-#def create_10_levels_slash_instances():
-#    something here
-
-
-
-
-
-
 #def calculate_impact_on_stats():
 #    something here
+
+class UserExercises(models.Model):
+
+    user                = models.ForeignKey(User, on_delete=models.CASCADE)
+    exercise_item       = models.ForeignKey(exercise_item, on_delete=models.CASCADE)
+
+    lvl_1_achieved      = models.BooleanField(default=False)
+    lvl_2_achieved      = models.BooleanField(default=False)
+    lvl_3_achieved      = models.BooleanField(default=False)
+    lvl_4_achieved      = models.BooleanField(default=False)
+    lvl_5_achieved      = models.BooleanField(default=False)
+    lvl_6_achieved      = models.BooleanField(default=False)
+    lvl_7_achieved      = models.BooleanField(default=False)
+    lvl_8_achieved      = models.BooleanField(default=False)
+    lvl_9_achieved      = models.BooleanField(default=False)
+    lvl_10_achieved      = models.BooleanField(default=False)
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,17 @@
 Alpha
   - Bug: <Header> only show 'login'/'logout' when appropiate - DONE
+  - Bug: exercise item tooltip gif not showing
   - color scheme
   - fixed avatar
   - Modern UI
   - extend user class - DONE
-  - Add ten items to test primary functionality
+  - Add ten items to test primary functionality - DONE
+      - Implement functionality incl. individual exercise lists 
   - Email + pw signup - DONE
   
 Beta
-  - Bug: email case sensitive on login 
+  - Bug: email case sensitive on login
+  - Bug: Exercise Item tooltip should dynamically fit in windowframe 
   - Add Classic UI option
   - Email verification
   - Add Feed
