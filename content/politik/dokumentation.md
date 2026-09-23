@@ -9,7 +9,7 @@ Dette er ikke en udtømmende litteraturliste, men nogle af de centrale kilder, j
 ### Planetens tilstand og grænser
 
 #### * [Planetary Health Check 2026 – Potsdam Institute for Climate Impact Research](https://www.planetaryhealthcheck.org/): den seneste samlede vurdering af de planetære grænser og Jordens systemtilstand. Syv af ni planetære grænser vurderes nu som overskredet.
-#### * [Stockholm Resilience Centre – Planetary Boundaries](https://www.stockholmresilience.org/research/planetary-boundaries.html): baggrund, forskning og løbende formidling om Planetary Boundaries-rammeværket.
+#### [Stockholm Resilience Centre – Planetary Boundaries](https://www.stockholmresilience.org/research/planetary-boundaries.html): baggrund, forskning og løbende formidling om Planetary Boundaries-rammeværket.
 * [WWF – Living Planet Report 2024](https://www.wwf.org.uk/our-reports/living-planet-report-2024): Living Planet Index viser et gennemsnitligt fald på 73 % i størrelsen af de overvågede bestande af vilde hvirveldyr fra 1970 til 2020.
 
 ### Klima og biodiversitet
