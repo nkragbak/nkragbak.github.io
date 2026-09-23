@@ -6,13 +6,13 @@ Derfor bør politik ikke kun handle om at gøre den nuværende økonomi grønner
 
 ## Krisens alvor ændrer tempoet i politik
 
-Jeg mener ikke, at vi kan behandle klima- og naturkrisen som endnu et langsigtet politikområde blandt mange. Risikoen for tipping points, tab af økosystemer, stigende havtemperaturer, forsuring og selvforstærkende klimaforandringer betyder, at der er et tidsaspekt: Jo længere vi venter, desto mindre bliver vores politiske råderum, og desto større bliver de senere menneskelige og økonomiske omkostninger.
+Jeg mener ikke, at vi kan behandle klima- og naturkrisen som endnu et langsigtet politikområde blandt mange. Risikoen for bl.a. tipping points, tab af økosystemer og stigende havtemperaturer og -forsuring betyder, at der er et tidsaspekt: Jo længere vi venter, desto mindre bliver vores politiske råderum, og desto større bliver de senere menneskelige og økonomiske omkostninger.
 
-Det betyder også, at nogle beslutninger vil være ubekvemme. Jeg tror ikke, vi kan love en alvorlig omstilling, hvor ingen oplever tab eller begrænsninger.
+Det betyder også, at nogle beslutninger vil være ubekvemme. Jeg tror ikke, vi kan love en seriøs omstilling, hvor ingen oplever tab eller begrænsninger.
 
 ## Usikkerhed er ikke et argument for at vente
 
-Når konsekvenserne kan være irreversible og meget store, mener jeg, at usikkerhed om præcis hvornår et tipping point indtræffer bør tale for tidligere handling, ikke senere. Vi behøver ikke kende det nøjagtige kollapstidspunkt for et økosystem eller en klimamekanisme, før risikoen bliver politisk relevant. Jo større den mulige skade er, desto stærkere bør forsigtighedsprincippet veje.
+Når konsekvenserne kan være irreversible og meget store, mener jeg, at usikkerhed om præcis hvornår et givent tipping point indtræffer bør tale for tidligere handling, ikke senere. Vi behøver ikke kende det nøjagtige kollapstidspunkt for et økosystem eller en klimamekanisme, før risikoen bliver politisk relevant. Jo større den mulige skade er, desto stærkere bør forsigtighedsprincippet veje. Det er grundlæggende risikoanalyse og i øvrigt sund fornuft.
 
 ## Biodiversitet er ikke pynt
 
@@ -22,4 +22,4 @@ Naturbeskyttelse bliver ofte behandlet som noget, vi kan prioritere, når andre 
 
 I Danmark er arealanvendelsen et af de steder, hvor vi kan gøre en meget konkret forskel. Mere sammenhængende natur, mindre intensiv udnyttelse af arealerne og en omstilling af landbruget kan samtidig gavne biodiversitet, klima, vandmiljø og landskab.
 
-Et stort dyrehold kræver betydelige arealer både direkte og til foderproduktion. Derfor mener jeg, at en markant reduktion i animalsk produktion og forbrug er et oplagt politisk greb, selv om jeg ikke ser et totalt forbud som en nødvendig forudsætning.
+Et stort dyrehold kræver betydelige arealer både direkte og til foderproduktion. Derfor mener jeg, at en markant reduktion i animalsk produktion og forbrug er et oplagt politisk greb.
