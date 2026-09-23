@@ -6,9 +6,13 @@ Det afgørende spørgsmål er derfor ikke, om BNP stiger eller falder et bestemt
 
 ## Afkobling er vigtig – men ikke nok
 
-Hvis økonomisk vækst kunne afkobles fuldstændigt og varigt fra ressourceforbrug og miljøbelastning, ville en stor del af konflikten mellem vækst og planetære grænser forsvinde. Jeg mener, at relativ afkobling er både reel og vigtig, men jeg er ikke overbevist om, at vi kan basere hele vores strategi på antagelsen om absolut og tilstrækkelig afkobling i den nødvendige skala og hastighed.
+Hvis økonomisk vækst kunne afkobles fuldstændigt, varigt og hurtigt nok fra ressourceforbrug og miljøbelastning, ville konflikten mellem vækst og planetære grænser forsvinde. Men det er ikke det, den hidtidige udvikling viser.
 
-Derfor bør vi både investere massivt i effektivisering og grøn teknologi og samtidig være villige til at diskutere samlet ressourceforbrug og vækst.
+Relativ afkobling er reel, og teknologi, effektivisering og grøn energi er afgørende. Men globalt er økonomisk vækst fortsat tæt forbundet med stigende ressourceforbrug og miljøbelastning, og vi har ikke evidens for en vedvarende, absolutte afkobling i den skala og hastighed, som en fortsat vækststrategi forudsætter.
+
+Derfor mener jeg ikke, at vi ansvarligt kan gøre fortsat økonomisk vækst til en forudsætning og håbe, at ressourceforbruget bagefter følger en anden kurve. Udgangspunktet bør vendes om: Vi skal bringe vores samlede ressourceforbrug og miljøbelastning inden for planetens grænser. Teknologi og effektivisering skal hjælpe os med det — men hvis det samtidig betyder lavere, ingen eller negativ økonomisk vækst, må vi være villige til at acceptere det.
+
+Målet bør ikke være vækst med færre ressourcer. Målet bør være gode liv inden for et begrænset økologisk råderum.
 
 ## Rebound-effekten
 
