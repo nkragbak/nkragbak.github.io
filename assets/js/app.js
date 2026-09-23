@@ -58,6 +58,18 @@ function renderBody(lines) {
       list.push(trimmed.slice(2));
       return;
     }
+    if (trimmed.startsWith('#### ')) {
+      flushParagraph();
+      flushList();
+      html.push(`<h4>${inlineMarkdown(trimmed.slice(5).trim())}</h4>`);
+      return;
+    }
+    if (trimmed.startsWith('### ')) {
+      flushParagraph();
+      flushList();
+      html.push(`<h3>${inlineMarkdown(trimmed.slice(4).trim())}</h3>`);
+      return;
+    }
     flushList();
     paragraph.push(trimmed);
   });
