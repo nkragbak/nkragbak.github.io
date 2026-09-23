@@ -25,5 +25,3 @@ Dette er ikke en udtømmende litteraturliste, men nogle af de centrale kilder, j
 * [European Environment Agency – *Growth without economic growth*](https://www.eea.europa.eu/en/analysis/publications/growth-without-economic-growth): diskuterer forholdet mellem økonomisk vækst, ressourceforbrug og miljøbelastning og konkluderer, at langvarig absolut afkobling på global skala er usandsynlig.
 * Haberl, Wiedenhofer et al. – *A systematic review of the evidence on decoupling of GDP, resource use and GHG emissions* (2020): omfattende systematisk gennemgang af den empiriske forskning i relativ og absolut afkobling.
 * Requena-i-Mora & Brockington – *Evaluating decoupling evidence: Examining timeframes, geographic scales, and planetary boundaries* (2026): nyere peer-reviewed analyse af, hvordan tidsperiode, geografisk afgrænsning og bæredygtighedsgrænser påvirker vurderingen af afkobling.
-
-**Præcisionsnote:** Jeg bruger bevidst formuleringen “gennemsnitsstørrelsen af overvågede bestande er faldet 73 %” frem for “73 % af alle vilde dyr er forsvundet”. Det første er, hvad Living Planet Index faktisk måler.
