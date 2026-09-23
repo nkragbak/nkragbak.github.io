@@ -6,11 +6,11 @@ Alternativet er ikke status quo uden omkostninger. Alternativet er senere handli
 
 ## “Uden vækst kan vi ikke finansiere velfærden”
 
-Det er delvist netop problemet. Hvis vores mest grundlæggende institutioner kollapser uden permanent vækst, bør vi undersøge deres konstruktion. Spørgsmålet er ikke, om vækst historisk har gjort finansiering lettere, men om vi kan designe skatter, pensioner, arbejdsmarked og offentlige udgifter, så de også er robuste i en økonomi med lav eller ingen vækst.
+Det er netop problemet. Hvis vores mest grundlæggende institutioner kollapser uden permanent vækst, bør vi undersøge deres konstruktion. Spørgsmålet er ikke, om vækst historisk har gjort finansiering lettere, men om vi kan designe skatter, pensioner, arbejdsmarked og offentlige udgifter, så de også er robuste i en økonomi med lav eller ingen vækst.
 
 ## “Teknologien og grøn vækst løser det”
 
-Teknologisk udvikling er helt central, og en stor del af løsningen skal komme fra renere energi, elektrificering og højere effektivitet. Min indvending er mod at gøre det til den eneste strategi. Hvis effektivisering samtidig sænker priser og åbner for mere aktivitet, kan rebound-effekten spise en del af gevinsten. Og selv et fossilfrit energisystem løser ikke automatisk biodiversitetstab, arealpres og stigende materialeforbrug.
+Teknologisk udvikling er helt central, og en stor del af løsningen skal komme fra renere energi, elektrificering og højere effektivitet. Min indvending er mod at gøre det til den eneste strategi. Hvis effektivisering samtidig sænker priser og åbner for mere aktivitet, kan rebound-effekten spise en meget stor del af gevinsten. Og selv et fossilfrit energisystem løser ikke automatisk biodiversitetstab, arealpres og stigende materialeforbrug.
 
 Derfor ser jeg teknologi som nødvendig, men ikke tilstrækkelig.
 
