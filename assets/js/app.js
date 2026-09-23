@@ -53,9 +53,9 @@ function renderBody(lines) {
       flushList();
       return;
     }
-    if (trimmed.startsWith('- ')) {
+    if (/^[-*+]\s+/.test(trimmed)) {
       flushParagraph();
-      list.push(trimmed.slice(2));
+      list.push(trimmed.replace(/^[-*+]\s+/, ''));
       return;
     }
     if (trimmed.startsWith('#### ')) {
