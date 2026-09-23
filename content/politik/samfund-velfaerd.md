@@ -16,7 +16,7 @@ Vi har brug for entreprenante mennesker, drømmere og mennesker med et stærkt d
 
 Jeg vil hellere have et samfund, hvor prestige og anerkendelse i højere grad følger bidrag til fællesskabet, naturen og kommende generationer.
 
-Dette er en kulturforandring der ikke sker fra den ene dag til den anden, og når man bliver opmærksom på den nuværende kultur er det svært at overdrive hvor indlejret den ligger i vores (vestlige) system. Omvendt er det også et 'gratis' sted for os med ønsket om et ændret samfund at starte, fordi det bare kræver at vi går forrest; at vi fremhæver og hylder initiativer og enkeltpersoner der gør gode ting for vores samfund, i stedet for at lade os forføre af diverse klassiske kendisser, på grund af deres opnåede berømmelse, ressourcer og magt.
+Dette er en kulturforandring der ikke sker fra den ene dag til den anden, og når man bliver opmærksom på den nuværende kultur er det svært at overdrive hvor indlejret den ligger i vores system. Omvendt er det også et 'gratis' sted for os med ønsket om et ændret samfund at starte, fordi det bare kræver at vi går forrest; at vi fremhæver og hylder initiativer og enkeltpersoner der gør gode ting for vores samfund, i stedet for at lade os forføre af diverse klassiske kendisser, på grund af deres opnåede berømmelse, ressourcer og magt.
 
 ## Produktivitet er ikke det samme i alle sektorer
 
