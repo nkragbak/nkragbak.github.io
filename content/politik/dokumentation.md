@@ -4,14 +4,26 @@ Jeg vil gerne holde en klar skelnen mellem det, der er empiriske påstande, og d
 
 ## Udvalgte kilder bag mine overvejelser
 
-Dette er ikke en udtømmende litteraturliste, men nogle af de kilder, jeg bruger til at efterprøve de faktuelle dele af mine argumenter. Mine politiske konklusioner er mine egne.
+Dette er ikke en udtømmende litteraturliste, men nogle af de centrale kilder, jeg bruger til at efterprøve de faktuelle dele af mine argumenter. Jeg prioriterer så vidt muligt større videnskabelige vurderinger, peer-reviewed forskning og kilder fra etablerede internationale forsknings- og miljøinstitutioner. Mine politiske konklusioner er mine egne.
 
-- [WWF – Living Planet Report 2024](https://www.wwf.org.uk/our-reports/living-planet-report-2024): gennemsnitsstørrelsen af overvågede bestande af vilde hvirveldyr faldt 73 % fra 1970 til 2020; 95 % i Latinamerika og Caribien.
-- [UNEP – Emissions Gap Report 2025](https://www.unep.org/resources/emissions-gap-report-2025): fuld gennemførelse af de indmeldte klimamål peger mod ca. 2,3–2,5 °C opvarmning i dette århundrede; nuværende politikker mod ca. 2,8 °C.
-- [Planetary Health Check](https://www.planetaryhealthcheck.org/): status på de planetære grænser.
-- [Stockholm Resilience Centre – Planetary Boundaries](https://www.stockholmresilience.org/research/planetary-boundaries.html): baggrund og rammeværk for planetære grænser.
-- [Nature – Amazonia as a carbon source linked to deforestation and climate change](https://www.nature.com/articles/s41586-021-03629-6): forskning i Amazonas' kulstofbalance.
-- [Our World in Data – drivhusgasudledninger fordelt på sektorer](https://ourworldindata.org/ghg-emissions-by-sector).
-- [MaterialFlows – Decoupling material use and economic performance](https://www.materialflows.net/decoupling-material-use-and-economic-performance/): relativ og absolut afkobling samt betydningen af materialefodaftryk.
+### Planetens tilstand og grænser
+
+* [Planetary Health Check 2026 – Potsdam Institute for Climate Impact Research](https://www.planetaryhealthcheck.org/): den seneste samlede vurdering af de planetære grænser og Jordens systemtilstand. Syv af ni planetære grænser vurderes nu som overskredet.
+* [Stockholm Resilience Centre – Planetary Boundaries](https://www.stockholmresilience.org/research/planetary-boundaries.html): baggrund, forskning og løbende formidling om Planetary Boundaries-rammeværket.
+* [WWF – Living Planet Report 2024](https://www.wwf.org.uk/our-reports/living-planet-report-2024): Living Planet Index viser et gennemsnitligt fald på 73 % i størrelsen af de overvågede bestande af vilde hvirveldyr fra 1970 til 2020.
+
+### Klima og biodiversitet
+
+* [UNEP – Emissions Gap Report 2025](https://www.unep.org/resources/emissions-gap-report-2025): vurdering af forskellen mellem de globale klimamål, de førte politikker og de udledningsreduktioner, der er nødvendige.
+* [IPBES – Transformative Change Assessment](https://www.ipbes.net/transformative-change-assessment): international videnskabelig vurdering af de grundlæggende samfundsmæssige og økonomiske forandringer, der er nødvendige for at standse og vende tabet af biodiversitet.
+* [Nature – *Amazonia as a carbon source linked to deforestation and climate change*](https://www.nature.com/articles/s41586-021-03629-6): forskning i ændringer i Amazonas' kulstofbalance.
+* [Our World in Data – drivhusgasudledninger fordelt på sektorer](https://ourworldindata.org/ghg-emissions-by-sector): lettilgængelig sammenstilling af data om kilderne til de globale drivhusgasudledninger.
+
+### Ressourceforbrug, vækst og afkobling
+
+* [UNEP / International Resource Panel – *Global Resources Outlook 2024*](https://www.unep.org/resources/Global-Resource-Outlook-2024): omfattende international vurdering af udviklingen i verdens ressourceforbrug, dets miljøkonsekvenser og den globale fordeling af ressourceforbruget.
+* [European Environment Agency – *Growth without economic growth*](https://www.eea.europa.eu/en/analysis/publications/growth-without-economic-growth): diskuterer forholdet mellem økonomisk vækst, ressourceforbrug og miljøbelastning og konkluderer, at langvarig absolut afkobling på global skala er usandsynlig.
+* Haberl, Wiedenhofer et al. – *A systematic review of the evidence on decoupling of GDP, resource use and GHG emissions* (2020): omfattende systematisk gennemgang af den empiriske forskning i relativ og absolut afkobling.
+* Requena-i-Mora & Brockington – *Evaluating decoupling evidence: Examining timeframes, geographic scales, and planetary boundaries* (2026): nyere peer-reviewed analyse af, hvordan tidsperiode, geografisk afgrænsning og bæredygtighedsgrænser påvirker vurderingen af afkobling.
 
 **Præcisionsnote:** Jeg bruger bevidst formuleringen “gennemsnitsstørrelsen af overvågede bestande er faldet 73 %” frem for “73 % af alle vilde dyr er forsvundet”. Det første er, hvad Living Planet Index faktisk måler.
