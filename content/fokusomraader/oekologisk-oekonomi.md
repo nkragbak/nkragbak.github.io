@@ -127,3 +127,24 @@ For mig kan spørgsmålet derfor sammenfattes sådan:
 Det er i praksis en operationalisering af mit grundsyn: **Naturens bæreevne sætter rammerne. Menneskers trivsel er formålet. Økonomien er vores måde at organisere det på.**
 
 *Status: foreløbigt svar – indikatorerne skal konkretiseres yderligere.*
+
+## Ressourceforbrug og cirkulær økonomi
+
+Cirkulær økonomi er et middel til at mindske vores samlede pres på naturen. Den grønne omstilling handler derfor også om materialer, råstoffer og det samlede fysiske gennemløb i økonomien. Det afgørende er, om vi mindsker behovet for nye råstoffer og den samlede natur- og miljøbelastning.
+
+Jeg ønsker en økonomi, hvor vi bruger vores produkter længere, reparerer dem og genbruger materialerne. Det skal være en almindelig del af hverdagen og af virksomhedernes måde at producere på. Ansvaret skal også ligge i produkternes udformning og i de økonomiske og politiske rammer, der former vores muligheder.
+
+Vores ansvar omfatter også det ressourceforbrug og den naturbelastning, som vores forbrug medfører i andre lande. Derfor hænger dette tæt sammen med de forbrugsbaserede mål og det internationale ansvar beskrevet ovenfor.
+
+### Spørgsmål jeg vil arbejde videre med
+
+- Hvordan kan Danmark og EU reducere deres samlede materiale- og ressourceforbrug?
+- Hvordan måler vi vores forbrugsbaserede aftryk, også når produktionen ligger uden for Europa?
+- Hvornår er genanvendelse tilstrækkelig, og hvornår kræver bæredygtighed et lavere samlet forbrug?
+- Hvordan håndterer Europa afhængigheden af kritiske råstoffer?
+
+### Konkrete politiske spor
+
+Jeg vil undersøge, hvordan krav til holdbarhed, reparerbarhed og adgang til reservedele kan gøre lang produktlevetid til det almindelige valg. Det gælder også producentansvar, bedre økonomiske vilkår for reparation og genbrug samt offentlige indkøb, der prioriterer lang levetid og et lavt samlet ressourceaftryk.
+
+*Status: foreløbigt udgangspunkt – de konkrete forslag skal udvikles videre.*
