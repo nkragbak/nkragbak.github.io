@@ -40,7 +40,7 @@ Det svenske studie undersøger desuden en meget omfattende reduktion af arbejdst
 
 Dette er efter min opfattelse et af de vanskeligste spørgsmål for en post-growth-økonomi. Hvis BNP og dermed dele af skattegrundlaget ikke længere forventes at vokse kontinuerligt, hvordan finansierer vi så sundhed, uddannelse, ældrepleje, infrastruktur, forsvar og andre offentlige opgaver?
 
-Den svenske analyse giver et både opmuntrende og vigtigt advarende svar. I modellen kan den samlede politikpakke finansieres på kort sigt gennem øgede skatteindtægter og kraftig omfordeling. Men på længere sigt begynder den offentlige gæld at stige. Forfatterne fremhæver derfor selv behovet for yderligere reformer eller mere grundlæggende strukturelle ændringer, hvis økonomien skal være robust uden vedvarende vækst.
+Den [*svenske analyse*](https://www.sciencedirect.com/science/article/pii/S0921800926001308) giver et både opmuntrende og vigtigt advarende svar. I modellen kan den samlede politikpakke finansieres på kort sigt gennem øgede skatteindtægter og kraftig omfordeling. Men på længere sigt begynder den offentlige gæld at stige. Forfatterne fremhæver derfor selv behovet for yderligere reformer eller mere grundlæggende strukturelle ændringer, hvis økonomien skal være robust uden vedvarende vækst.
 
 Det er vigtigt ikke at skjule denne svaghed. Modellen bygger blandt andet på antagelser om, at mange offentlige udgifter følger BNP, mens sundhed og uddannelse behandles anderledes. I virkeligheden kan en post-growth-omstilling samtidig falde sammen med en aldrende befolkning, større behov for klimatilpasning, investeringer i naturgenopretning og betydelige sikkerheds- og forsvarsudgifter. Det kan gøre finansieringsspørgsmålet vanskeligere end i modellen.
 
