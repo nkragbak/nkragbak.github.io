@@ -110,8 +110,11 @@ async function loadMarkdownSections() {
       if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
       const markdown = await response.text();
       const title = section.dataset.title || '';
+      const subtitleHtmlRaw = section.dataset.subtitleHtml || '';
       const subtitle = section.dataset.subtitle || '';
-      const subtitleHtml = subtitle ? `<p class="focus-subtitle">${escapeHtml(subtitle)}</p>` : '';
+      const subtitleHtml = subtitleHtmlRaw
+        ? `<p class="focus-subtitle">${subtitleHtmlRaw}</p>`
+        : (subtitle ? `<p class="focus-subtitle">${escapeHtml(subtitle)}</p>` : '');
       section.innerHTML = `<h2>${escapeHtml(title)}</h2>${subtitleHtml}${renderMarkdownAsDetails(markdown)}`;
       section.dataset.search = `${title} ${markdown}`.toLocaleLowerCase('da');
     } catch (error) {
