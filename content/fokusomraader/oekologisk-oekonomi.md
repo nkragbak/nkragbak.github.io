@@ -116,9 +116,9 @@ Jeg finder meget inspiration i Alternativets idé om **De Tre Bundlinjer**: en g
 
 **Den økonomiske bundlinje er et middel og en robusthedstest.** Økonomien skal kunne levere de sociale resultater inden for de økologiske rammer uden at skabe vedvarende arbejdsløshed, finansiel ustabilitet eller uholdbare offentlige finanser. Her er beskæftigelse, produktivitet, investeringer, finansiel stabilitet, offentlige budgetter og økonomisk sikkerhed relevante indikatorer.
 
-Det betyder også, at de tre bundlinjer ikke kan lægges sammen til ét samlet tal. En social eller økonomisk gevinst kan ikke nødvendigvis opveje en overskridelse af en fysisk økologisk grænse. Vi bør derfor bruge et **dashboard af indikatorer** frem for at forsøge at erstatte BNP med ét nyt supermål.
+Det betyder også, at de tre bundlinjer ikke kan lægges sammen til ét samlet tal. En social eller økonomisk gevinst kan ikke nødvendigvis opveje en overskridelse af en fysisk økologisk grænse.
 
-BNP skal heller ikke afskaffes som statistik. Det er fortsat et nyttigt mål for størrelsen og udviklingen i den markedsøkonomiske aktivitet. Problemet opstår, når BNP-vækst bliver behandlet som et mål for samfundets samlede succes og som en forudsætning for politisk fremgang.
+BNP skal ikke afskaffes som statistik. Det er fortsat et nyttigt mål for størrelsen og udviklingen i den markedsøkonomiske aktivitet. Problemet opstår, når BNP-vækst bliver behandlet som et mål for samfundets samlede succes og som en forudsætning for politisk fremgang.
 
 For mig kan spørgsmålet derfor sammenfattes sådan:
 
