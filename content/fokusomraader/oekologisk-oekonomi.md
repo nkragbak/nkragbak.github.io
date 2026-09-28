@@ -62,7 +62,11 @@ Store dele af det moderne finanssystem bygger på forventninger om fremtidige in
 
 Den svenske model er nyttig, fordi den viser, at kapitalakkumulation og private investeringer er en del af selve vækstdynamikken. Men den modellerer ikke i tilstrækkelig grad privat gæld, pensionssystemer, boligpriser eller bankernes balancer. Det er derfor et område, hvor vi må bevæge os ud over netop denne artikel og trække på bredere post-growth- og finansiel forskning.
 
-Et centralt spørgsmål er **finansialisering**. Finanssektoren udfører nødvendige samfundsfunktioner: den formidler opsparing til investeringer, fordeler risiko, skaber betalingsinfrastruktur og kan finansiere nye virksomheder, boliger og grøn omstilling. Problemet er derfor ikke "finans" som sådan.
+Et centralt spørgsmål er forskellen mellem **finansiering** og **finansialisering**.
+
+**Finansiering** er nødvendig. Samfundet har brug for banker, kredit, investeringer, pensionsopsparing, betalingsinfrastruktur og mekanismer til at fordele risiko. Finansiering kan gøre det muligt at bygge boliger, starte virksomheder, gennemføre grøn omstilling og flytte opsparing hen til produktive investeringer.
+
+**Finansialisering** er noget andet. Her handler det om en udvikling, hvor finansielle markeder, aktører og afkastkrav får en stadig større betydning for økonomien, virksomhedernes beslutninger og fordelingen af ressourcer. Problemet er derfor ikke "finans" som sådan, men når finansielle hensyn i stigende grad bliver styrende for realøkonomien frem for at understøtte den.
 
 Men en voksende del af økonomisk aktivitet kan bestå i handel med eksisterende finansielle aktiver, gearing, spekulation og jagt på kortsigtede finansielle afkast uden en tilsvarende stigning i realøkonomisk investering eller samfundsmæssig værdiskabelse. Empirisk forskning har også peget på, at mere finansiel udvikling ikke nødvendigvis giver mere vækst eller stabilitet uden grænse; på høje niveauer kan gevinsterne aftage eller vende. Se eksempelvis IMF-arbejdspapiret [*Too Much Finance?*](https://www.imf.org/en/publications/wp/issues/2016/12/31/too-much-finance-26011).
 
