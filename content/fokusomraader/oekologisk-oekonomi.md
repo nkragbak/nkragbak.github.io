@@ -76,7 +76,7 @@ Det er vigtigt at være præcis her. Ikke al kortsigtet handel er uden funktion:
 
 Et særligt vanskeligt spørgsmål er pensioner. Hvis fremtidig pensionsvelstand i høj grad afhænger af vedvarende høje kapitalafkast og stigende aktivpriser, er pensionssystemet selv en del af samfundets vækstafhængighed. Det betyder ikke, at pensionsopsparing skal afskaffes, men at vi må undersøge, hvordan pensionssystemet kan gøres robust i en økonomi med lavere vækst og muligvis lavere gennemsnitlige finansielle afkast.
 
-*Status: foreløbigt svar – finanssystemets vækstafhængighed kræver langt mere arbejde.*
+*Status: foreløbigt svar – finanssystemets vækstafhængighed samt løsning af udfordringerne omkring pensionsopsparinger kræver langt mere arbejde.*
 
 ## 6. Hvordan fungerer det i Danmark som en lille åben økonomi?
 
