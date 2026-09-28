@@ -1,3 +1,5 @@
+### Ecological Economics: The interplay between "nature's household" (**ecosystems**) and "humanity's household" (**the economy**)
+
 ## Udgangspunkt
 
 Hvordan indretter vi en økonomi, der leverer gode liv uden at være afhængig af stadigt større materielt forbrug?
