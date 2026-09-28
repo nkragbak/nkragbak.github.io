@@ -8,6 +8,34 @@ Mit udgangspunkt er, at vores arealanvendelse skal bygge på tre principper:
 
 **Inden for disse rammer skal der fortsat være betydelig økonomisk frihed.** Staten skal ikke detailbestemme anvendelsen af hver hektar. Men markedet skal fungere inden for politisk fastsatte økologiske og samfundsmæssige grænser.
 
+## Konkret politik: Den Grønne Trepart er et stort skridt i den rigtige retning
+
+Jeg støtter Den Grønne Trepart og den efterfølgende politiske aftale om implementeringen. Den er efter min opfattelse et både nødvendigt og meget væsentligt skridt i retning af en mere fornuftig anvendelse af Danmarks areal.
+
+Aftalen indebærer blandt andet 250.000 hektar ny skov, omlægning af 140.000 hektar lavbundsjorde til natur, en markant kvælstofindsats, flere naturnationalparker og en CO₂e-afgift på husdyrproduktionen. Samtidig er der afsat omkring 43 mia. kr. til Danmarks Grønne Arealfond.
+
+Det interessante ved aftalen er netop, at flere problemer behandles som dele af det samme arealspørgsmål: klima, biodiversitet, vandmiljø, drikkevand, skov og landbrugsproduktion konkurrerer ikke længere kun i hver deres politiske silo. Vi begynder i stedet at tage stilling til, hvordan selve det danske landskab skal se ud.
+
+Det er tæt på den måde, jeg mener, vi bør føre arealpolitik på. Først sætter vi nogle fælles rammer for natur, miljø og samfundets langsigtede behov. Derefter kan landbrug og andre erhverv udvikle sig inden for dem.
+
+Det afgørende bliver naturligvis implementeringen. Hektarmål og milliardbeløb er ikke i sig selv det samme som genoprettede økosystemer, bedre biodiversitet eller levende fjorde. Aftalen skal derfor vurderes på, om den faktisk leverer de ønskede forbedringer i naturens tilstand.
+
+[Læs den politiske aftale om implementering af Den Grønne Trepart](https://regeringen.dk/aktuelt/nyheder/2024/bred-politisk-aftale-om-den-groenne-trepart-indgaaet-den-stoerste-forandring-af-det-danske-landskab-i-over-100-aar/).
+
+## Grisefireparten: næste nødvendige diskussion om dansk landbrug
+
+Jeg ser også positivt på regeringens initiativ til en firepart om fremtidens danske griseproduktion.
+
+Den danske griseproduktion er så stor og areal-, miljø- og dyrevelfærdsmæssigt betydningsfuld, at det giver mening at diskutere dens fremtidige størrelse og indretning politisk – og ikke alene lade udviklingen blive bestemt af, hvad der på et givent tidspunkt er mest rentabelt på verdensmarkedet.
+
+Regeringen har sat som langsigtet mål, at dansk griseproduktion primært skal opdrætte grise, som enten indgår i vores egen fødevareforsyning eller forædles i Danmark før eksport. Samtidig lægges der op til blandt andet mindre eksport af levende smågrise, mere plads til grisene, udfasning af fiksering af søer, reel håndhævelse af forbuddet mod halekupering og et stop for ekstremavl.
+
+Det ligger godt i forlængelse af mit eget princip om forsyningssikkerhed: Danmark skal have en betydelig og robust fødevareproduktion, men formålet kan ikke være at maksimere antallet af dyr eller eksporten. Spørgsmålet bør snarere være, hvilken produktion vi faktisk har brug for, hvilken produktion der giver samfundsmæssig værdi, og hvilken belastning natur, klima og dyr kan bære.
+
+Jeg støtter derfor, at regeringen har sat gang i processen og midlertidigt har sat nye og større konventionelle svineproduktioner på pause, mens de fremtidige rammer fastlægges. Når fireparten kommer med sit resultat, bør den vurderes på, om den faktisk formår at flytte dansk griseproduktion i den retning.
+
+[Læs regeringens politiske grundlag for grisefireparten](https://regeringen.dk/aktuelt/publikationer-og-aftaletekster/det-politiske-grundlag-for-firkloeverregeringen/).
+
 ## Hvorfor skal naturen have mere plads?
 
 En større del af Danmark skal være reel, sammenhængende natur med plads til naturlige processer og en langt større mangfoldighed af arter.
