@@ -8,13 +8,16 @@ Nedenstående syv spørgsmål er den foreløbige rygrad i mit arbejde med økolo
 
 ## 1. Hvad betyder degrowth og post-growth egentlig i praksis?
 
-De-growth er ikke det samme som recession. Recession - nedgang i BNP - under vores nuværende system er meget negativt, det erkender jeg. I min optik er de-growth derimod diciplinen at mindske BNP på kontrollerede måder, så det giver mindst mulige negative konsekvenser for vores samfund. Og som jeg også nævner mange andre steder på siden her, er det ikke et **mål** i sig selv at begrænse den menneskelige økonomiske aktivitet. Det er derimod et **middel** hen imod at opnå et bæredygtigt samfund på vores planet. Når vi med en vis overbevisning kan sige at vi er nået i mål, og internationalt set lever inden for planetens grænser, skal vi absolut have al den økonomiske aktivitet der er plads til!    
+De-growth er ikke det samme som recession. Recession - nedgang i BNP - under vores nuværende system er meget negativt, det erkender jeg. I min optik er de-growth derimod diciplinen at mindske BNP på kontrollerede måder, så det giver mindst mulige negative konsekvenser for vores samfund. Og som jeg også nævner mange andre steder på siden her, er det ikke et **mål** i sig selv at begrænse den menneskelige økonomiske aktivitet. Det er derimod et **middel** hen imod at opnå et bæredygtigt samfund på vores planet. Når vi med en vis overbevisning kan sige at vi er nået i mål, og at vi internationalt set lever inden for planetens grænser, skal vi absolut have al den økonomiske aktivitet der er plads til!    
 
 *Status: under udvikling.*
 
 ## 2. Hvad skal vokse – og hvad skal blive mindre?
 
 En bæredygtig økonomi betyder ikke nødvendigvis, at alle sektorer skal skrumpe. Nogle aktiviteter kan have brug for markant vækst, mens andre må fylde mindre. Det afgørende spørgsmål er, efter hvilke kriterier vi foretager den prioritering.
+test af afsnit
+
+test af afsnit
 
 *Status: under udvikling.*
 
