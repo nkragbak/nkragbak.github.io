@@ -148,3 +148,13 @@ function setupSearch() {
 }
 
 loadMarkdownSections();
+
+document.querySelectorAll('[data-details-action]').forEach(button => {
+  button.addEventListener('click', () => {
+    const container = button.closest('main') || document;
+    const shouldOpen = button.dataset.detailsAction === 'open';
+    container.querySelectorAll('details').forEach(detail => {
+      detail.open = shouldOpen;
+    });
+  });
+});
