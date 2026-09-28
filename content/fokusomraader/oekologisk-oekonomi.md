@@ -24,15 +24,37 @@ Pointen - og forskellen fra vores nuværende system - er altså at vi skal træf
 
 ## 3. Hvordan undgår vi arbejdsløshed i en økonomi uden vedvarende vækst?
 
-Hvis produktiviteten fortsat stiger, mens den samlede produktion ikke gør det, kan behovet for arbejdskraft falde. Hvordan fordeler vi så arbejde og produktivitetsgevinster? Kortere arbejdstid er én mulig mekanisme, men rejser nye spørgsmål om løn, skatteindtægter og mangel på arbejdskraft i centrale velfærdsfag.
+Hvis produktiviteten fortsat stiger, mens den samlede produktion ikke gør det, kan behovet for arbejdskraft falde. En vigtig mulighed er derfor at omsætte en større del af produktivitetsgevinsterne til **kortere arbejdstid frem for mere produktion**.
 
-*Status: under udvikling.*
+Det er også en central mekanisme i den svenske systemdynamiske analyse [*Modelling degrowth policies with system dynamics: Towards policy coherence*](https://www.sciencedirect.com/science/article/pii/S0921800926001308). Her kombineres målrettet nedskalering af produktion med højt miljøaftryk med kortere arbejdstid og økonomisk omfordeling. I modellen modvirker arbejdsdeling den arbejdsløshed, som ellers følger af lavere produktion, og den samlede politikpakke reducerer arbejdsløsheden sammenlignet med scenarier, hvor politikkerne gennemføres isoleret.
+
+Det peger på et vigtigt princip: Hvis samfundet kan producere det nødvendige med færre arbejdstimer, behøver gevinsten ikke automatisk blive brugt på at producere endnu mere. Den kan også fordeles som mere fritid og som arbejde til flere mennesker.
+
+Men det er ikke et færdigt svar. Modellen behandler i høj grad arbejdskraft som en samlet ressource og kan derfor ikke fuldt ud håndtere forskelle i kompetencer og sektorer. Færre arbejdstimer i én branche skaber ikke automatisk flere sygeplejersker, lærere, håndværkere eller andre medarbejdere, hvor der allerede er mangel. En sådan omstilling vil derfor også kræve uddannelse, omskoling, mobilitet mellem sektorer og en bevidst prioritering af de arbejdsområder, som samfundet har mest brug for.
+
+Det svenske studie undersøger desuden en meget omfattende reduktion af arbejdstiden. Resultatet bør derfor ikke læses som dokumentation for én bestemt længde på arbejdsugen, men som evidens for, at **arbejdstidsdeling kan være en vigtig stabiliserende mekanisme i en økonomi med lavere produktion**.
+
+*Status: foreløbigt svar – skal udvikles videre.*
 
 ## 4. Hvordan finansierer vi velfærdsstaten?
 
-Hvordan sikrer vi stabile offentlige finanser, hvis økonomien ikke længere forventes at vokse kontinuerligt? Det kræver blandt andet en forståelse af skattebaser, produktivitet, demografi, offentlige underskud, gæld og mulighederne for at beskatte kapital, jord, ressourcer og miljøbelastning anderledes.
+Dette er efter min opfattelse et af de vanskeligste spørgsmål for en post-growth-økonomi. Hvis BNP og dermed dele af skattegrundlaget ikke længere forventes at vokse kontinuerligt, hvordan finansierer vi så sundhed, uddannelse, ældrepleje, infrastruktur, forsvar og andre offentlige opgaver?
 
-*Status: under udvikling.*
+Den svenske analyse giver et både opmuntrende og vigtigt advarende svar. I modellen kan den samlede politikpakke finansieres på kort sigt gennem øgede skatteindtægter og kraftig omfordeling. Men på længere sigt begynder den offentlige gæld at stige. Forfatterne fremhæver derfor selv behovet for yderligere reformer eller mere grundlæggende strukturelle ændringer, hvis økonomien skal være robust uden vedvarende vækst.
+
+Det er vigtigt ikke at skjule denne svaghed. Modellen bygger blandt andet på antagelser om, at mange offentlige udgifter følger BNP, mens sundhed og uddannelse behandles anderledes. I virkeligheden kan en post-growth-omstilling samtidig falde sammen med en aldrende befolkning, større behov for klimatilpasning, investeringer i naturgenopretning og betydelige sikkerheds- og forsvarsudgifter. Det kan gøre finansieringsspørgsmålet vanskeligere end i modellen.
+
+Der er derfor flere områder, jeg mener vi skal undersøge langt mere systematisk: Hvordan ændres skattebasen? Hvilken rolle kan beskatning af kapital, jord, ressourcer og miljøbelastning spille? Hvordan påvirkes offentlige udgifter af lavere materielt forbrug? Hvilken betydning har produktivitet i velfærdssektoren? Og hvilke ændringer i selve finanssystemet kan blive nødvendige?
+
+En oplagt indvending lyder: **Er det ikke uansvarligt overhovedet at overveje en omstilling, når selv en model, der undersøger den, peger på risiko for højere offentlig gæld?**
+
+Mit svar er nej. Offentlig gæld er et vigtigt problem, og det skal tages alvorligt. Men det er ikke et argument for at fastholde et økonomisk system, hvis dets fysiske ressourceforbrug og miljøbelastning ikke kan bringes inden for planetens grænser. For mig ligger det større ansvar i at forholde sig til den grundlæggende økologiske risiko og samtidig arbejde målrettet med de økonomiske problemer, omstillingen skaber.
+
+Det ansvarlige er derfor ikke at kræve, at alle detaljer i en ny samfundsmodel skal være fuldstændigt løst, før omstillingen kan begynde. Det er at **omstille så hurtigt som den økologiske situation kræver, samtidig med at vi forsker i, afprøver og udvikler løsninger på de alvorlige økonomiske udfordringer, der opstår undervejs**.
+
+Det ændrer ikke ved, at langsigtet finansiering af velfærdsstaten er en reel svaghed i den nuværende post-growth-forskning. Tværtimod er det netop et af de spørgsmål, vi bør bruge langt flere forskningsmæssige og politiske kræfter på at besvare.
+
+*Status: foreløbigt svar – et centralt åbent spørgsmål.*
 
 ## 5. Hvad sker der med gæld, pensioner, boligmarked og finanssektor?
 
