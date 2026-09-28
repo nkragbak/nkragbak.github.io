@@ -60,7 +60,7 @@ Det ændrer ikke ved, at langsigtet finansiering af velfærdsstaten er en reel s
 
 Store dele af det moderne finanssystem bygger på forventninger om fremtidige indkomster, afkast og stigende aktivværdier. Hvis økonomien ikke længere forventes at vokse kontinuerligt, må vi derfor undersøge langt mere grundlæggende, hvordan banker, realkredit, virksomhedsgæld, pensionsopsparing og investeringer skal fungere.
 
-Den svenske model er nyttig, fordi den viser, at kapitalakkumulation og private investeringer er en del af selve vækstdynamikken. Men den modellerer ikke i tilstrækkelig grad privat gæld, pensionssystemer, boligpriser eller bankernes balancer. Det er derfor et område, hvor vi må bevæge os ud over netop denne artikel og trække på bredere post-growth- og finansiel forskning.
+Den [*svenske model*](https://www.sciencedirect.com/science/article/pii/S0921800926001308) er nyttig, fordi den viser, at kapitalakkumulation og private investeringer er en del af selve vækstdynamikken. Men den modellerer ikke i tilstrækkelig grad privat gæld, pensionssystemer, boligpriser eller bankernes balancer. Det er derfor et område, hvor vi må bevæge os ud over netop denne forskningsartikel og trække på bredere post-growth- og finansiel forskning.
 
 Et centralt spørgsmål er forskellen mellem **finansiering** og **finansialisering**.
 
