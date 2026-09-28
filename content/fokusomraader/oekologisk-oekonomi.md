@@ -58,15 +58,49 @@ Det ændrer ikke ved, at langsigtet finansiering af velfærdsstaten er en reel s
 
 ## 5. Hvad sker der med gæld, pensioner, boligmarked og finanssektor?
 
-Store dele af finanssystemet bygger på forventninger om fremtidige indkomster, afkast og stigende aktivværdier. Hvordan fungerer banker, realkredit, virksomhedsgæld, pensionsopsparing og investeringer i en økonomi med strukturelt lavere vækst?
+Store dele af det moderne finanssystem bygger på forventninger om fremtidige indkomster, afkast og stigende aktivværdier. Hvis økonomien ikke længere forventes at vokse kontinuerligt, må vi derfor undersøge langt mere grundlæggende, hvordan banker, realkredit, virksomhedsgæld, pensionsopsparing og investeringer skal fungere.
 
-*Status: under udvikling.*
+Den svenske model er nyttig, fordi den viser, at kapitalakkumulation og private investeringer er en del af selve vækstdynamikken. Men den modellerer ikke i tilstrækkelig grad privat gæld, pensionssystemer, boligpriser eller bankernes balancer. Det er derfor et område, hvor vi må bevæge os ud over netop denne artikel og trække på bredere post-growth- og finansiel forskning.
+
+Et centralt spørgsmål er **finansialisering**. Finanssektoren udfører nødvendige samfundsfunktioner: den formidler opsparing til investeringer, fordeler risiko, skaber betalingsinfrastruktur og kan finansiere nye virksomheder, boliger og grøn omstilling. Problemet er derfor ikke "finans" som sådan.
+
+Men en voksende del af økonomisk aktivitet kan bestå i handel med eksisterende finansielle aktiver, gearing, spekulation og jagt på kortsigtede finansielle afkast uden en tilsvarende stigning i realøkonomisk investering eller samfundsmæssig værdiskabelse. Empirisk forskning har også peget på, at mere finansiel udvikling ikke nødvendigvis giver mere vækst eller stabilitet uden grænse; på høje niveauer kan gevinsterne aftage eller vende. Se eksempelvis IMF-arbejdspapiret [*Too Much Finance?*](https://www.imf.org/en/publications/wp/issues/2016/12/31/too-much-finance-26011).
+
+I en økonomi, hvor det samlede materielle råderum er begrænset, bliver dette efter min mening et vigtigt fordelingsspørgsmål: **Hvor meget arbejdskraft, kapital og politisk opmærksomhed skal bindes i finansiel aktivitet, som primært flytter ejerskabskrav og priser rundt, frem for at finansiere produktion, omstilling og fælles goder?**
+
+Jeg vil derfor undersøge, om en post-growth-økonomi bør begrænse dele af den finansielle aktivitet, hvor den private gevinst er stor, men den samfundsmæssige funktion er svag. Mulige redskaber kunne være beskatning af visse finansielle transaktioner, ændret beskatning af kapitalgevinster, begrænsninger på gearing og andre makroprudentielle regler, stærkere krav til langsigtede investeringer samt reformer af pensionssystemet, så det bliver mindre afhængigt af permanent vækst i finansielle aktivpriser.
+
+Det er vigtigt at være præcis her. Ikke al kortsigtet handel er uden funktion: finansielle markeder leverer blandt andet likviditet, prissætning og muligheder for risikostyring. Den vanskelige politiske opgave er derfor ikke bare at stemple bestemte aktiviteter som "spekulation", men at identificere, hvor finansielle aktiviteter skaber reel samfundsværdi, og hvor de primært skaber privat afkast, systemisk risiko eller rent-seeking.
+
+Et særligt vanskeligt spørgsmål er pensioner. Hvis fremtidig pensionsvelstand i høj grad afhænger af vedvarende høje kapitalafkast og stigende aktivpriser, er pensionssystemet selv en del af samfundets vækstafhængighed. Det betyder ikke, at pensionsopsparing skal afskaffes, men at vi må undersøge, hvordan pensionssystemet kan gøres robust i en økonomi med lavere vækst og muligvis lavere gennemsnitlige finansielle afkast.
+
+*Status: foreløbigt svar – finanssystemets vækstafhængighed kræver langt mere arbejde.*
 
 ## 6. Hvordan fungerer det i Danmark som en lille åben økonomi?
 
-Danmark er tæt integreret i EU, globale kapitalmarkeder, handel og internationale forsyningskæder. Hvordan undgår vi, at lavere hjemlig produktion blot erstattes af import, eller at reformer undermineres af kapitalbevægelser, konkurrencepres og lækage af miljøbelastning til andre lande?
+Danmark er tæt integreret i EU, globale kapitalmarkeder, handel og internationale forsyningskæder. Det betyder, at en post-growth-politik ikke kan udformes, som om Danmark var en lukket økonomi.
 
-*Status: under udvikling.*
+Den første udfordring er **lækage**. Hvis vi reducerer en miljøbelastende produktion i Danmark, men blot importerer den samme vare fra udlandet, kan vores territoriale miljøbelastning falde uden at vores globale aftryk gør det. Derfor er forbrugsbaserede klima- og ressourceindikatorer nødvendige som supplement til nationale produktionsmål.
+
+Den anden udfordring er **kapitalens mobilitet**. Hvis Danmark alene beskatter eller regulerer meget mobile finansielle aktiviteter markant hårdere end vores nabolande, kan dele af aktiviteten flytte. Det betyder ikke, at Danmark ingen handlemuligheder har. Vi kan blandt andet arbejde med vores skattesystem, finansielle regulering, pensionsregler, offentlige investeringer og prioriteringen af nationale ressourcer. EU-traktaterne giver også medlemsstaterne et vist råderum inden for blandt andet beskatning og finansielt tilsyn.
+
+Men EU's frie kapitalbevægelser sætter samtidig klare grænser for generelle nationale restriktioner på kapitalbevægelser. Derfor vil nogle af de mest vidtgående reformer være mere effektive og robuste, hvis de gennemføres på EU-niveau eller gennem bredere international koordinering. [EU-traktatens artikel 63-65](https://eur-lex.europa.eu/eli/treaty/tfeu_2016/2025-03-15/eng) illustrerer netop denne spænding mellem fri kapitalbevægelse og medlemsstaternes mulighed for blandt andet beskatning og finansielt tilsyn.
+
+Det gælder eksempelvis en bred skat på finansielle transaktioner. EU-Kommissionen foreslog allerede i 2013 en fælles Financial Transaction Tax gennem forstærket samarbejde, men medlemslandene nåede ikke til enighed; Kommissionen har i sit arbejdsprogram for 2026 varslet, at forslaget trækkes tilbage på grund af manglende fremskridt. Det viser både potentialet og den politiske vanskelighed ved fælles regulering af meget mobile finansielle aktiviteter. Se [EU-Kommissionens oversigt over beskatning af den finansielle sektor](https://taxation-customs.ec.europa.eu/taxation/other-taxes/taxation-financial-sector_en).
+
+For mig peger det på en arbejdsdeling mellem niveauerne:
+
+- **Danmark** kan ændre indenlandske skatter og incitamenter, regulere inden for EU-reglerne, påvirke pensionskapitalens retning, bruge offentlige investeringer strategisk og begynde at måle vores reelle forbrugsbaserede ressourceaftryk.
+- **EU** er et mere robust niveau for regulering af meget mobile finansielle aktiviteter, fælles minimumsregler, dele af kapitalbeskatningen, finansielle transaktioner, produktstandarder og handelspolitik.
+- **Internationalt** bliver koordinering nødvendig, når problemerne handler om globale kapitalstrømme, skattely, multinationale virksomheder, handelsregler og fordelingen af det globale økologiske råderum.
+
+Det betyder også, at spørgsmålet om finansialisering fra afsnit 5 ikke kan løses rent nationalt. Danmark kan gå foran på enkelte områder, men hvis målet er at ændre de grundlæggende incitamenter for kapital og finansielle markeder, bliver europæisk og international koordinering central.
+
+Det dybere spørgsmål er derfor: **Hvordan gennemfører man demokratisk besluttede økologiske begrænsninger i en verden, hvor kapital kan bevæge sig langt lettere over grænser end de demokratiske institutioner, der regulerer den?**
+
+Det er efter min mening et af de vanskeligste politiske spørgsmål i hele omstillingen. Men igen er alternativet ikke et risikofrit status quo. Hvis det nuværende system er afhængigt af vedvarende vækst i produktion, kredit og aktivværdier, må vi også undersøge dets stabilitet under de fysiske begrænsninger, som klima, natur og ressourcer stiller.
+
+*Status: foreløbigt svar – meget af løsningen ligger sandsynligvis over det nationale niveau.*
 
 ## 7. Hvordan måler vi, om samfundet faktisk bliver bedre?
 
