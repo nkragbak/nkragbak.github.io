@@ -15,9 +15,10 @@ De-growth er ikke det samme som recession. Recession - nedgang i BNP - under vor
 ## 2. Hvad skal vokse – og hvad skal blive mindre?
 
 En bæredygtig økonomi betyder ikke nødvendigvis, at alle sektorer skal skrumpe. Nogle aktiviteter kan have brug for markant vækst, mens andre må fylde mindre. Det afgørende spørgsmål er, efter hvilke kriterier vi foretager den prioritering.
-test af afsnit
 
-test af afsnit
+Én måde kunne være at måle sektorer på to paramentre, 1) hvor resourceforbrugende er de (CO2, arealforbrug, affaldsgenerering, osv.), og 2) hvor 'samfundsnyttige' er de. Begge parametre bør diskuterers demokratisk før vi lægger os fast på dem. Som eksempel kunne man fremføre at cementfremstilling udleder store mængder CO2 (negativt), men at cement er en meget vigtig resource for vores samfund (positivt).
+
+Pointen - og forskellen fra vores nuværende system - er altså at vi skal træffe nogle valg, der griber ind i 'de frie markedskræfter'. Det er nødvendigt.
 
 *Status: under udvikling.*
 
