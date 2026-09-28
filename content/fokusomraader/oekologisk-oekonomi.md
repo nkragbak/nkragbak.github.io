@@ -106,6 +106,24 @@ Det er efter min mening et af de vanskeligste politiske spørgsmål i hele omsti
 
 ## 7. Hvordan måler vi, om samfundet faktisk bliver bedre?
 
-Hvis BNP ikke skal være det overordnede succeskriterium, hvad skal så være det? Jeg er interesseret i en kombination af sociale og økologiske indikatorer: Kan vi forbedre menneskelig trivsel, sundhed, tryghed, tid og social retfærdighed, samtidig med at ressourceforbrug og miljøbelastning falder?
+Hvis BNP ikke skal være det overordnede succeskriterium, hvad skal så være det?
 
-*Status: under udvikling.*
+Jeg finder meget inspiration i Alternativets idé om **De Tre Bundlinjer**: en grøn, en social og en økonomisk bundlinje. Men jeg mener, at de med fordel kan forstås som tre forskellige lag frem for som tre ligeværdige mål.
+
+**Den grønne bundlinje sætter rammen.** Spørgsmålet er ikke blot, om vi er blevet lidt grønnere end sidste år, men om vores samlede klima-, natur- og ressourceaftryk bevæger sig inden for de økologiske grænser, som samfundet er afhængigt af. Her bør vi blandt andet måle drivhusgasudledninger, materialeforbrug, arealpres, biodiversitet og andre relevante påvirkninger – og så vidt muligt også vores forbrugsbaserede globale aftryk.
+
+**Den sociale bundlinje er formålet.** Når de økologiske rammer respekteres, er det afgørende spørgsmål, om menneskers liv faktisk bliver bedre. Det kan blandt andet handle om sundhed, livstilfredshed, tryghed, fællesskab, lighed, boligforhold, demokratisk deltagelse og tid til familie, fritid og civilsamfund.
+
+**Den økonomiske bundlinje er et middel og en robusthedstest.** Økonomien skal kunne levere de sociale resultater inden for de økologiske rammer uden at skabe vedvarende arbejdsløshed, finansiel ustabilitet eller uholdbare offentlige finanser. Her er beskæftigelse, produktivitet, investeringer, finansiel stabilitet, offentlige budgetter og økonomisk sikkerhed relevante indikatorer.
+
+Det betyder også, at de tre bundlinjer ikke kan lægges sammen til ét samlet tal. En social eller økonomisk gevinst kan ikke nødvendigvis opveje en overskridelse af en fysisk økologisk grænse. Vi bør derfor bruge et **dashboard af indikatorer** frem for at forsøge at erstatte BNP med ét nyt supermål.
+
+BNP skal heller ikke afskaffes som statistik. Det er fortsat et nyttigt mål for størrelsen og udviklingen i den markedsøkonomiske aktivitet. Problemet opstår, når BNP-vækst bliver behandlet som et mål for samfundets samlede succes og som en forudsætning for politisk fremgang.
+
+For mig kan spørgsmålet derfor sammenfattes sådan:
+
+**Holder vi os inden for naturens grænser? Bliver menneskers liv bedre? Og er vores økonomiske system robust nok til at levere det?**
+
+Det er i praksis en operationalisering af mit grundsyn: **Naturens bæreevne sætter rammerne. Menneskers trivsel er formålet. Økonomien er vores måde at organisere det på.**
+
+*Status: foreløbigt svar – indikatorerne skal konkretiseres yderligere.*
