@@ -22,6 +22,22 @@ AI kan også bidrage positivt. Teknologien kan blandt andet bruges til at optime
 
 Mit udgangspunkt er derfor enkelt: **AI og anden teknologi skal underlægges de samme fysiske grænser som resten af økonomien.**
 
+## Et modstandsdygtigt samfund i en AI-tid
+
+Modstandsdygtighed handler også om teknologi.
+
+Det gælder allerede i dag. Hvis vitale samfundsfunktioner bliver afhængige af få cloudleverandører, proprietære AI-modeller eller automatiserede systemer, kan teknologien skabe nye sårbarheder. Fejl, cyberangreb, leverandørsvigt eller tab af adgang kan få langt større konsekvenser, hvis mennesker og organisationer ikke længere har mulighed for at fungere uden systemet.
+
+Derfor bør kritiske funktioner kunne fungere i en degraderet tilstand, også når avancerede digitale systemer ikke er tilgængelige. Vi bør bevare menneskelig kompetence, klare ansvarsforhold, alternative kommunikations- og arbejdsgange og muligheden for at overtage centrale processer manuelt, hvor det er nødvendigt. AI bør ikke blive et nyt “single point of failure” for samfundet.
+
+Men vi er også nødt til at forholde os til en mere usikker langsigtet risiko.
+
+AI udvikler sig hurtigt, og vi ved ikke, hvor grænsen for teknologien ligger. Den internationale [AI Safety Report 2026](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026) beskriver scenarier med “loss of control”, hvor fremtidige AI-systemer potentielt kan operere uden for menneskelig kontrol. Rapporten understreger samtidig, at nutidens systemer ikke har de nødvendige kapabiliteter til sådanne scenarier, og at eksperter er meget uenige om sandsynligheden.
+
+Det er en vigtig usikkerhed at bevare i debatten. Vi bør hverken behandle superintelligens som noget, vi ved kommer, eller ignorere muligheden, fordi den er vanskelig at kvantificere.
+
+Når en mulig hændelse både er meget usikker og potentielt ekstremt alvorlig, giver det mening at tænke i beredskab og resiliens. Mange af de tiltag, der gør os mere robuste over for avanceret AI, gør os samtidig mere robuste over for langt mere almindelige hændelser som cyberangreb, softwarefejl, informationspåvirkning og tekniske nedbrud.
+
 ## Produktivitet til hvad?
 
 AI kan øge produktiviteten betydeligt i dele af økonomien. [OECD's gennemgang af eksperimentelle studier](https://www.oecd.org/en/blogs/2025/07/unlocking-productivity-with-generative-ai-evidence-from-experimental-studies.html) peger på reelle produktivitetsgevinster, men også på store forskelle mellem opgaver, medarbejdere og organisationer.
