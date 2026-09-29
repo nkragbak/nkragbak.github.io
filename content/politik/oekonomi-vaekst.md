@@ -1,14 +1,18 @@
-## Vækst bør ikke være et mål i sig selv
+## Ressourceforbruget skal ned – vækst er underordnet
 
-Jeg er skeptisk over for forestillingen om, at permanent økonomisk vækst kan være det overordnede mål for et samfund på en planet med fysiske grænser. Det betyder ikke, at al vækst er dårlig. Nogle aktiviteter bør vokse kraftigt – for eksempel vedvarende energi, naturgenopretning og dele af omsorgsøkonomien – mens andre aktiviteter nødvendigvis må fylde mindre.
+Mit udgangspunkt er, at rige samfund som Danmark skal reducere deres samlede materielle og økologiske aftryk markant. Det er den fysiske opgave. Om BNP samtidig stiger eller falder, er sekundært.
 
-Det afgørende spørgsmål er derfor ikke, om BNP stiger eller falder et bestemt år, men om økonomien leverer gode liv inden for økologiske grænser.
+Teknologi, effektivisering, elektrificering og cirkulære løsninger er nødvendige, men den hidtidige udvikling giver ikke grundlag for at gøre en tilstrækkelig, vedvarende absolut afkobling mellem økonomisk vækst og ressource- og miljøbelastning til en forudsætning for vores strategi. Rebound-effekter betyder samtidig, at en del af effektiviseringsgevinsterne kan blive omsat til mere aktivitet og forbrug.
+
+Derfor mener jeg, at vi også må være villige til direkte at reducere ressourceintensiv produktion og forbrug. Det kan i perioder – og måske samlet – betyde nulvækst eller minusvækst. BNP-fald er ikke målet i sig selv. Målet er at bringe ressourceforbruget og miljøbelastningen inden for naturens bæreevne og samtidig beskytte menneskers trivsel.
+
+Det betyder heller ikke, at al aktivitet skal blive mindre. Nogle områder bør vokse kraftigt – for eksempel vedvarende energi, naturgenopretning og dele af omsorgsøkonomien – mens andre nødvendigvis må fylde mindre.
 
 ## Afkobling er vigtig – men ikke nok
 
 Hvis økonomisk vækst kunne afkobles fuldstændigt, varigt og hurtigt nok fra ressourceforbrug og miljøbelastning, ville konflikten mellem vækst og planetære grænser forsvinde. Men det er ikke det, den hidtidige udvikling viser.
 
-Relativ afkobling er reel, og teknologi, effektivisering og grøn energi er afgørende. Men globalt er økonomisk vækst fortsat tæt forbundet med stigende ressourceforbrug og miljøbelastning, og vi har ikke evidens for en vedvarende, absolutte afkobling i den skala og hastighed, som en fortsat vækststrategi forudsætter.
+Relativ afkobling er reel, og teknologi, effektivisering og grøn energi er afgørende. Men globalt er økonomisk vækst fortsat tæt forbundet med stigende ressourceforbrug og miljøbelastning, og vi har ikke evidens for en vedvarende, absolut afkobling i den skala og hastighed, som en fortsat vækststrategi forudsætter.
 
 Derfor mener jeg ikke, at vi ansvarligt kan gøre fortsat økonomisk vækst til en forudsætning og håbe, at ressourceforbruget bagefter følger en anden kurve. Udgangspunktet bør vendes om: Vi skal bringe vores samlede ressourceforbrug og miljøbelastning inden for planetens grænser. Teknologi og effektivisering skal hjælpe os med det — men hvis det samtidig betyder lavere, ingen eller negativ økonomisk vækst, må vi være villige til at acceptere det.
 
@@ -22,11 +26,13 @@ Det samme mønster kan ses i moderne transport og andre områder: mere brændsto
 
 For mig er konklusionen ikke, at effektivisering er nyttesløs, men at effektivisering skal kombineres med politiske rammer, der begrænser det samlede ressource- og energiforbrug.
 
-## Vi bør kunne tåle nulvækst eller minusvækst
+## Vi skal kunne planlægge for nulvækst eller minusvækst
 
-Selv hvis man ikke ønsker planlagt degrowth, er det et problem, hvis centrale dele af samfundet kun fungerer under forudsætning af vedvarende vækst. Pensioner, offentlige finanser, gæld, boligmarked, investeringer og arbejdsmarked er blandt de områder, der bør undersøges og reformeres, så samfundet kan være stabilt også i perioder uden vækst.
+Hvis vi reducerer ressourceintensive aktiviteter direkte, kan resultatet blive perioder med nulvækst eller negativ BNP-vækst. I det nuværende system forbindes faldende BNP ofte med arbejdsløshed, svagere offentlige finanser og finansiel uro. Derfor er det ikke nok blot at acceptere minusvækst; vi skal gøre samfundets institutioner robuste over for den.
 
-For mig er det derfor mindre interessant at diskutere, om ordet skal være “degrowth”, “post-growth” eller noget tredje, end at spørge konkret: Hvilke institutioner går i stykker, hvis væksten stopper – og hvordan bygger vi dem om?
+Pensioner, offentlige finanser, gæld, boligmarked, investeringer og arbejdsmarked er blandt de områder, der bør undersøges og reformeres, så samfundet kan være stabilt, selv når den samlede økonomiske aktivitet ikke vokser.
+
+For mig er det derfor mindre interessant at diskutere, om ordet skal være “degrowth”, “post-growth” eller noget tredje, end at spørge konkret: Hvilke institutioner går i stykker, hvis væksten stopper eller bliver negativ – og hvordan bygger vi dem om?
 
 ## Vareliggørelse og vores fælles goder
 
