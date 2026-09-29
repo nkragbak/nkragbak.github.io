@@ -8,7 +8,7 @@ Løsningen er ikke at opgive velfærden, men at gøre dens finansiering og organ
 
 Jeg har ikke noget imod, at dygtige, flittige eller heldige mennesker får mere end andre. Men jeg mener, at der findes et niveau, hvor privat formue bliver så ekstrem, at forskellene ikke længere blot handler om levestandard, men om magt og om at leve i helt forskellige virkeligheder.
 
-Jeg ser det først og fremmest som et spørgsmål om spilleregler, ikke om moralsk fordømmelse af den enkelte milliardær. Hvis mennesker lovligt kan akkumulere enorme formuer, er det systemet, der har tilladt det. Derfor er meget høj marginal beskatning af formuer over en demokratisk fastsat grænse for mig et legitimt værktøj. Den præcise grænse og sats er et åbent politisk spørgsmål, jeg meget gerene diskuterer med alle interesserede.
+Jeg ser det først og fremmest som et spørgsmål om spilleregler, ikke om moralsk fordømmelse af den enkelte milliardær. Hvis mennesker lovligt kan akkumulere enorme formuer, er det systemet, der har tilladt det. Derfor er meget høj marginal beskatning af formuer over en demokratisk fastsat grænse for mig et legitimt værktøj. Den præcise grænse og sats er et åbent politisk spørgsmål, jeg meget gerne diskuterer med alle interesserede.
 
 ## Succes bør måles anderledes
 
@@ -24,4 +24,4 @@ Omsorg, undervisning, relationelt arbejde og sundhed kan ikke altid effektiviser
 
 ## Et godt liv er mere end forbrug
 
-Jeg er interesseret i, hvordan politik kan skabe mere reel livskvalitet gennem blandt andet tid, fællesskab, natur, tryghed og deltagelse. Det er vigtigt, fordi en økologisk omstilling bliver langt mere plausibel, hvis den opleves som en forbedring af livet snarere end som en permanent øvelse i afsavn.
+Jeg er interesseret i, hvordan politik kan skabe mere reel livskvalitet gennem blandt andet tid, fællesskab, natur, tryghed og deltagelse. Det er vigtigt, fordi en omstilling til et samfund inden for naturens grænser bliver langt mere plausibel, hvis den opleves som en forbedring af livet snarere end som en permanent øvelse i afsavn.
