@@ -12,7 +12,7 @@ Et vigtigt udgangspunkt for mig er **balance**. Mennesket har med intelligens, t
 
 Jeg ønsker, at succes i højere grad forbindes med stewardship – at efterlade livsbetingelserne bedre for mennesker, dyr, planter og kommende generationer – og i mindre grad med ekstravagant forbrug og uendelig privat akkumulation.
 
-## Det ligger fast
+## Principper, jeg vender tilbage til
 
 - Naturens grænser er reelle politiske rammebetingelser.
 - Økonomien er et redskab for samfundet – ikke omvendt.
