@@ -23,6 +23,7 @@
 .focus-subtitle{margin:-.2rem 0 1.1rem;color:var(--muted);font-size:1rem;font-style:italic}
 
 .mobile-politics-nav{display:none}
+@media(max-width:800px){.mobile-politics-nav{display:block}}
 .detail-controls{display:flex;flex-wrap:wrap;gap:.4rem;margin:-1.5rem 0 1.75rem;padding-bottom:.85rem;border-bottom:1px solid var(--border)}
 .detail-control{appearance:none;border:1px solid #cfd4cc;border-radius:7px;background:#eceee9;color:#4f574f;padding:.34rem .62rem;font:inherit;font-size:.79rem;font-weight:700;cursor:pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}
 .detail-control:hover{background:#e3e6df;color:var(--text);border-color:#bfc6bc}
