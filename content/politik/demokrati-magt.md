@@ -16,7 +16,7 @@ Jeg ser repræsentativt demokrati som fundamentalt, men er positiv over for mere
 
 ## Konflikt kan ikke altid undgås
 
-Jeg foretrækker løsninger, hvor interesser kan forenes, men mener ikke, vi bør bilde os ind, at alle nødvendige forandringer kan gennemføres uden tabere. Hvis klimatiltag, naturbeskyttelse eller ændrede skatteregler reducerer værdien af bestemte aktiver eller forretningsmodeller, vil nogle økonomiske interesser have stærke incitamenter til at modsætte sig ændringerne. Ressourcestærke aktører har samtidig større muligheder for at organisere sig og påvirke den politiske proces.
+Jeg foretrækker løsninger, hvor interesser kan forenes, men mener ikke, vi bør bilde os ind, at alle nødvendige forandringer kan gennemføres uden tabere. Hvis klimatiltag, naturbeskyttelse eller ændrede skatteregler reducerer værdien af bestemte aktiver eller forretningsmodeller, vil nogle økonomiske interesser med sikkerhed kæmpe imod. Og jo mere rig en interessent er, jo mere magt til at kæmpe mere højlydt imod.
 
 På et tidspunkt bliver politik derfor også et spørgsmål om, hvilke interesser demokratiet er villigt til at udfordre.
 
