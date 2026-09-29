@@ -2,13 +2,17 @@
 
 Hvordan indretter vi en økonomi, der leverer gode liv uden at være afhængig af stadigt større materielt forbrug?
 
-Mit udgangspunkt er ikke, at BNP nødvendigvis skal falde, eller at al økonomisk aktivitet skal blive mindre. Spørgsmålet er, om vi kan gøre samfundet robust over for lav eller ingen vækst, samtidig med at vores samlede ressourceforbrug og miljøbelastning bringes inden for økologiske grænser.
+Mit udgangspunkt er, at rige samfund som Danmark skal bringe deres samlede ressourceforbrug og miljøbelastning markant ned og inden for naturens bæreevne. Teknologi og effektivisering er vigtige redskaber, men vi kan ikke gøre fortsat BNP-vækst til en forudsætning og håbe, at en tilstrækkelig afkobling følger bagefter. Hvis den nødvendige fysiske reduktion indebærer lavere eller negativ økonomisk vækst, skal samfundet kunne håndtere det.
 
 Nedenstående syv spørgsmål er den foreløbige rygrad i mit arbejde med økologisk økonomi. De er ikke færdigbesvarede. Siden skal udvikle sig i takt med, at jeg lærer mere, møder bedre argumenter og bliver skarpere på de konkrete politiske muligheder.
 
 ## 1. Hvad betyder degrowth og post-growth egentlig i praksis?
 
-De-growth er ikke det samme som recession. Recession - nedgang i BNP - under vores nuværende system er meget negativt, det erkender jeg. I min optik er de-growth derimod diciplinen at mindske BNP på kontrollerede måder, så det giver mindst mulige negative konsekvenser for vores samfund. Og som jeg også nævner mange andre steder på siden her, er det ikke et **mål** i sig selv at begrænse den menneskelige økonomiske aktivitet. Det er derimod et **middel** hen imod at opnå et bæredygtigt samfund på vores planet. Når vi med en vis overbevisning kan sige at vi er nået i mål, og at vi internationalt set lever inden for planetens grænser, skal vi absolut have al den økonomiske aktivitet der er plads til!    
+Degrowth er ikke det samme som recession. En recession er et fald i den økonomiske aktivitet inden for et system, der er bygget til vækst, og kan derfor have alvorlige sociale og økonomiske konsekvenser. Jeg bruger degrowth om en bevidst og demokratisk styret nedskalering af de dele af produktionen og forbruget, der belaster natur og ressourcer mest, samtidig med at vi beskytter menneskers trivsel og centrale samfundsfunktioner.
+
+Fordi ressourceforbrug og økonomisk aktivitet i dag hænger tæt sammen, og fordi effektivisering ikke automatisk bliver til lavere samlet forbrug, kan en sådan nedskalering også betyde perioder med negativ BNP-vækst. Det er ikke BNP-faldet, der er målet. Det er et muligt og efter min vurdering sandsynligt resultat af at prioritere den nødvendige fysiske reduktion først.
+
+Når vi internationalt lever inden for planetens grænser, er der omvendt ingen værdi i at holde økonomisk aktivitet kunstigt nede. Aktivitet, der kan foregå inden for det økologiske råderum og bidrager til menneskelig trivsel, må gerne vokse.
 
 *Status: under udvikling.*
 
