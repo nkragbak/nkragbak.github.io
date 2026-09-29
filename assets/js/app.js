@@ -136,13 +136,17 @@ async function loadMarkdownSections() {
 }
 
 function setupSearch() {
-  const search = document.querySelector('#politics-search');
+  const searches = [...document.querySelectorAll('#politics-search, #politics-search-mobile')];
   const sections = [...document.querySelectorAll('.topic-section')];
   const noResults = document.querySelector('#no-results');
-  if (!search || !sections.length) return;
+  if (!searches.length || !sections.length) return;
 
-  const runSearch = () => {
-    const query = search.value.trim().toLocaleLowerCase('da');
+  const runSearch = source => {
+    const query = source.value.trim().toLocaleLowerCase('da');
+    searches.forEach(search => {
+      if (search !== source) search.value = source.value;
+    });
+
     let matches = 0;
     sections.forEach(section => {
       const haystack = (section.dataset.search || section.textContent).toLocaleLowerCase('da');
@@ -153,7 +157,9 @@ function setupSearch() {
     if (noResults) noResults.hidden = matches !== 0;
   };
 
-  search.addEventListener('input', runSearch);
+  searches.forEach(search => {
+    search.addEventListener('input', () => runSearch(search));
+  });
 }
 
 loadMarkdownSections();
