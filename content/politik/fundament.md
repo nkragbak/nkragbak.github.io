@@ -4,7 +4,9 @@ Jeg tager udgangspunkt i, at politik må begynde med den fysiske verden, vi fakt
 
 **Naturens bæreevne sætter rammerne. Menneskers trivsel er formålet. Økonomien er vores måde at organisere det på.**
 
-For mig er de tre led ikke ligeværdige mål, der kan vejes mod hinanden. Naturens tilstand er en fysisk ramme for samfundet. Inden for den ramme er formålet at skabe gode, frie, trygge og meningsfulde liv. Økonomien er et redskab til at organisere ressourcer, arbejde og produktion, så det kan lade sig gøre – også på lang sigt. Samfundets robusthed er afgørende, fordi både trivsel og demokratisk handlefrihed bliver sårbare, hvis vores institutioner kun fungerer under stabile og stadigt voksende vilkår.
+Det betyder ikke, at menneskelig trivsel kan reduceres til ét enkelt mål. Menneskelig trivsel, frihed, fællesskab, sundhed, tryghed, tid, naturens tilstand og samfundets langsigtede robusthed er selvstændige mål. Og de sidste to er de vigtigste. Uden en sund natur, ingen langsigtet robusthed, og uden langsigtet robusthed bliver vi som borgere ofre for populisme, ekstremisme og det der er værre.
+
+Samtidig er de tre led i mit grundsyn ikke ligeværdige størrelser, der blot kan vejes mod hinanden. Naturens bæreevne er den fysiske ramme for samfundet. Inden for den ramme er formålet at skabe gode, frie, trygge og meningsfulde liv. Økonomien er et redskab til at organisere ressourcer, arbejde og produktion, så det kan lade sig gøre – også på lang sigt.
 
 ## Mennesket som del af naturen – ikke hævet over den
 
