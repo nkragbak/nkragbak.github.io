@@ -26,7 +26,7 @@ Dette er ikke en udtømmende litteraturliste, men nogle af de centrale kilder, j
 * Haberl, Wiedenhofer et al. – *A systematic review of the evidence on decoupling of GDP, resource use and GHG emissions* (2020): omfattende systematisk gennemgang af den empiriske forskning i relativ og absolut afkobling.
 * Requena-i-Mora & Brockington – *Evaluating decoupling evidence: Examining timeframes, geographic scales, and planetary boundaries* (2026): nyere peer-reviewed analyse af, hvordan tidsperiode, geografisk afgrænsning og bæredygtighedsgrænser påvirker vurderingen af afkobling.
 
-### Inspiration til konkret politik
+## Inspiration til konkret politik
 
 Ud over de kilder, der dokumenterer problemernes omfang, er jeg interesseret i forskning, der forsøger at omsætte økologisk økonomi og post-growth til konkret politik. Jeg betragter ikke sådanne studier som færdige opskrifter, men som seriøse forsøg på at undersøge, hvordan en økonomi inden for planetens grænser faktisk kan fungere.
 
