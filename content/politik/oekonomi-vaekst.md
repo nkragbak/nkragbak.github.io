@@ -28,9 +28,7 @@ For mig er konklusionen ikke, at effektivisering er nyttesløs, men at effektivi
 
 ## Vi skal kunne planlægge for nulvækst eller minusvækst
 
-Hvis vi reducerer ressourceintensive aktiviteter direkte, kan resultatet blive perioder med nulvækst eller negativ BNP-vækst. I det nuværende system forbindes faldende BNP ofte med arbejdsløshed, svagere offentlige finanser og finansiel uro. Derfor er det ikke nok blot at acceptere minusvækst; vi skal gøre samfundets institutioner robuste over for den.
-
-Pensioner, offentlige finanser, gæld, boligmarked, investeringer og arbejdsmarked er blandt de områder, der bør undersøges og reformeres, så samfundet kan være stabilt, selv når den samlede økonomiske aktivitet ikke vokser.
+Selv hvis man ikke ønsker planlagt degrowth, er det et problem, hvis centrale dele af samfundet kun fungerer under forudsætning af vedvarende vækst. Pensioner, offentlige finanser, gæld, boligmarked, investeringer og arbejdsmarked er blandt de områder, der bør undersøges og reformeres, så samfundet kan være stabilt også i perioder uden vækst.
 
 For mig er det derfor mindre interessant at diskutere, om ordet skal være “degrowth”, “post-growth” eller noget tredje, end at spørge konkret: Hvilke institutioner går i stykker, hvis væksten stopper eller bliver negativ – og hvordan bygger vi dem om?
 
