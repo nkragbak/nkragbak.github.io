@@ -22,4 +22,4 @@ På et tidspunkt bliver politik derfor også et spørgsmål om, hvilke interesse
 
 ## National politik har grænser
 
-Kapital, virksomheder, handel og miljøproblemer krydser grænser. Derfor kan nogle reformer kun blive robuste, hvis de koordineres europæisk eller internationalt. For mig er det ikke et argument for passivitet, men for at se national politik, EU-politik og global regulering som forskellige niveauer i samme problem. At ændre Danmarks økonomi grundlæggende, mens store dele af verdensøkonomien fortsat er organiseret omkring vækst og stigende ressourceforbrug, rejser reelle spørgsmål om effekt, konkurrencevilkår og lækage; se "Argumenter & modargumenter" nedenfor.
+Kapital, virksomheder, handel og miljøproblemer krydser grænser. Derfor kan nogle reformer kun blive robuste, hvis de koordineres europæisk eller internationalt. For mig er det ikke et argument for passivitet, men for at se national politik, EU-politik og global regulering som forskellige niveauer i samme problem. At ændre Danmarks økonomi grunlæggende, mens resten af verden buldrer videre på en overophedet vækstøkonomi kan måske virke naivt; se "Argumenter & modargumenter" nedenfor.
