@@ -24,19 +24,19 @@ Vi kan godt være afhængige af hinanden på tværs af landegrænser. Men vi ska
 
 ## Et beredskab for hele befolkningen
 
-Det offentlige skal sikre den samlede planlægning og beskyttelsen af befolkningen. Virksomheder skal tage ansvar for robustheden i de forsyninger og samfundsfunktioner, de driver. Borgere og civilsamfund har også en vigtig rolle.
+Jeg bakker op om det danske sektoransvarsprincip og den måde, ansvaret for beredskabet er organiseret og administreret på. Det er efter min vurdering et godt og tilstrækkeligt grundlag, som også skal bære beredskabet gennem en omfattende samfundsomstilling.
 
-Beredskabet skal fungere for alle, herunder mennesker, som ikke har økonomi, helbred eller plads til selv at opbygge et beredskab. Den enkeltes muligheder for at forberede sig må ikke afgøre, om vedkommende kan få hjælp gennem en krise.
+Beredskab er et politisk fokusområde for mig, fordi beskyttelsen af befolkningen og opretholdelsen af samfundets vigtigste funktioner skal have vedvarende opmærksomhed og prioritet. Det gælder også hensynet til mennesker, som ikke har økonomi, helbred eller mulighed for selv at opbygge et beredskab.
 
-## Konkrete politiske retninger
+## Politiske prioriteter
 
 Jeg vil arbejde for:
 
 - At forsyningssikkerhed for energi, fødevarer og drikkevand indgår som en central del af sikkerhedspolitikken.
 - At kritiske forsyninger vurderes ud fra deres sårbarheder, og at egen kapacitet, lagre og alternative forsyningsveje prioriteres efter konkrete behov.
-- At ansvaret mellem offentlige myndigheder og virksomheder er tydeligt, og at beredskabsplanlægningen omfatter mennesker, der ikke kan klare sig selv.
+- At fastholde sektoransvarsprincippet som grundlag for beredskabet og prioritere beskyttelsen af hele befolkningen, herunder mennesker, der ikke kan klare sig selv.
 - At Danmark opretholder en troværdig forsvarsevne og bidrager til den fælles sikkerhed gennem NATO og EU.
 
 Både akut beskyttelse og langsigtet forebyggelse kræver arbejdskraft, materialer og økonomiske midler. Derfor skal prioriteringen omfatte hele økonomien: Hvilke aktiviteter skal fylde mindre, så vi får plads til sikkerhed, velfærd og den nødvendige samfundsomstilling? Det spørgsmål er en nødvendig del af arbejdet med et gennemreformeret samfund.
 
-*Status: foreløbigt standpunkt – de konkrete politiske forslag skal udvikles yderligere.*
+*Status: foreløbigt standpunkt – udvikles i takt med ny viden og erfaring.*
