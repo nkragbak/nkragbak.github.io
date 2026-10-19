@@ -14,6 +14,8 @@ Dette er ikke en udtømmende litteraturliste, men nogle af de centrale kilder, j
 
 ### Klima og biodiversitet
 
+* [Ripple et al. (2026) – *The 2026 state of the climate report: challenges and opportunities*](https://doi.org/10.1093/biosci/biag125): forskerforfattet statusrapport baseret på globale observationsdata og eksisterende forskning. Gennemgår centrale klimaindikatorer, mulige accelerationer og selvforstærkende processer og fremhæver behovet for omfattende samfundsmæssige forandringer.
+
 * [UNEP – Emissions Gap Report 2025](https://www.unep.org/resources/emissions-gap-report-2025): vurdering af forskellen mellem de globale klimamål, de førte politikker og de udledningsreduktioner, der er nødvendige.
 * [IPBES – Transformative Change Assessment](https://www.ipbes.net/transformative-change-assessment): international videnskabelig vurdering af de grundlæggende samfundsmæssige og økonomiske forandringer, der er nødvendige for at standse og vende tabet af biodiversitet.
 * [Nature – *Amazonia as a carbon source linked to deforestation and climate change*](https://www.nature.com/articles/s41586-021-03629-6): forskning i ændringer i Amazonas' kulstofbalance.
