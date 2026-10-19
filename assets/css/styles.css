@@ -72,3 +72,39 @@
 .grundlov-timeline p{margin:0}
 .grundlov-history-source{font-size:.9rem;color:var(--muted)!important;margin:1.5rem 0 2rem!important}
 @media(max-width:600px){.grundlov-timeline li{grid-template-columns:1fr;gap:.25rem;padding-left:1rem}.grundlov-year{font-size:.98rem}}
+
+/* Grundlovsforslag: kort argument og responsivt HTML/CSS-diagram */
+.grundlov-central-point{padding:1.15rem 1.3rem;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:0 12px 12px 0;color:var(--text)!important;line-height:1.7}
+.grundlov-chart{margin:2.5rem 0;padding:1.55rem 1.4rem 1.3rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}
+.grundlov-chart>.eyebrow{margin:0 0 .45rem}
+.grundlov-chart h3{margin:0 0 2.1rem;font-size:1.28rem}
+.grundlov-chart-visual{display:grid;grid-template-columns:3.1rem minmax(0,1fr);gap:.5rem}
+.grundlov-chart-scale{position:relative;height:275px;min-width:0;font-variant-numeric:tabular-nums}
+.grundlov-chart-scale span{position:absolute;right:0;transform:translateY(-50%);font-size:.78rem;color:var(--muted);white-space:nowrap}
+.grundlov-chart-columns{min-width:0}
+.grundlov-chart-plot{position:relative;height:275px;isolation:isolate}
+.grundlov-chart-guides{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none}
+.grundlov-chart-guides span{display:block;width:100%;border-top:1px dashed var(--border)}
+.grundlov-chart-guides span:last-child{border-top:2px solid #a8afa8}
+.grundlov-chart-bars{position:absolute;inset:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:end;gap:clamp(.35rem,2vw,1.15rem);padding:0 .65rem}
+.grundlov-chart-bar-group{height:100%;min-width:0;display:flex;align-items:flex-end;justify-content:center}
+.grundlov-chart-bar{display:block;position:relative;width:100%;max-width:100px;min-height:3px;background:var(--accent);border-radius:10px 10px 0 0}
+.grundlov-chart-bar-current{background:#507c64}
+.grundlov-chart-value{position:absolute;bottom:calc(100% + .3rem);left:50%;transform:translateX(-50%);font-size:.85rem;font-weight:800;color:var(--text);white-space:nowrap;font-variant-numeric:tabular-nums}
+.grundlov-chart-labels{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(.35rem,2vw,1.15rem);padding:.6rem .65rem 0;text-align:center;font-size:.76rem;line-height:1.35;font-weight:600;font-variant-numeric:tabular-nums;color:var(--muted)}
+.grundlov-chart-labels span{min-width:0;overflow-wrap:normal}
+.grundlov-chart figcaption{margin:1.5rem 0 0;font-size:.88rem;color:var(--muted);line-height:1.55}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:600px){
+  .grundlov-chart{padding:1.1rem .65rem 1.2rem}
+  .grundlov-chart h3{font-size:1.05rem;margin-bottom:2rem}
+  .grundlov-chart-visual{grid-template-columns:2.45rem minmax(0,1fr);gap:.25rem}
+  .grundlov-chart-scale,.grundlov-chart-plot{height:225px}
+  .grundlov-chart-scale span{font-size:.68rem}
+  .grundlov-chart-bars,.grundlov-chart-labels{gap:.18rem;padding-left:.12rem;padding-right:.12rem}
+  .grundlov-chart-bar{border-radius:6px 6px 0 0}
+  .grundlov-chart-value{font-size:.67rem;bottom:calc(100% + .23rem)}
+  .grundlov-chart-labels{font-size:.66rem}
+  .grundlov-central-point{padding:1rem}
+}
+@media print{.grundlov-chart{break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
