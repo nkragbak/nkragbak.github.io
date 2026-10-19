@@ -37,7 +37,7 @@
     "publisher": {"@id": "https://nkragbak.github.io/#person"}
   }
   </script>
-  <link rel="stylesheet" href="assets/css/styles.css?v=20261019b">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20261019c">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 </head>
 <body>
@@ -110,6 +110,35 @@
     <p class="eyebrow">Hvorfor tage debatten nu?</p>
     <h2>Grundloven blev sidst ændret i 1953</h2>
     <p>Siden den seneste grundlovsrevision er vores videnskabelige forståelse af klimaforandringer, biodiversitetstab og naturens belastningsgrænser blevet væsentligt udbygget. Den samlede viden, vi i dag har om menneskets påvirkning af Jordens systemer, fandtes ikke i sin nuværende form, da den gældende grundlov blev skrevet.</p>
+    <div class="overshoot-feature" id="earth-overshoot-day" aria-labelledby="overshoot-title">
+      <div class="overshoot-explainer">
+        <p class="eyebrow">Earth Overshoot Day 2026</p>
+        <h3 id="overshoot-title">Vi lever allerede over naturens evne til at genskabe sig selv</h3>
+        <p>Ifølge <a href="https://overshoot.footprintnetwork.org/2026-calculation/">Global Footprint Networks beregninger</a> faldt den globale Earth Overshoot Day i 2026 den <strong>30. juli</strong>. Det er den beregnede dato, hvor menneskehedens samlede årlige økologiske fodaftryk overstiger, hvad Jordens økosystemer kan regenerere på et år. Beregningen medregner blandt andet behovet for biologisk produktive arealer og et anslået areal til optag af CO₂.</p>
+        <p>Hvis alle mennesker levede som os i Danmark, ville denne dato allerede falde den <strong>20. marts</strong>. Det svarer til et økologisk fodaftryk på cirka <strong>4,7 jordkloder</strong>, hvis hele verdens befolkning havde samme forbrug som danskerne. Det er et hypotetisk globalt scenarie – ikke datoen for, hvornår Danmark opbruger sine egne ressourcer.</p>
+        <p>Earth Overshoot Day er en pædagogisk indikator med metodiske begrænsninger, ikke en fuldstændig måling af Jordens miljøtilstand eller et tidspunkt, hvor ressourcerne bogstaveligt talt slipper op. Den supplerer den bredere forskning i <a href="https://www.planetaryhealthcheck.org/">planetære grænser</a>, som viser, at syv af ni grænser nu er overskredet.</p>
+      </div>
+      <figure class="overshoot-figure" aria-labelledby="overshoot-chart-title">
+        <h4 id="overshoot-chart-title">Hvor tidligt på året?</h4>
+        <p class="overshoot-chart-intro">Beregnet tidspunkt på et kalenderår med 365 dage.</p>
+        <div class="overshoot-row">
+          <div class="overshoot-row-head"><span>Hvis alle levede som danskerne</span><strong>20. marts</strong></div>
+          <div class="overshoot-bar" style="--overshoot-cut:21.6%" aria-hidden="true"><span class="overshoot-marker"></span></div>
+          <p class="overshoot-equivalent">≈ 4,7 jordkloder</p>
+        </div>
+        <div class="overshoot-row">
+          <div class="overshoot-row-head"><span>Verdens faktiske forbrug</span><strong>30. juli</strong></div>
+          <div class="overshoot-bar" style="--overshoot-cut:57.8%" aria-hidden="true"><span class="overshoot-marker"></span></div>
+          <p class="overshoot-equivalent">≈ 1,73 jordkloder</p>
+        </div>
+        <div class="overshoot-year-axis" aria-hidden="true"><span>1. jan.</span><span>1. jul.</span><span>31. dec.</span></div>
+        <div class="overshoot-legend">
+          <span><i class="overshoot-legend-before" aria-hidden="true"></i> Frem til den beregnede dato</span>
+          <span><i class="overshoot-legend-after" aria-hidden="true"></i> Resten af året</span>
+        </div>
+        <figcaption>Datoerne er estimater fra Global Footprint Network for 2026. Den danske dato beskriver et hypotetisk verdensforbrug og bygger på opgørelser over forholdene i 2024. Figuren er en illustration af metoden, ikke en opgørelse over alle planetære grænser.</figcaption>
+      </figure>
+    </div>
     <p>Grundloven bør ikke ændres ved enhver ny videnskabelig erkendelse. Dens stabilitet har værdi, og miljøbeskyttelse kan også gennemføres med almindelig lovgivning. Men når vores viden om naturgrundlaget har ændret sig så meget siden 1953, mener jeg, at vi som minimum bør diskutere, om naturens bæreevne hører til blandt samfundets grundlæggende retlige principper.</p>
     <p class="grundlov-central-point"><strong>Det centrale spørgsmål er ikke, om grundlovens forfattere i 1953 burde have forudset den viden, vi har i dag. Det er, om vi – med den viden, vi har nu – fortsat vil lade grundloven stå uden en udtrykkelig beskyttelse af naturgrundlaget.</strong></p>
     <p>Det historiske forløb og udviklingen i klimavidenskaben er uddybet <a href="#historie">nedenfor</a>. Forslaget ovenfor er et debatoplæg, som kan diskuteres, kritiseres og forbedres.</p>
@@ -243,6 +272,8 @@
     <h2>Fagligt og juridisk grundlag</h2>
     <ul class="grundlov-sources">
       <li><a href="https://www.planetaryhealthcheck.org/">Potsdam Institute for Climate Impact Research – Planetary Health Check 2026</a>. Samlet vurdering af de planetære grænser.</li>
+      <li><a href="https://overshoot.footprintnetwork.org/2026-calculation/">Global Footprint Network – How Earth Overshoot Day 2026 Was Calculated</a>. Global dato, beregningsmetode, usikkerhed og datagrundlag.</li>
+      <li><a href="https://overshoot.footprintnetwork.org/newsroom/country-overshoot-days/">Global Footprint Network – Country Overshoot Days 2026</a>. Danmarks hypotetiske dato, 20. marts, og det beregnede aftryk på cirka 4,7 jordkloder.</li>
       <li><a href="https://www.unep.org/resources/Global-Resource-Outlook-2024">UNEP / International Resource Panel – Global Resources Outlook 2024</a>. Om ressourceforbrug og dets miljømæssige konsekvenser.</li>
       <li><a href="https://www.eea.europa.eu/en/analysis/publications/growth-without-economic-growth">European Environment Agency – Growth without economic growth (2021)</a>. Om vækst, ressourceforbrug og miljøbelastning.</li>
       <li><a href="https://www.ft.dk/da/folkestyret/grundloven-og-folkestyret/grundlovens-og-folkestyrets-udvikling">Folketinget – Grundlovens og folkestyrets udvikling</a>. Historien om revisionerne i 1866, 1915, 1920 og 1953.</li>
