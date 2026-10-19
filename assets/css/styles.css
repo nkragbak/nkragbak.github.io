@@ -61,3 +61,14 @@
 @media(max-width:950px){.menu-toggle{display:block}.site-nav{display:none;position:absolute;top:100%;right:1rem;flex-direction:column;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.08)}.site-nav.open{display:flex}}
 @media(max-width:800px){.grundlov-section{padding:2rem 0}.grundlov-law-card{padding:1.25rem}.grundlov-law-card p{font-size:1rem}.grundlov-end{padding:1.5rem}.grundlov-page .focus-jump{margin-bottom:1.25rem}}
 @media print{.grundlov-page{max-width:100%}.site-header,.site-footer,.grundlov-page .focus-jump,.grundlov-end .button{display:none!important}.grundlov-law-card{break-inside:avoid}.grundlov-section{break-before:auto}.grundlov-page a{color:inherit}}
+
+/* Grundlovens historie og den nyere viden om planetens grænser */
+.grundlov-timeline{list-style:none;margin:1.75rem 0 1.5rem;padding:0}
+.grundlov-timeline li{display:grid;grid-template-columns:74px minmax(0,1fr);gap:1.25rem;border-left:2px solid #cad9ce;padding:0 0 1.5rem 1.35rem;margin-left:.7rem;position:relative}
+.grundlov-timeline li::before{content:"";position:absolute;top:.42rem;left:-.42rem;width:.7rem;height:.7rem;background:var(--accent);border:2px solid var(--bg);border-radius:50%}
+.grundlov-timeline li:last-child{border-left-color:transparent;padding-bottom:0}
+.grundlov-year{font-size:1.1rem;font-weight:800;color:var(--accent);line-height:1.45;font-variant-numeric:tabular-nums}
+.grundlov-timeline h3{font-size:1.1rem;margin:0 0 .35rem}
+.grundlov-timeline p{margin:0}
+.grundlov-history-source{font-size:.9rem;color:var(--muted)!important;margin:1.5rem 0 2rem!important}
+@media(max-width:600px){.grundlov-timeline li{grid-template-columns:1fr;gap:.25rem;padding-left:1rem}.grundlov-year{font-size:.98rem}}
