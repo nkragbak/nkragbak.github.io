@@ -27,6 +27,25 @@ function inlineMarkdown(text) {
   return out;
 }
 
+function renderClimateSupportChart() {
+  const data = [
+    { label: 'Landvindmøller', actual: 65, perceived: 32 },
+    { label: 'Solcelleparker', actual: 66, perceived: 34 }
+  ];
+
+  return `<figure class="climate-support-chart" aria-label="Danskernes egen opbakning til landvindmøller og solcelleparker sammenlignet med deres skøn over andres opbakning">
+    <h4>Vi undervurderer hinandens opbakning</h4>
+    <p class="climate-support-intro">Opbakning til anlæg i eget lokalområde – procent af de adspurgte</p>
+    <div class="climate-support-legend" aria-hidden="true"><span><i class="climate-support-swatch actual"></i>Støtter selv</span><span><i class="climate-support-swatch perceived"></i>Tror andre støtter</span></div>
+    ${data.map(item => `<div class="climate-support-group">
+      <div class="climate-support-label">${item.label}</div>
+      <div class="climate-support-bar-row"><span class="climate-support-bar-label">Støtter selv</span><span class="climate-support-track"><span class="climate-support-fill actual" style="width:${item.actual}%"></span></span><strong>${item.actual} %</strong></div>
+      <div class="climate-support-bar-row"><span class="climate-support-bar-label">Tror andre støtter</span><span class="climate-support-track"><span class="climate-support-fill perceived" style="width:${item.perceived}%"></span></span><strong>${item.perceived} %</strong></div>
+    </div>`).join('')}
+    <figcaption>Kilder: <a href="https://klimaraadet.dk/da/analyse/klimaholdninger-i-danmark" target="_blank" rel="noopener noreferrer">Klimarådet, Klimaholdninger i Danmark (2026)</a>, baseret på ClimAct-data. De afrundede andele er gengivet af <a href="https://www.dn.dk/nyheder/2026/5-myter-punkteret-danskernes-klimaholdninger-er-ikke-helt-som-du-tror/" target="_blank" rel="noopener noreferrer">Danmarks Naturfredningsforening</a>. Generel støtte er ikke det samme som accept af et bestemt lokalt projekt.</figcaption>
+  </figure>`;
+}
+
 function renderBody(lines) {
   const html = [];
   let paragraph = [];
@@ -51,6 +70,12 @@ function renderBody(lines) {
     if (!trimmed) {
       flushParagraph();
       flushList();
+      return;
+    }
+    if (trimmed === '[klimaopbakning-figur]') {
+      flushParagraph();
+      flushList();
+      html.push(renderClimateSupportChart());
       return;
     }
     if (/^[-*+]\s+/.test(trimmed)) {
