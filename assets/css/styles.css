@@ -150,3 +150,8 @@
 .climate-support-bar-row strong{font-size:.82rem;text-align:right;white-space:nowrap}
 .climate-support-chart figcaption{font-size:.77rem;line-height:1.55;color:var(--muted);margin-top:1.25rem}
 @media(max-width:560px){.climate-support-chart{padding:1rem .7rem}.climate-support-bar-row{grid-template-columns:1fr 2.8rem;gap:.3rem .5rem}.climate-support-bar-label{grid-column:1/-1}.climate-support-track{grid-column:1}.climate-support-bar-row strong{grid-column:2}}
+
+/* Introduktion som altid er synlig foran dokumentationens udfoldbare kildeafsnit */
+.markdown-static-intro{margin:0 0 1.5rem}
+.markdown-static-intro h3{font-size:1.25rem;margin:0 0 .65rem}
+.markdown-static-intro p{color:#424840;margin:.4rem 0 1rem}
