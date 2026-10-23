@@ -104,7 +104,7 @@ function renderBody(lines) {
   return html.join('');
 }
 
-function renderMarkdownAsDetails(markdown) {
+function renderMarkdownAsDetails(markdown, staticFirst = false) {
   const lines = markdown.replace(/\r/g, '').split('\n');
   const groups = [];
   let current = null;
@@ -119,11 +119,20 @@ function renderMarkdownAsDetails(markdown) {
   });
   if (current) groups.push(current);
 
-  return groups.map((group, index) => `
-    <details${index === 0 ? ' open' : ''}>
-      <summary>${inlineMarkdown(group.title)}</summary>
-      <div class="detail-content">${renderBody(group.lines)}</div>
-    </details>`).join('');
+  return groups.map((group, index) => {
+    if (staticFirst && index === 0) {
+      return `
+        <div class="markdown-static-intro">
+          <h3>${inlineMarkdown(group.title)}</h3>
+          ${renderBody(group.lines)}
+        </div>`;
+    }
+    return `
+      <details${index === 0 ? ' open' : ''}>
+        <summary>${inlineMarkdown(group.title)}</summary>
+        <div class="detail-content">${renderBody(group.lines)}</div>
+      </details>`;
+  }).join('');
 }
 
 async function loadMarkdownSections() {
@@ -140,7 +149,7 @@ async function loadMarkdownSections() {
       const subtitleHtml = subtitleHtmlRaw
         ? `<p class="focus-subtitle">${subtitleHtmlRaw}</p>`
         : (subtitle ? `<p class="focus-subtitle">${escapeHtml(subtitle)}</p>` : '');
-      section.innerHTML = `<h2>${escapeHtml(title)}</h2>${subtitleHtml}${renderMarkdownAsDetails(markdown)}`;
+      section.innerHTML = `<h2>${escapeHtml(title)}</h2>${subtitleHtml}${renderMarkdownAsDetails(markdown, section.dataset.staticFirst === 'true')}`;
       section.dataset.search = `${title} ${markdown}`.toLocaleLowerCase('da');
     } catch (error) {
       section.innerHTML = `<h2>${escapeHtml(section.dataset.title || '')}</h2><p class="no-results">Kunne ikke indlæse indholdet fra ${escapeHtml(source)}.</p>`;
