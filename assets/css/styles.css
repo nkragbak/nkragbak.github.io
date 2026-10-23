@@ -155,3 +155,6 @@
 .markdown-static-intro{margin:0 0 1.5rem}
 .markdown-static-intro h3{font-size:1.25rem;margin:0 0 .65rem}
 .markdown-static-intro p{color:#424840;margin:.4rem 0 1rem}
+
+/* Gradvis design-ensretning: forsidens sekundære hero-tekst */
+.home-hero-body{max-width:760px;color:var(--muted)}
