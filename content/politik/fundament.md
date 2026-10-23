@@ -8,6 +8,12 @@ Det betyder ikke, at menneskelig trivsel kan reduceres til ét enkelt mål. Menn
 
 Samtidig er de tre led i mit grundsyn ikke ligeværdige størrelser, der blot kan vejes mod hinanden. Naturens bæreevne er den fysiske ramme for samfundet. Inden for den ramme er formålet at skabe gode, frie, trygge og meningsfulde liv. Økonomien er et redskab til at organisere ressourcer, arbejde og produktion, så det kan lade sig gøre – også på lang sigt.
 
+## Politisk medansvar – også mellem valgene
+
+Jeg ønsker ikke kun at fremlægge mine egne politiske holdninger. Mit håb er at få flere til at tage deres medansvar for samfundets retning alvorligt. Vi kan som minimum sætte os ind i, hvad partierne foreslår, og stemme med omtanke. Endnu bedre er det at deltage i den offentlige debat eller melde sig ind i et politisk parti. Det demokratiske arbejde foregår også mellem valgene.
+
+Jeg ønsker især, at flere vil engagere sig for klimaet, biodiversiteten og de grundlæggende ændringer af vores økonomi og institutioner, som er nødvendige for at leve inden for planetens grænser. Man behøver ikke være enig med mig om alle løsninger for at tage det ansvar alvorligt. Tværtimod har vi brug for flere, der stiller spørgsmål, udfordrer argumenter og kræver langsigtede svar fra vores folkevalgte.
+
 ## Mennesket som del af naturen – ikke hævet over den
 
 Et vigtigt udgangspunkt for mig er **balance**. Mennesket har med intelligens, teknologi og organisering opnået en enorm magt over andre arter og økosystemer. Den magt gør os ikke uafhængige af naturen; den giver os tværtimod et særligt ansvar for at forvalte den.
