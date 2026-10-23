@@ -10,7 +10,7 @@ Samtidig er de tre led i mit grundsyn ikke ligeværdige størrelser, der blot ka
 
 ## Politisk medansvar – også mellem valgene
 
-Jeg ønsker ikke kun at fremlægge mine egne politiske holdninger. Mit håb er at få flere til at tage deres medansvar for samfundets retning alvorligt. Vi kan som minimum sætte os ind i, hvad partierne foreslår, og stemme med omtanke. Endnu bedre er det at deltage i den offentlige debat, engagere sig i lokalpolitik eller melde sig ind i et politisk parti. Det demokratiske arbejde foregår også mellem valgene.
+Jeg ønsker ikke kun at fremlægge mine egne politiske holdninger. Mit håb er at få flere til at tage deres medansvar for samfundets retning alvorligt. Vi kan som minimum sætte os ind i, hvad partierne foreslår, og stemme med omtanke. Endnu bedre er det at deltage i den offentlige debat eller melde sig ind i et politisk parti. Det demokratiske arbejde foregår også mellem valgene.
 
 Jeg ønsker især, at flere vil engagere sig for klimaet, biodiversiteten og de grundlæggende ændringer af vores økonomi og institutioner, som er nødvendige for at leve inden for planetens grænser. Man behøver ikke være enig med mig om alle løsninger for at tage det ansvar alvorligt. Tværtimod har vi brug for flere, der stiller spørgsmål, udfordrer argumenter og kræver langsigtede svar fra vores folkevalgte.
 
