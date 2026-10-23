@@ -14,6 +14,14 @@ Det betyder også, at nogle beslutninger vil være ubekvemme. Jeg tror ikke, vi 
 
 Når konsekvenserne kan være irreversible og meget store, mener jeg, at usikkerhed om præcis hvornår et givent tipping point indtræffer bør tale for tidligere handling, ikke senere. Vi behøver ikke kende det nøjagtige kollapstidspunkt for et økosystem eller en klimamekanisme, før risikoen bliver politisk relevant. Jo større den mulige skade er, desto stærkere bør forsigtighedsprincippet veje. Det er grundlæggende risikoanalyse og i øvrigt sund fornuft.
 
+Vi står ikke over for valget mellem en risikabel omstilling og et risikofrit status quo. Begge veje indebærer betydelige risici.
+
+En omfattende økonomisk omstilling kan skabe arbejdsløshed, økonomisk ustabilitet og andre alvorlige problemer, som vi endnu ikke har alle løsningerne på. Men fortsat nedbrydning af naturgrundlaget risikerer at medføre skader, som hverken økonomisk vækst, teknologi eller fremtidige politiske reformer kan genoprette.
+
+**Hvilke risici kan vi bedst tåle at løbe, og hvilke fejl har vi mulighed for at rette op på bagefter?**
+
+For mig er det et afgørende spørgsmål, når vi skal vælge mellem at beskytte den nuværende økonomiske orden og at beskytte de naturlige systemer, som vores samfund er afhængige af.
+
 ## Biodiversitet er ikke pynt
 
 Naturbeskyttelse bliver ofte behandlet som noget, vi kan prioritere, når andre hensyn er dækket. Jeg mener, at det vender forholdet på hovedet. Velfungerende økosystemer er en del af selve grundlaget for menneskelige samfund. At standse masseuddøen af arter bør derfor betragtes som en central politisk opgave på linje med klimakrisen.
