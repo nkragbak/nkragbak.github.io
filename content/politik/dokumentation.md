@@ -28,9 +28,13 @@ Dette er ikke en udtømmende litteraturliste, men nogle af de centrale kilder, j
 * Haberl, Wiedenhofer et al. – *A systematic review of the evidence on decoupling of GDP, resource use and GHG emissions* (2020): omfattende systematisk gennemgang af den empiriske forskning i relativ og absolut afkobling.
 * Requena-i-Mora & Brockington – *Evaluating decoupling evidence: Examining timeframes, geographic scales, and planetary boundaries* (2026): nyere peer-reviewed analyse af, hvordan tidsperiode, geografisk afgrænsning og bæredygtighedsgrænser påvirker vurderingen af afkobling.
 
+### Politiske og sociale barrierer for omstilling
+
+* Klimarådet (2026) – [*Klimaholdninger i Danmark*](https://klimaraadet.dk/da/analyse/klimaholdninger-i-danmark): undersøger danskernes opbakning til klimaindsatser, barrierer for handling og undervurderingen af andres opbakning.
+
 ## Inspiration til konkret politik
 
 Ud over de kilder, der dokumenterer problemernes omfang, er jeg interesseret i forskning, der forsøger at omsætte økologisk økonomi og post-growth til konkret politik. Jeg betragter ikke sådanne studier som færdige opskrifter, men som seriøse forsøg på at undersøge, hvordan en økonomi inden for planetens grænser faktisk kan fungere.
 
 * [Zwetsloot, Collste, Bennich, Hahn & Pedercini – *Modelling degrowth policies with system dynamics: Towards policy coherence* (2026)](https://www.sciencedirect.com/science/article/pii/S0921800926001308): systemdynamisk model af Sverige, der undersøger samspillet mellem blandt andet målrettet reduktion af produktion med højt miljøaftryk, kortere arbejdstid og økonomisk omfordeling. Studiet er særligt interessant for mig, fordi det både viser mulighederne i sammenhængende post-growth-politik og blotlægger vanskelige spørgsmål – blandt andet om de langsigtede offentlige finanser.
-
+* Jackson & Victor (2015) – [*Does credit create a ‘growth imperative’?*](https://doi.org/10.1016/j.ecolecon.2015.09.009): demonstrerer i en makroøkonomisk model, at bankskabte penge og renter ikke i sig selv skaber et matematisk krav om økonomisk vækst.
