@@ -8,6 +8,18 @@ Det betyder ikke, at menneskelig trivsel kan reduceres til ét enkelt mål. Menn
 
 Samtidig er de tre led i mit grundsyn ikke ligeværdige størrelser, der blot kan vejes mod hinanden. Naturens bæreevne er den fysiske ramme for samfundet. Inden for den ramme er formålet at skabe gode, frie, trygge og meningsfulde liv. Økonomien er et redskab til at organisere ressourcer, arbejde og produktion, så det kan lade sig gøre – også på lang sigt.
 
+## Hvorfor bæreevnen er en ramme – og ikke bare et hensyn
+
+Grundsynet ovenfor er en konklusion, ikke en selvfølgelighed. Begrundelsen løber i tre trin:
+
+**Formålet omfatter mennesker, der endnu ikke er født.** Politik skal skabe gode, frie og meningsfulde liv – og de fleste mennesker, som samfundet kommer til at rumme, lever i fremtiden. Et samfund, der skaber gode liv nu, men systematisk efterlader sine efterkommere dårligere livsbetingelser, underminerer en del af det, der gør liv meningsfuldt. Ansvaret for kommende generationer er derfor ikke et sidespørgsmål, men en del af selve formålet.
+
+**Irreversible skader vejer tungere end reversible.** De afsavn, vi kan pålægge os selv i nutiden – lavere forbrug, omstilling af erhverv, kortere arbejdstid – er næsten alle midlertidige. De kan justeres, genforhandles og genoprettes af senere flertal. Et nedbrudt økosystem, en uddød nøgleart eller en igangsat selvforstærkende klimakaskade kan derimod være permanent: Der findes ikke et senere flertal, der kan stemme, forhandle eller kompensere skaden tilbage. Derfor er økologiske tærskler ikke ét hensyn blandt andre, men en ramme, der skal være på plads, før andre politiske mål kan forfølges sikkert. Og fordi vi ikke kender tærsklernes præcise placering, taler usikkerhed for tidligere handling, ikke for at vente – det uddyber jeg under Klima & natur.
+
+**Kriteriet er permanent tab – ikke kun økologi.** Samme logik gælder, hvor irreversible skader ellers opstår: tab af institutionel robusthed, ukontrollerbar teknologi eller sammenbrud i den demokratiske orden. Det er derfor, »samfundets langsigtede robusthed« står ved siden af naturens tilstand som ét af de vigtigste mål ovenfor. Økologien har dog en særstilling: Dens tab er de vanskeligste at genoprette, og intet andet samfundsgode kan erstatte naturgrundlaget, hvis det først er væk.
+
+Det er denne kæde, der bærer resten af mine politiske holdninger – fra klima- og naturpolitikken til spørgsmålet om, [hvad en grundlov bør sikre for kommende generationer](grundlovsforslag.html).
+
 ## Politisk medansvar – også mellem valgene
 
 Jeg ønsker ikke kun at fremlægge mine egne politiske holdninger. Mit håb er at få flere til at tage deres medansvar for samfundets retning alvorligt. Vi kan som minimum sætte os ind i, hvad partierne foreslår, og stemme med omtanke. Endnu bedre er det at deltage i den offentlige debat eller melde sig ind i et politisk parti. Det demokratiske arbejde foregår også mellem valgene.
@@ -23,6 +35,7 @@ Jeg ønsker, at succes i højere grad forbindes med stewardship – at efterlade
 ## Principper, jeg vender tilbage til
 
 - Naturens grænser er reelle politiske rammebetingelser.
+- Nutidige afsavn er næsten altid midlertidige; irreversible skader på natur og klima er oftest permanente. I politiske afvejninger vejer det permanente tungest.
 - Økonomien er et redskab for samfundet – ikke omvendt.
 - Vi skal kunne skabe gode liv med et markant mindre materielt og økologisk aftryk.
 - De store omstillinger vi skal igennem skal være socialt og internationalt retfærdige.
