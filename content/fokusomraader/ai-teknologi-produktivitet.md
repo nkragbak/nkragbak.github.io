@@ -38,6 +38,8 @@ Det er en vigtig usikkerhed at bevare i debatten. Vi bør hverken behandle super
 
 Når en mulig hændelse både er meget usikker og potentielt ekstremt alvorlig, giver det mening at tænke i beredskab og resiliens. Mange af de tiltag, der gør os mere robuste over for avanceret AI, gør os samtidig mere robuste over for langt mere almindelige hændelser som cyberangreb, softwarefejl, informationspåvirkning og tekniske nedbrud.
 
+Det samme usikre perspektiv gælder mine øvrige politiske ambitioner. I et meget positivt AI-scenarie kan teknologien hjælpe os så meget, at forudsætningerne for en post-vækstomstilling ændrer sig grundlæggende. I et meget negativt scenarie kan AI skabe skader, som overskygger meget andet. Men det er også muligt, at udviklingen bliver langsommere eller får mindre gennemgribende konsekvenser end forventet. Jeg kan ikke basere min politiske indsats på, at ét af disse udfald med sikkerhed indtræffer. Derfor vil jeg fortsat arbejde for et mere retfærdigt og modstandsdygtigt samfund med de handlemuligheder, vi har i dag.
+
 ## Produktivitet til hvad?
 
 AI kan øge produktiviteten betydeligt i dele af økonomien. [OECD's gennemgang af eksperimentelle studier](https://www.oecd.org/en/blogs/2025/07/unlocking-productivity-with-generative-ai-evidence-from-experimental-studies.html) peger på reelle produktivitetsgevinster, men også på store forskelle mellem opgaver, medarbejdere og organisationer.
