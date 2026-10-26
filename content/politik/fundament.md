@@ -26,6 +26,16 @@ Jeg ønsker ikke kun at fremlægge mine egne politiske holdninger. Mit håb er a
 
 Jeg ønsker især, at flere vil engagere sig for klimaet, biodiversiteten og de grundlæggende ændringer af vores økonomi og institutioner, som er nødvendige for at leve inden for planetens grænser. Man behøver ikke være enig med mig om alle løsninger for at tage det ansvar alvorligt. Tværtimod har vi brug for flere, der stiller spørgsmål, udfordrer argumenter og kræver langsigtede svar fra vores folkevalgte.
 
+## Hvorfor engagere sig, når udfaldet er usikkert?
+
+Jeg er klar over, hvor ambitiøst – måske endda naivt – mit politiske projekt kan virke. Vi skal ændre meget på kort tid, samtidig med at eksisterende økonomiske interesser og institutioner gør omfattende forandringer vanskelige. Jeg regner ikke med, at jeg selv får ændret Danmark eller verden tilstrækkeligt. Og jeg frygter, at vi som verdenssamfund ikke handler hurtigt nok til at undgå meget alvorlige skader på klima og natur. Men det er min vurdering af vores sandsynlige politiske handlekraft, ikke en videnskabelig konklusion om, at alt er tabt.
+
+**Det er ikke et argument for at lade være med at handle.** For det første giver det mig mening og en oplevelse af handlekraft at kæmpe for noget, jeg tror på. Det kan også give fællesskab og mod til andre, som vælger at engagere sig. For det andet er fremtiden ikke et enten-eller: Selv hvis vi ikke lykkes med den fulde omstilling i tide, kan hver undgået skade og hvert skridt mod et mere modstandsdygtigt samfund gøre en reel forskel. [IPCC understreger](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/), at risikoen stiger med yderligere opvarmning, og at handling fortsat kan mindske tab og skader.
+
+Udviklingen inden for kunstig intelligens tilføjer endnu en stor usikkerhed. I bedste fald kan AI hjælpe os med at løse problemer i et omfang, der radikalt ændrer forudsætningerne for mit projekt. I værste fald kan udviklingen få katastrofale konsekvenser. Måske bliver dens betydning mindre eller anderledes, end vi forestiller os i dag. Ingen af scenarierne er sikre; også [International AI Safety Report 2026](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026) understreger, hvor usikker udviklingens retning og konsekvenser er.
+
+Derfor giver det stadig mening for mig at engagere mig i den verden, vi faktisk lever i, med den viden og de muligheder vi har nu. Jeg ved ikke, om vi lykkes. Men **usikkerhed om udfaldet fritager os ikke fra ansvaret for at forsøge**.
+
 ## Mennesket som del af naturen – ikke hævet over den
 
 Et vigtigt udgangspunkt for mig er **balance**. Mennesket har med intelligens, teknologi og organisering opnået en enorm magt over andre arter og økosystemer. Den magt gør os ikke uafhængige af naturen; den giver os tværtimod et særligt ansvar for at forvalte den.
