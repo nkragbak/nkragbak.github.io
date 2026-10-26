@@ -1,0 +1,53 @@
+# Udgiver sitet på GitHub Pages ved hvert push til main.
+#
+# Før udgivelse sættes ?v=… på styles.css og app.js i alle HTML-filer til et
+# fingeraftryk af filens indhold. Så henter browsere automatisk den nye
+# version, når filen ændres – og kun da. Versionsnumrene i repoet behøver
+# derfor aldrig at blive rettet i hånden.
+#
+# Kræver én gang: Settings → Pages → Build and deployment → Source: "GitHub Actions".
+
+name: Udgiv site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  udgiv:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sæt cache-buster ud fra filernes indhold
+        run: |
+          css=$(sha256sum assets/css/styles.css | cut -c1-10)
+          js=$(sha256sum assets/js/app.js | cut -c1-10)
+          sed -i -E \
+            -e "s#assets/css/styles\.css(\?v=[A-Za-z0-9]*)?\"#assets/css/styles.css?v=${css}\"#g" \
+            -e "s#assets/js/app\.js(\?v=[A-Za-z0-9]*)?\"#assets/js/app.js?v=${js}\"#g" \
+            *.html
+          echo "Versioner i de udgivne filer:"
+          grep -ho 'styles\.css?v=[a-z0-9]*\|app\.js?v=[a-z0-9]*' *.html | sort | uniq -c
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
