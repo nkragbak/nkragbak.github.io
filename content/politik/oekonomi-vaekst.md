@@ -1,22 +1,10 @@
 ## Ressourceforbruget skal ned – vækst er underordnet
 
-Mit udgangspunkt er, at rige samfund som Danmark skal reducere deres samlede materielle og økologiske aftryk markant. Det er den fysiske opgave. Om BNP samtidig stiger eller falder, er sekundært.
+Mit udgangspunkt er, at rige samfund som Danmark skal reducere deres samlede materielle og økologiske aftryk markant. **Det er den fysiske opgave. Om BNP samtidig stiger eller falder, er sekundært.**
 
-Teknologi, effektivisering, elektrificering og cirkulære løsninger er nødvendige, men den hidtidige udvikling giver ikke grundlag for at gøre en tilstrækkelig, vedvarende absolut afkobling mellem økonomisk vækst og ressource- og miljøbelastning til en forudsætning for vores strategi. Rebound-effekter betyder samtidig, at en del af effektiviseringsgevinsterne kan blive omsat til mere aktivitet og forbrug.
+Relativ afkobling er reel, og teknologi, effektivisering, elektrificering, cirkulære løsninger og grøn energi er afgørende. Hvis økonomisk vækst kunne afkobles fuldstændigt, varigt og hurtigt nok fra miljøbelastningen, **så den samlede belastning kom inden for planetens grænser**, ville konflikten mellem vækst og naturens bæreevne kunne ophøre. Men det er ikke, hvad den hidtidige globale udvikling viser. Vi har ikke evidens for en vedvarende, tilstrækkelig absolut afkobling af vækst fra ressourceforbrug og miljøbelastning i den skala og hastighed, en fortsat vækststrategi kræver. Rebound-effekter betyder desuden, at effektiviseringer delvist kan blive omsat til mere aktivitet.
 
-Derfor mener jeg, at vi også må være villige til direkte at reducere ressourceintensiv produktion og forbrug. Det kan i perioder – og måske samlet – betyde nulvækst eller minusvækst. BNP-fald er ikke målet i sig selv. Målet er at bringe ressourceforbruget og miljøbelastningen inden for naturens bæreevne og samtidig beskytte menneskers trivsel.
-
-Det betyder heller ikke, at al aktivitet skal blive mindre. Nogle områder bør vokse kraftigt – for eksempel vedvarende energi, naturgenopretning og dele af omsorgsøkonomien – mens andre nødvendigvis må fylde mindre.
-
-## Afkobling er vigtig – men ikke nok
-
-Hvis økonomisk vækst kunne afkobles fuldstændigt, varigt og hurtigt nok fra ressourceforbrug og miljøbelastning, ville konflikten mellem vækst og planetære grænser forsvinde. Men det er ikke det, den hidtidige udvikling viser.
-
-Relativ afkobling er reel, og teknologi, effektivisering og grøn energi er afgørende. Men globalt er økonomisk vækst fortsat tæt forbundet med stigende ressourceforbrug og miljøbelastning, og vi har ikke evidens for en vedvarende, absolut afkobling i den skala og hastighed, som en fortsat vækststrategi forudsætter.
-
-Derfor mener jeg ikke, at vi ansvarligt kan gøre fortsat økonomisk vækst til en forudsætning og håbe, at ressourceforbruget bagefter følger en anden kurve. Udgangspunktet bør vendes om: Vi skal bringe vores samlede ressourceforbrug og miljøbelastning inden for planetens grænser. Teknologi og effektivisering skal hjælpe os med det — men hvis det samtidig betyder lavere, ingen eller negativ økonomisk vækst, må vi være villige til at acceptere det.
-
-Målet bør ikke være vækst med færre ressourcer. Målet bør være gode liv inden for et begrænset økologisk råderum.
+Derfor kan vi ikke ansvarligt gøre fortsat BNP-vækst til en forudsætning og håbe, at det fysiske forbrug følger en anden kurve. Vi må også være villige til direkte at reducere ressourceintensiv produktion og forbrug. Det kan medføre nulvækst eller minusvækst. **BNP-fald er ikke målet i sig selv.** Målet er gode liv inden for naturens bæreevne. Nogle aktiviteter bør vokse kraftigt – eksempelvis vedvarende energi, naturgenopretning og dele af omsorgsøkonomien – mens andre nødvendigvis må fylde mindre.
 
 ## Rebound-effekten
 

@@ -8,7 +8,9 @@ Nedenstående syv spørgsmål er den foreløbige rygrad i mit arbejde med økolo
 
 ## 1. Hvad betyder degrowth og post-growth egentlig i praksis?
 
-De-growth er ikke det samme som recession. Recession - nedgang i BNP - under vores nuværende system er meget negativt, det erkender jeg. I min optik er de-growth derimod diciplinen at mindske BNP på kontrollerede måder, så det giver mindst mulige negative konsekvenser for vores samfund. Og som jeg også nævner mange andre steder på siden her, er det ikke et **mål** i sig selv at begrænse den menneskelige økonomiske aktivitet. Det er derimod et **middel** hen imod at opnå et bæredygtigt samfund på vores planet. Når vi med en vis overbevisning kan sige at vi er nået i mål, og at vi internationalt set lever inden for planetens grænser, skal vi absolut have al den økonomiske aktivitet der er plads til!   
+**De-growth er ikke det samme som recession.** Recession – et fald i BNP under vores nuværende økonomiske system – kan have meget alvorlige konsekvenser, og det erkender jeg. De-growth handler derimod om en **bevidst og kontrolleret nedskalering af ressourcekrævende produktion og forbrug**, med reformer der begrænser de sociale og økonomiske skadevirkninger. Det kan betyde, at vi også må mindske BNP på kontrollerede måder.
+
+Jeg er ikke interesseret i BNP-fald for BNP-faldets skyld. Det er ikke et **mål** i sig selv at begrænse den menneskelige økonomiske aktivitet. Det er et **middel** til at leve inden for planetens grænser. Når vi med en vis overbevisning kan sige, at vi internationalt set lever inden for disse grænser, skal vi absolut have al den økonomiske aktivitet, der er plads til! Det er derfor, jeg også interesserer mig for *post-growth*: et samfund, der ikke er afhængigt af vedvarende BNP-vækst for at fungere.
 
 *Status: under udvikling.*
 
