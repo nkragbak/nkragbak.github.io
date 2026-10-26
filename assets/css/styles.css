@@ -1,196 +1,1630 @@
-/* Inter hostes lokalt (ingen kald til Google Fonts). Licens: assets/fonts/Inter-LICENSE.txt */
-@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(../fonts/inter-latin-wght-normal.woff2) format("woff2")}
-@font-face{font-family:Inter;font-style:italic;font-weight:100 900;font-display:swap;src:url(../fonts/inter-latin-wght-italic.woff2) format("woff2")}
-:root{--bg:#f6f5f0;--surface:#fff;--text:#20231f;--muted:#666d64;--border:#dfe2da;--accent:#315c48;--accent-soft:#e5eee8;--max:1120px;--radius:16px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--bg);line-height:1.65}a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}a:hover{text-decoration-thickness:2px}.site-header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:1rem max(1.25rem,calc((100vw - var(--max))/2));background:rgba(246,245,240,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}.brand{color:var(--text);text-decoration:none;font-weight:800;letter-spacing:-.02em}.site-nav{display:flex;gap:1.25rem}.site-nav a{color:var(--muted);text-decoration:none;font-weight:600}.site-nav a.active,.site-nav a:hover{color:var(--text)}.menu-toggle{display:none;border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:.4rem .65rem;font-size:1.2rem}.hero{min-height:68vh;display:grid;align-items:center;max-width:var(--max);margin:0 auto;padding:6rem 1.25rem}.hero>div{max-width:820px}.eyebrow{margin:0 0 .65rem;color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}h1,h2,h3{line-height:1.15;letter-spacing:-.03em}h1{font-size:clamp(2.6rem,7vw,5.5rem);margin:0 0 1.5rem}h2{font-size:clamp(1.6rem,3vw,2.5rem)}h3{font-size:1.25rem}.lead{max-width:760px;color:var(--muted);font-size:clamp(1.1rem,2vw,1.35rem)}.actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}.button{display:inline-block;padding:.75rem 1rem;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text);text-decoration:none;font-weight:700}.button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.section,.content.standalone{max-width:var(--max);margin:0 auto;padding:4rem 1.25rem}.section-heading{margin-bottom:2rem}.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.card{padding:1.5rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}.card h2,.card h3{margin-top:.5rem}.card p{color:var(--muted)}.tag{display:inline-block;font-size:.75rem;font-weight:800;color:var(--accent);background:var(--accent-soft);padding:.2rem .5rem;border-radius:999px}.statement{margin-bottom:4rem;border-top:1px solid var(--border)}.statement h2{max-width:900px}.statement p:last-child{max-width:740px;color:var(--muted)}.page-intro{margin-bottom:3rem}.page-intro h1{font-size:clamp(2.3rem,6vw,4.5rem)}.about-intro{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:3rem;align-items:center}.about-intro .lead{max-width:660px}.portrait{display:block;width:100%;aspect-ratio:360/475;object-fit:cover;object-position:center top;border-radius:22px;border:1px solid var(--border);box-shadow:0 18px 45px rgba(0,0,0,.10)}.politics-layout{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:250px minmax(0,1fr);gap:3rem;padding:3.5rem 1.25rem 5rem}.sidebar{min-width:0}.sidebar-inner{position:sticky;top:90px}.search{width:100%;margin:.5rem 0 1rem;padding:.65rem .75rem;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text);font:inherit}.topic-nav{display:flex;flex-direction:column;gap:.3rem}.topic-nav a{color:var(--muted);text-decoration:none;padding:.25rem 0}.topic-nav a:hover{color:var(--text)}.topic-section{margin:0 0 3.5rem;scroll-margin-top:90px}.topic-section[hidden]{display:none}.topic-section>h2{margin-bottom:1rem}details{background:var(--surface);border:1px solid var(--border);border-radius:12px;margin:.75rem 0;overflow:hidden}summary{cursor:pointer;padding:1rem 1.1rem;font-weight:750;list-style-position:inside}.detail-content{padding:0 1.1rem 1.2rem;border-top:1px solid var(--border)}.detail-content p,.detail-content li{color:#424840}.placeholder{font-style:italic;color:var(--muted)!important}.no-results{color:var(--muted);font-style:italic}.prose{max-width:780px}.prose p{color:#424840}.prose h2{margin-top:2.5rem}.site-footer{display:flex;justify-content:space-between;gap:1rem;max-width:var(--max);margin:0 auto;padding:2rem 1.25rem 3rem;color:var(--muted);border-top:1px solid var(--border);font-size:.9rem}@media(max-width:800px){.menu-toggle{display:block}.site-nav{display:none;position:absolute;top:100%;right:1rem;flex-direction:column;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.08)}.site-nav.open{display:flex}.card-grid{grid-template-columns:1fr}.politics-layout{grid-template-columns:1fr;gap:1rem}.sidebar{display:none}.mobile-politics-nav{display:block}.topic-nav{flex-direction:row;flex-wrap:wrap;gap:.45rem}.mobile-politics-nav .search{margin:.75rem 0 1rem}.topic-nav a{display:inline-flex;align-items:center;min-height:42px;padding:.45rem .7rem;border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--muted);font-size:.82rem;font-weight:700;line-height:1.15;text-decoration:none}.topic-nav a:hover{color:var(--text);border-color:#bdc5ba}.topic-nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.hero{min-height:auto;padding-top:4rem}.about-intro{grid-template-columns:1fr;gap:1.5rem}.portrait{width:min(100%,320px);order:-1}.site-footer{flex-direction:column}}
-.home-grid{grid-template-columns:repeat(4,1fr)}
-.focus-page{max-width:980px}
-.focus-principle{max-width:820px;margin:2rem 0 0;padding:1.25rem 1.5rem;background:var(--accent-soft);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;font-size:1.12rem;font-weight:750}
-.focus-jump{display:flex;flex-wrap:wrap;gap:.55rem;margin:-.5rem 0 2.5rem}
-.focus-jump a{padding:.45rem .7rem;border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--muted);font-size:.9rem;font-weight:700;text-decoration:none}
-.focus-jump a:hover{color:var(--text);border-color:#bdc5ba}
-.focus-grid{display:grid;gap:1.25rem}
-.focus-card{scroll-margin-top:95px;padding:2rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}
-.focus-card-head{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
-.focus-card h2{margin:.8rem 0 .6rem}
-.focus-card h3{margin:1.5rem 0 .65rem;font-size:1rem;letter-spacing:0}
-.focus-card>p,.focus-card li{color:#424840}
-.focus-card ul{padding-left:1.2rem}
-.focus-card li+li{margin-top:.45rem}
-.scope{color:var(--muted);font-size:.82rem;font-weight:700}
-.focus-link{margin-top:1.35rem}
-.focus-method{padding-left:0;padding-right:0;margin-top:1.5rem;border-top:1px solid var(--border)}
-.focus-method p:last-child{max-width:780px;color:var(--muted)}
-@media(max-width:1000px){.home-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:800px){.home-grid{grid-template-columns:1fr}.focus-card{padding:1.35rem}.focus-jump{gap:.4rem}.focus-jump a{font-size:.82rem}}
+/* ==========================================================================
+   nkragbak.github.io – stylesheet
 
-.focus-subtitle{margin:-.2rem 0 1.1rem;color:var(--muted);font-size:1rem;font-style:italic}
+   Indhold
+   1. Font
+   2. Design-tokens (farver, mål, skygger)
+   3. Grundstil
+   4. Sidehoved, navigation og footer
+   5. Fælles komponenter (hero, knapper, kort, sektioner)
+   6. Forside
+   7. Om mig og Projekter
+   8. Tekster & medier
+   9. Politik (bibliotek, søgning, foldefelter)
+   10. Fokusområder
+   11. Grundlovsforslag (side, tidslinje, søjlediagram, Earth Overshoot Day)
+   12. Diagram: klimaopbakning (Demokrati & magt)
+   13. Print
 
-.mobile-politics-nav{display:none}
-@media(max-width:800px){.mobile-politics-nav{display:block}}
-.detail-controls{display:flex;flex-wrap:wrap;gap:.4rem;margin:-1.5rem 0 1.75rem;padding-bottom:.85rem;border-bottom:1px solid var(--border)}
-.detail-control{appearance:none;border:1px solid #cfd4cc;border-radius:7px;background:#eceee9;color:#4f574f;padding:.34rem .62rem;font:inherit;font-size:.79rem;font-weight:700;cursor:pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}
-.detail-control:hover{background:#e3e6df;color:var(--text);border-color:#bfc6bc}
-.detail-control:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+   Breakpoints: 1000px (forside-gitter), 950px (mobilmenu), 800px (mobil-layout),
+   740 / 600 / 560 / 420px (diagrammer).
 
-/* Grundlovsforslag: en selvstændig, læsevenlig side i sitets eksisterende stil */
-.grundlov-page{max-width:980px}
-.grundlov-page .page-intro{max-width:830px;margin-bottom:2.5rem}
-.proposal-meta{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-top:1rem}
-.grundlov-page .focus-jump{margin:0 0 1.5rem}
-.grundlov-section{max-width:830px;padding:2.5rem 0;border-top:1px solid var(--border);scroll-margin-top:95px}
-.grundlov-section h2{margin:.45rem 0 1.4rem}
-.grundlov-section h3{font-size:1.25rem;letter-spacing:-.02em;margin:2.1rem 0 .7rem;line-height:1.32}
-.grundlov-section p,.grundlov-section li{color:#424840}
-.grundlov-section p{margin:1rem 0}
-.grundlov-law-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.9rem 2rem;margin:1.25rem 0}
-.grundlov-law-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem}
-.grundlov-law-card h3{font-size:1.5rem;margin:.8rem 0 1.1rem}
-.grundlov-law-card p{color:var(--text);font-size:1.06rem;line-height:1.8}
-.grundlov-law-card p+p{padding-top:.9rem;border-top:1px solid var(--border)}
-.grundlov-sources{padding-left:1.2rem}
-.grundlov-sources li+li{margin-top:.75rem}
-.grundlov-note{padding:1rem 1.25rem;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 10px 10px 0}
-.grundlov-end{max-width:830px;background:var(--accent-soft);border:1px solid #d0e0d4;border-radius:var(--radius);padding:2.3rem;margin:2rem 0 0}
-.grundlov-end h2{margin:.5rem 0 1rem}
-.grundlov-end p:not(.eyebrow){max-width:680px}
-.home-proposal-feature{max-width:var(--max);border-top:1px solid var(--border)}
-.home-proposal-feature>div{max-width:820px}
-.home-proposal-feature h2{margin:.3rem 0 1rem}
-.home-proposal-feature p:not(.eyebrow){max-width:690px;color:var(--muted)}
-.home-proposal-feature .button{margin-top:.6rem}
-.politics-proposal-link{padding:1.25rem 1.5rem;background:var(--accent-soft);border:1px solid #d0e0d4;border-radius:var(--radius);margin-bottom:3rem}
-.politics-proposal-link .eyebrow{margin:0}
-.politics-proposal-link p:not(.eyebrow){margin:.55rem 0;color:#424840}
-@media(max-width:950px){.menu-toggle{display:block}.site-nav{display:none;position:absolute;top:100%;right:1rem;flex-direction:column;padding:1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.08)}.site-nav.open{display:flex}}
-@media(max-width:800px){.grundlov-section{padding:2rem 0}.grundlov-law-card{padding:1.25rem}.grundlov-law-card p{font-size:1rem}.grundlov-end{padding:1.5rem}.grundlov-page .focus-jump{margin-bottom:1.25rem}}
-@media print{.grundlov-page{max-width:100%}.site-header,.site-footer,.grundlov-page .focus-jump,.grundlov-end .button{display:none!important}.grundlov-law-card{break-inside:avoid}.grundlov-section{break-before:auto}.grundlov-page a{color:inherit}}
+   Cache-buster: GitHub Action'en "Udgiv site" (.github/workflows/udgiv-site.yml)
+   sætter ?v=… på denne fil og app.js automatisk ved hver udgivelse.
+   ========================================================================== */
 
-/* Grundlovens historie og den nyere viden om planetens grænser */
-.grundlov-timeline{list-style:none;margin:1.75rem 0 1.5rem;padding:0}
-.grundlov-timeline li{display:grid;grid-template-columns:74px minmax(0,1fr);gap:1.25rem;border-left:2px solid #cad9ce;padding:0 0 1.5rem 1.35rem;margin-left:.7rem;position:relative}
-.grundlov-timeline li::before{content:"";position:absolute;top:.42rem;left:-.42rem;width:.7rem;height:.7rem;background:var(--accent);border:2px solid var(--bg);border-radius:50%}
-.grundlov-timeline li:last-child{border-left-color:transparent;padding-bottom:0}
-.grundlov-year{font-size:1.1rem;font-weight:800;color:var(--accent);line-height:1.45;font-variant-numeric:tabular-nums}
-.grundlov-timeline h3{font-size:1.1rem;margin:0 0 .35rem}
-.grundlov-timeline p{margin:0}
-.grundlov-history-source{font-size:.9rem;color:var(--muted)!important;margin:1.5rem 0 2rem!important}
-@media(max-width:600px){.grundlov-timeline li{grid-template-columns:1fr;gap:.25rem;padding-left:1rem}.grundlov-year{font-size:.98rem}}
 
-/* Grundlovsforslag: kort argument og responsivt HTML/CSS-diagram */
-.grundlov-chart{margin:2.5rem 0;padding:1.55rem 1.4rem 1.3rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}
-.grundlov-chart>.eyebrow{margin:0 0 .45rem}
-.grundlov-chart h3{margin:0 0 2.1rem;font-size:1.28rem}
-.grundlov-chart-visual{display:grid;grid-template-columns:3.1rem minmax(0,1fr);gap:.5rem}
-.grundlov-chart-scale{position:relative;height:275px;min-width:0;font-variant-numeric:tabular-nums}
-.grundlov-chart-scale span{position:absolute;right:0;transform:translateY(-50%);font-size:.78rem;color:var(--muted);white-space:nowrap}
-.grundlov-chart-columns{min-width:0}
-.grundlov-chart-plot{position:relative;height:275px;isolation:isolate}
-.grundlov-chart-guides{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none}
-.grundlov-chart-guides span{display:block;width:100%;border-top:1px dashed var(--border)}
-.grundlov-chart-guides span:last-child{border-top:2px solid #a8afa8}
-.grundlov-chart-bars{position:absolute;inset:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:end;gap:clamp(.35rem,2vw,1.15rem);padding:0 .65rem}
-.grundlov-chart-bar-group{height:100%;min-width:0;display:flex;align-items:flex-end;justify-content:center}
-.grundlov-chart-bar{display:block;position:relative;width:100%;max-width:100px;min-height:3px;background:var(--accent);border-radius:10px 10px 0 0}
-.grundlov-chart-bar-current{background:#507c64}
-.grundlov-chart-value{position:absolute;bottom:calc(100% + .3rem);left:50%;transform:translateX(-50%);font-size:.85rem;font-weight:800;color:var(--text);white-space:nowrap;font-variant-numeric:tabular-nums}
-.grundlov-chart-labels{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(.35rem,2vw,1.15rem);padding:.6rem .65rem 0;text-align:center;font-size:.76rem;line-height:1.35;font-weight:600;font-variant-numeric:tabular-nums;color:var(--muted)}
-.grundlov-chart-labels span{min-width:0;overflow-wrap:normal}
-.grundlov-chart figcaption{margin:1.5rem 0 0;font-size:.88rem;color:var(--muted);line-height:1.55}
-.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
-@media(max-width:600px){
-  .grundlov-chart{padding:1.1rem .65rem 1.2rem}
-  .grundlov-chart h3{font-size:1.05rem;margin-bottom:2rem}
-  .grundlov-chart-visual{grid-template-columns:2.45rem minmax(0,1fr);gap:.25rem}
-  .grundlov-chart-scale,.grundlov-chart-plot{height:225px}
-  .grundlov-chart-scale span{font-size:.68rem}
-  .grundlov-chart-bars,.grundlov-chart-labels{gap:.18rem;padding-left:.12rem;padding-right:.12rem}
-  .grundlov-chart-bar{border-radius:6px 6px 0 0}
-  .grundlov-chart-value{font-size:.67rem;bottom:calc(100% + .23rem)}
-  .grundlov-chart-labels{font-size:.66rem}
+/* 1. Font -------------------------------------------------------------------
+   Inter hostes lokalt (ingen kald til Google Fonts).
+   Licens: assets/fonts/Inter-LICENSE.txt */
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(../fonts/inter-latin-wght-normal.woff2) format("woff2");
 }
-@media print{.grundlov-chart{break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
-/* Earth Overshoot Day 2026 – forklaring og webbaseret årsvisualisering */
-.overshoot-feature{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:1.65rem;align-items:start;margin:2rem 0 2.3rem;padding:1.5rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);scroll-margin-top:105px}
-.overshoot-explainer h3{margin:.25rem 0 1rem!important;font-size:1.4rem!important;line-height:1.25}
-.overshoot-explainer p:not(.eyebrow){font-size:.97rem;line-height:1.65}
-.overshoot-figure{margin:0;padding:1.25rem 1rem;background:var(--bg);border:1px solid var(--border);border-radius:12px;min-width:0}
-.overshoot-figure h4{font-size:1.08rem;line-height:1.3;letter-spacing:-.015em;margin:0}
-.overshoot-figure .overshoot-chart-intro{font-size:.82rem;margin:.3rem 0 1.4rem;color:var(--muted)}
-.overshoot-row{margin:0 0 1.2rem}
-.overshoot-row-head{display:flex;flex-direction:column;gap:.1rem;font-size:.84rem;line-height:1.35}
-.overshoot-row-head span{font-weight:600}
-.overshoot-row-head strong{font-size:1.3rem;color:var(--text);font-variant-numeric:tabular-nums}
-.overshoot-bar{position:relative;width:100%;height:20px;border-radius:6px;margin-top:.5rem;background:linear-gradient(to right,#88ab94 0%,#88ab94 var(--overshoot-cut),#e7a88d var(--overshoot-cut),#e7a88d 100%)}
-.overshoot-marker{position:absolute;top:-4px;bottom:-4px;left:var(--overshoot-cut);width:2px;background:#243b2e;transform:translateX(-1px);border-radius:1px}
-.overshoot-equivalent{margin:.25rem 0 0!important;font-size:.81rem;color:var(--muted)}
-.overshoot-year-axis{display:flex;justify-content:space-between;gap:.5rem;margin:.35rem 0 .95rem;padding-top:.55rem;border-top:1px solid var(--border);font-size:.76rem;font-variant-numeric:tabular-nums;color:var(--muted)}
-.overshoot-legend{display:flex;gap:.4rem 1rem;flex-wrap:wrap;font-size:.76rem;line-height:1.4;color:var(--muted)}
-.overshoot-legend span{display:inline-flex;align-items:center;gap:.32rem}
-.overshoot-legend i{width:.72rem;height:.72rem;display:inline-block;border-radius:2px;flex:none}
-.overshoot-legend-before{background:#88ab94}
-.overshoot-legend-after{background:#e7a88d}
-.overshoot-figure figcaption{margin:1.2rem 0 0;font-size:.79rem;color:var(--muted);line-height:1.55}
-@media(max-width:740px){.overshoot-feature{grid-template-columns:minmax(0,1fr);gap:1rem;padding:1.1rem}.overshoot-figure{padding:1.2rem}.overshoot-explainer h3{font-size:1.2rem!important}}
-@media(max-width:420px){.overshoot-feature{padding:.8rem}.overshoot-figure{padding:1rem .8rem}.overshoot-row-head strong{font-size:1.2rem}}
-@media print{.overshoot-feature{break-inside:avoid}.overshoot-bar{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@font-face {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(../fonts/inter-latin-wght-italic.woff2) format("woff2");
+}
 
-/* Demokrati & magt: faktisk versus opfattet klimaopbakning */
-.climate-support-chart{margin:1.5rem 0;padding:1.4rem;background:#f7f9f6;border:1px solid var(--border);border-radius:12px}
-.climate-support-chart h4{font-size:1.1rem;letter-spacing:-.01em;line-height:1.3;margin:0 0 .3rem}
-.climate-support-intro{font-size:.85rem;margin:.15rem 0 1.1rem;color:var(--muted)!important}
-.climate-support-legend{display:flex;flex-wrap:wrap;gap:.45rem 1.1rem;font-size:.78rem;margin-bottom:1.15rem}
-.climate-support-legend span{display:inline-flex;align-items:center;gap:.35rem}
-.climate-support-swatch{display:inline-block;width:.8rem;height:.8rem;border-radius:3px}
-.climate-support-swatch.actual,.climate-support-fill.actual{background:#315c48}
-.climate-support-swatch.perceived,.climate-support-fill.perceived{background:#9ba69d}
-.climate-support-group+.climate-support-group{margin-top:1.2rem;padding-top:1.1rem;border-top:1px solid var(--border)}
-.climate-support-label{font-weight:750;font-size:.92rem;margin-bottom:.5rem}
-.climate-support-bar-row{display:grid;grid-template-columns:8.5rem minmax(0,1fr) 3.3rem;align-items:center;gap:.55rem;margin:.32rem 0;font-variant-numeric:tabular-nums}
-.climate-support-bar-label{font-size:.75rem;color:#424840}
-.climate-support-track{height:15px;background:#e7ebe6;border-radius:4px;overflow:hidden}
-.climate-support-fill{display:block;height:100%;border-radius:4px}
-.climate-support-bar-row strong{font-size:.82rem;text-align:right;white-space:nowrap}
-.climate-support-chart figcaption{font-size:.77rem;line-height:1.55;color:var(--muted);margin-top:1.25rem}
-@media(max-width:560px){.climate-support-chart{padding:1rem .7rem}.climate-support-bar-row{grid-template-columns:1fr 2.8rem;gap:.3rem .5rem}.climate-support-bar-label{grid-column:1/-1}.climate-support-track{grid-column:1}.climate-support-bar-row strong{grid-column:2}}
 
-/* Introduktion som altid er synlig foran dokumentationens udfoldbare kildeafsnit */
-.markdown-static-intro{margin:0 0 1.5rem}
-.markdown-static-intro h3{font-size:1.25rem;margin:0 0 .65rem}
-.markdown-static-intro p{color:#424840;margin:.4rem 0 1rem}
+/* 2. Design-tokens ---------------------------------------------------------- */
 
-/* Gradvis design-ensretning: forsidens sekundære hero-tekst */
-.home-hero-body{max-width:760px;color:var(--muted)}
+:root {
+  color-scheme: light;
 
-/* ============ Design-rettelser (oktober 2026) ============ */
-:root{color-scheme:light}
+  /* Flader */
+  --bg: #f6f5f0;
+  --header-bg: rgba(246, 245, 240, 0.92); /* --bg med let gennemsigtighed */
+  --surface: #fff;
+  --surface-tint: #f7f9f6;
 
-/* Skjult tabel til skærmlæsere må ikke give vandret scroll på mobil */
-table.sr-only{display:block}
+  /* Tekst */
+  --text: #20231f;
+  --text-body: #424840; /* brødtekst i længere tekster */
+  --muted: #666d64;
+  --on-accent: #fff;
+
+  /* Linjer og kanter */
+  --border: #dfe2da;
+  --border-strong: #bdc5ba; /* hover på chips */
+
+  /* Accent (grøn) */
+  --accent: #315c48;
+  --accent-mid: #507c64;
+  --accent-soft: #e5eee8;
+  --accent-border: #d0e0d4;
+  --accent-line: #cad9ce;
+
+  /* Udvid/Luk alle-knapper */
+  --control-bg: #eceee9;
+  --control-bg-hover: #e3e6df;
+  --control-border: #cfd4cc;
+  --control-border-hover: #bfc6bc;
+  --control-text: #4f574f;
+
+  /* Diagrammer */
+  --chart-axis: #a8afa8;
+  --chart-track: #e7ebe6;
+  --chart-secondary: #9ba69d;
+  --overshoot-before: #88ab94;
+  --overshoot-after: #e7a88d;
+  --overshoot-marker: #243b2e;
+
+  /* Mål */
+  --max: 1120px;
+  --gutter: 1.25rem;
+  --radius: 16px;
+  --radius-sm: 12px;
+  --radius-control: 10px;
+
+  /* Skygger */
+  --shadow-menu: 0 12px 30px rgba(0, 0, 0, 0.08);
+  --shadow-portrait: 0 18px 45px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 3. Grundstil -------------------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.65;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
 
 /* Ens, tydelig fokusmarkering ved tastaturnavigation */
-a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
-
-/* Læsbar linjelængde (ca. 65-70 tegn) i foldeteksterne */
-.detail-content p,.detail-content li,.detail-content h3,.detail-content h4{max-width:68ch}
-
-/* Mobil: emne-chips på én vandret række i stedet for fire rækker */
-.politics-layout>*{min-width:0}
-@media(max-width:800px){
-  .mobile-politics-nav .topic-nav{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -1.25rem;padding:.1rem 1.25rem .3rem}
-  .mobile-politics-nav .topic-nav::-webkit-scrollbar{display:none}
-  .mobile-politics-nav .topic-nav a{flex:0 0 auto;white-space:nowrap}
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
-/* Tekster & medier: sektioner flugter med sidens overskrift */
-.content.standalone .section{padding-left:0;padding-right:0}
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
 
-/* Projekter: korttitler i samme størrelse og farve */
-.project-grid .card h2{font-size:1.5rem;margin:.6rem 0 .5rem}
+h1 {
+  font-size: clamp(2.6rem, 7vw, 5.5rem);
+  margin: 0 0 1.5rem;
+}
 
-/* Små overskrifter er grønne overalt, også på grundlovsforslaget */
-.grundlov-section .eyebrow{color:var(--accent)}
+h2 {
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+}
 
-/* Footer-kontaktlink */
-.site-footer a{color:var(--muted)}
-.site-footer a:hover{color:var(--text)}
+h3 {
+  font-size: 1.25rem;
+}
+
+/* Kun for skærmlæsere. !important er bevidst: hjælpeklassen skal altid vinde. */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* En tabel ignorerer width:1px og ville ellers give vandret scroll på mobil */
+table.sr-only {
+  display: block;
+}
+
+
+/* 4. Sidehoved, navigation og footer ---------------------------------------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem max(var(--gutter), calc((100vw - var(--max)) / 2));
+  background: var(--header-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-nav a.active,
+.site-nav a:hover {
+  color: var(--text);
+}
+
+.menu-toggle {
+  display: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--radius-control);
+  padding: 0.4rem 0.65rem;
+  font-size: 1.2rem;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 2rem var(--gutter) 3rem;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: var(--muted);
+}
+
+.site-footer a:hover {
+  color: var(--text);
+}
+
+/* Mobilmenu: fra 950px og ned (menuen har 7 punkter og bliver for bred før 800px) */
+@media (max-width: 950px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-menu);
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .site-footer {
+    flex-direction: column;
+  }
+}
+
+
+/* 5. Fælles komponenter ------------------------------------------------------ */
+
+.hero {
+  min-height: 68vh;
+  display: grid;
+  align-items: center;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 6rem var(--gutter);
+}
+
+.hero > div {
+  max-width: 820px;
+}
+
+.eyebrow {
+  margin: 0 0 0.65rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lead {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button.primary {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+
+.section,
+.content.standalone {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 4rem var(--gutter);
+}
+
+/* En .section inde i en standalone-side skal flugte med sidens overskrift */
+.content.standalone .section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+.page-intro {
+  margin-bottom: 3rem;
+}
+
+.page-intro h1 {
+  font-size: clamp(2.3rem, 6vw, 4.5rem);
+}
+
+.statement {
+  margin-bottom: 4rem;
+  border-top: 1px solid var(--border);
+}
+
+.statement h2 {
+  max-width: 900px;
+}
+
+.statement p:last-child {
+  max-width: 740px;
+  color: var(--muted);
+}
+
+.prose {
+  max-width: 780px;
+}
+
+.prose p {
+  color: var(--text-body);
+}
+
+.prose h2 {
+  margin-top: 2.5rem;
+}
+
+/* Kort */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.card h2,
+.card h3 {
+  margin-top: 0.5rem;
+}
+
+.card p {
+  color: var(--muted);
+}
+
+.card-stacked {
+  margin-top: 1.5rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+
+/* Chips til at hoppe mellem afsnit (Fokusområder, Grundlovsforslag) */
+.focus-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: -0.5rem 0 2.5rem;
+}
+
+.focus-jump a {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.focus-jump a:hover {
+  color: var(--text);
+  border-color: var(--border-strong);
+}
+
+/* Fremhævet grundprincip */
+.focus-principle {
+  max-width: 820px;
+  margin: 2rem 0 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 1.12rem;
+  font-weight: 750;
+}
+
+/* Foldefelter (Politik, Fokusområder, Tekster & medier) */
+details {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  margin: 0.75rem 0;
+  overflow: hidden;
+}
+
+summary {
+  cursor: pointer;
+  padding: 1rem 1.1rem;
+  font-weight: 750;
+  list-style-position: inside;
+}
+
+.detail-content {
+  padding: 0 1.1rem 1.2rem;
+  border-top: 1px solid var(--border);
+}
+
+.detail-content p,
+.detail-content li {
+  color: var(--text-body);
+}
+
+/* Læsbar linjelængde (ca. 65-70 tegn) */
+.detail-content p,
+.detail-content li,
+.detail-content h3,
+.detail-content h4 {
+  max-width: 68ch;
+}
+
+.no-results {
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    min-height: auto;
+    padding-top: 4rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .focus-jump {
+    gap: 0.4rem;
+  }
+
+  .focus-jump a {
+    font-size: 0.82rem;
+  }
+}
+
+
+/* 6. Forside ---------------------------------------------------------------- */
+
+.home-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.home-proposal-feature {
+  max-width: var(--max);
+  border-top: 1px solid var(--border);
+}
+
+.home-proposal-feature > div {
+  max-width: 820px;
+}
+
+.home-proposal-feature h2 {
+  margin: 0.3rem 0 1rem;
+}
+
+.home-proposal-feature p:not(.eyebrow) {
+  max-width: 690px;
+  color: var(--muted);
+}
+
+.home-proposal-feature .button {
+  margin-top: 0.6rem;
+}
+
+@media (max-width: 1000px) {
+  .home-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* 7. Om mig og Projekter ---------------------------------------------------- */
+
+.about-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-intro .lead {
+  max-width: 660px;
+}
+
+.portrait {
+  display: block;
+  width: 100%;
+  aspect-ratio: 360 / 475;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-portrait);
+}
+
+.project-grid .card h2 {
+  font-size: 1.5rem;
+  margin: 0.6rem 0 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .about-intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .portrait {
+    width: min(100%, 320px);
+    order: -1;
+  }
+}
+
+
+/* 8. Tekster & medier ------------------------------------------------------- */
+
+/* Tekstserie med dele adskilt af streger */
+.series-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5rem 0 0;
+}
+
+.series-list li {
+  padding: 1rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.series-list li:last-child {
+  padding-bottom: 0;
+}
+
+/* Fortælling, der foldes ud i et kort – samme foldefelt som på Politik */
+.story {
+  margin-top: 1rem;
+}
+
+.story-text {
+  line-height: 1.75;
+}
+
+
+/* 9. Politik ---------------------------------------------------------------- */
+
+.politics-layout {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 3rem;
+  padding: 3.5rem var(--gutter) 5rem;
+}
+
+/* Lad kolonnerne krympe, så den vandrette chips-række på mobil ikke strækker layoutet */
+.politics-layout > * {
+  min-width: 0;
+}
+
+.sidebar-inner {
+  position: sticky;
+  top: 90px;
+}
+
+.search {
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.topic-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.topic-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 0.25rem 0;
+}
+
+.topic-nav a:hover {
+  color: var(--text);
+}
+
+.mobile-politics-nav {
+  display: none;
+}
+
+.topic-section {
+  margin: 0 0 3.5rem;
+  scroll-margin-top: 90px;
+}
+
+.topic-section[hidden] {
+  display: none;
+}
+
+.topic-section > h2 {
+  margin-bottom: 1rem;
+}
+
+/* Udvid alle / Luk alle */
+.detail-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: -1.5rem 0 1.75rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.detail-control {
+  appearance: none;
+  border: 1px solid var(--control-border);
+  border-radius: 7px;
+  background: var(--control-bg);
+  color: var(--control-text);
+  padding: 0.34rem 0.62rem;
+  font: inherit;
+  font-size: 0.79rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.detail-control:hover {
+  background: var(--control-bg-hover);
+  color: var(--text);
+  border-color: var(--control-border-hover);
+}
+
+.detail-control:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Introduktion, der altid er synlig foran dokumentationens foldefelter */
+.markdown-static-intro {
+  margin: 0 0 1.5rem;
+}
+
+.markdown-static-intro h3 {
+  font-size: 1.25rem;
+  margin: 0 0 0.65rem;
+}
+
+.markdown-static-intro p {
+  color: var(--text-body);
+  margin: 0.4rem 0 1rem;
+}
+
+@media (max-width: 800px) {
+  .politics-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .mobile-politics-nav {
+    display: block;
+  }
+
+  .mobile-politics-nav .search {
+    margin: 0.75rem 0 1rem;
+  }
+
+  /* Emne-chips på én vandret række, der kan scrolles */
+  .mobile-politics-nav .topic-nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin: 0 calc(-1 * var(--gutter));
+    padding: 0.1rem var(--gutter) 0.3rem;
+  }
+
+  .mobile-politics-nav .topic-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-politics-nav .topic-nav a {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0.45rem 0.7rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.15;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  .mobile-politics-nav .topic-nav a:hover {
+    color: var(--text);
+    border-color: var(--border-strong);
+  }
+
+  .mobile-politics-nav .topic-nav a:focus-visible {
+    outline-offset: 2px;
+  }
+}
+
+
+/* 10. Fokusområder ---------------------------------------------------------- */
+
+.focus-page {
+  max-width: 980px;
+}
+
+.focus-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.focus-card {
+  scroll-margin-top: 95px;
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.focus-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.focus-card h2 {
+  margin: 0.8rem 0 0.6rem;
+}
+
+.focus-card h3 {
+  margin: 1.5rem 0 0.65rem;
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+
+.focus-card > p,
+.focus-card li {
+  color: var(--text-body);
+}
+
+.focus-card ul {
+  padding-left: 1.2rem;
+}
+
+.focus-card li + li {
+  margin-top: 0.45rem;
+}
+
+.focus-subtitle {
+  margin: -0.2rem 0 1.1rem;
+  color: var(--muted);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.scope {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.focus-link {
+  margin-top: 1.35rem;
+}
+
+.focus-method {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.focus-method p:last-child {
+  max-width: 780px;
+  color: var(--muted);
+}
+
+@media (max-width: 800px) {
+  .focus-card {
+    padding: 1.35rem;
+  }
+}
+
+
+/* 11. Grundlovsforslag ------------------------------------------------------ */
+
+.grundlov-page {
+  max-width: 980px;
+}
+
+.grundlov-page .page-intro {
+  max-width: 830px;
+  margin-bottom: 2.5rem;
+}
+
+.grundlov-page .focus-jump {
+  margin: 0 0 1.5rem;
+}
+
+.proposal-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.grundlov-section {
+  max-width: 830px;
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 95px;
+}
+
+.grundlov-section h2 {
+  margin: 0.45rem 0 1.4rem;
+}
+
+.grundlov-section h3 {
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+  margin: 2.1rem 0 0.7rem;
+  line-height: 1.32;
+}
+
+.grundlov-section p,
+.grundlov-section li {
+  color: var(--text-body);
+}
+
+.grundlov-section p {
+  margin: 1rem 0;
+}
+
+/* Eyebrows er grønne her som overalt ellers */
+.grundlov-section .eyebrow {
+  color: var(--accent);
+}
+
+/* Paragraftekst */
+.grundlov-law-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.9rem 2rem;
+  margin: 1.25rem 0;
+}
+
+.grundlov-law-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.grundlov-law-card h3 {
+  font-size: 1.5rem;
+  margin: 0.8rem 0 1.1rem;
+}
+
+.grundlov-law-card p {
+  color: var(--text);
+  font-size: 1.06rem;
+  line-height: 1.8;
+}
+
+.grundlov-law-card p + p {
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+
+.grundlov-sources {
+  padding-left: 1.2rem;
+}
+
+.grundlov-sources li + li {
+  margin-top: 0.75rem;
+}
+
+.grundlov-note {
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 var(--radius-control) var(--radius-control) 0;
+}
+
+.grundlov-end {
+  max-width: 830px;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+  padding: 2.3rem;
+  margin: 2rem 0 0;
+}
+
+.grundlov-end h2 {
+  margin: 0.5rem 0 1rem;
+}
+
+.grundlov-end p:not(.eyebrow) {
+  max-width: 680px;
+}
+
+/* Tidslinje over grundlovens revisioner */
+.grundlov-timeline {
+  list-style: none;
+  margin: 1.75rem 0 1.5rem;
+  padding: 0;
+}
+
+.grundlov-timeline li {
+  display: grid;
+  grid-template-columns: 74px minmax(0, 1fr);
+  gap: 1.25rem;
+  border-left: 2px solid var(--accent-line);
+  padding: 0 0 1.5rem 1.35rem;
+  margin-left: 0.7rem;
+  position: relative;
+}
+
+.grundlov-timeline li::before {
+  content: "";
+  position: absolute;
+  top: 0.42rem;
+  left: -0.42rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  background: var(--accent);
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+}
+
+.grundlov-timeline li:last-child {
+  border-left-color: transparent;
+  padding-bottom: 0;
+}
+
+.grundlov-year {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+
+.grundlov-timeline h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.35rem;
+}
+
+.grundlov-timeline p {
+  margin: 0;
+}
+
+/* p.… giver nok vægt til at slå .grundlov-section p uden !important */
+p.grundlov-history-source {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 1.5rem 0 2rem;
+}
+
+/* Søjlediagram: år mellem grundlovsrevisionerne */
+.grundlov-chart {
+  margin: 2.5rem 0;
+  padding: 1.55rem 1.4rem 1.3rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.grundlov-chart > .eyebrow {
+  margin: 0 0 0.45rem;
+}
+
+.grundlov-chart h3 {
+  margin: 0 0 2.1rem;
+  font-size: 1.28rem;
+}
+
+.grundlov-chart-visual {
+  display: grid;
+  grid-template-columns: 3.1rem minmax(0, 1fr);
+  gap: 0.5rem;
+}
+
+.grundlov-chart-scale {
+  position: relative;
+  height: 275px;
+  min-width: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.grundlov-chart-scale span {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 0.78rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.grundlov-chart-columns {
+  min-width: 0;
+}
+
+.grundlov-chart-plot {
+  position: relative;
+  height: 275px;
+  isolation: isolate;
+}
+
+.grundlov-chart-guides {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.grundlov-chart-guides span {
+  display: block;
+  width: 100%;
+  border-top: 1px dashed var(--border);
+}
+
+.grundlov-chart-guides span:last-child {
+  border-top: 2px solid var(--chart-axis);
+}
+
+.grundlov-chart-bars {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: end;
+  gap: clamp(0.35rem, 2vw, 1.15rem);
+  padding: 0 0.65rem;
+}
+
+.grundlov-chart-bar-group {
+  height: 100%;
+  min-width: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.grundlov-chart-bar {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 100px;
+  min-height: 3px;
+  background: var(--accent);
+  border-radius: 10px 10px 0 0;
+}
+
+.grundlov-chart-bar-current {
+  background: var(--accent-mid);
+}
+
+.grundlov-chart-value {
+  position: absolute;
+  bottom: calc(100% + 0.3rem);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.grundlov-chart-labels {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(0.35rem, 2vw, 1.15rem);
+  padding: 0.6rem 0.65rem 0;
+  text-align: center;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.grundlov-chart-labels span {
+  min-width: 0;
+  overflow-wrap: normal;
+}
+
+.grundlov-chart figcaption {
+  margin: 1.5rem 0 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* Earth Overshoot Day: forklaring og årsvisualisering */
+.overshoot-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  gap: 1.65rem;
+  align-items: start;
+  margin: 2rem 0 2.3rem;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  scroll-margin-top: 105px;
+}
+
+/* Står efter .grundlov-section h3 med samme vægt og vinder derfor uden !important */
+.overshoot-explainer h3 {
+  margin: 0.25rem 0 1rem;
+  font-size: 1.4rem;
+  line-height: 1.25;
+}
+
+.overshoot-explainer p:not(.eyebrow) {
+  font-size: 0.97rem;
+  line-height: 1.65;
+}
+
+.overshoot-figure {
+  margin: 0;
+  padding: 1.25rem 1rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  min-width: 0;
+}
+
+.overshoot-figure h4 {
+  font-size: 1.08rem;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.overshoot-figure .overshoot-chart-intro {
+  font-size: 0.82rem;
+  margin: 0.3rem 0 1.4rem;
+  color: var(--muted);
+}
+
+.overshoot-row {
+  margin: 0 0 1.2rem;
+}
+
+.overshoot-row-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.overshoot-row-head span {
+  font-weight: 600;
+}
+
+.overshoot-row-head strong {
+  font-size: 1.3rem;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.overshoot-bar {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  background: linear-gradient(
+    to right,
+    var(--overshoot-before) 0%,
+    var(--overshoot-before) var(--overshoot-cut),
+    var(--overshoot-after) var(--overshoot-cut),
+    var(--overshoot-after) 100%
+  );
+}
+
+.overshoot-marker {
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: var(--overshoot-cut);
+  width: 2px;
+  background: var(--overshoot-marker);
+  transform: translateX(-1px);
+  border-radius: 1px;
+}
+
+/* p.… giver nok vægt til at slå .grundlov-section p uden !important */
+p.overshoot-equivalent {
+  margin: 0.25rem 0 0;
+  font-size: 0.81rem;
+}
+
+.overshoot-year-axis {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0.35rem 0 0.95rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.76rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.overshoot-legend {
+  display: flex;
+  gap: 0.4rem 1rem;
+  flex-wrap: wrap;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.overshoot-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+}
+
+.overshoot-legend i {
+  width: 0.72rem;
+  height: 0.72rem;
+  display: inline-block;
+  border-radius: 2px;
+  flex: none;
+}
+
+.overshoot-legend-before {
+  background: var(--overshoot-before);
+}
+
+.overshoot-legend-after {
+  background: var(--overshoot-after);
+}
+
+.overshoot-figure figcaption {
+  margin: 1.2rem 0 0;
+  font-size: 0.79rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+@media (max-width: 800px) {
+  .grundlov-section {
+    padding: 2rem 0;
+  }
+
+  .grundlov-law-card {
+    padding: 1.25rem;
+  }
+
+  .grundlov-law-card p {
+    font-size: 1rem;
+  }
+
+  .grundlov-end {
+    padding: 1.5rem;
+  }
+
+  .grundlov-page .focus-jump {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .overshoot-feature {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1.1rem;
+  }
+
+  .overshoot-figure {
+    padding: 1.2rem;
+  }
+
+  .overshoot-explainer h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .grundlov-timeline li {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+    padding-left: 1rem;
+  }
+
+  .grundlov-year {
+    font-size: 0.98rem;
+  }
+
+  .grundlov-chart {
+    padding: 1.1rem 0.65rem 1.2rem;
+  }
+
+  .grundlov-chart h3 {
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+  }
+
+  .grundlov-chart-visual {
+    grid-template-columns: 2.45rem minmax(0, 1fr);
+    gap: 0.25rem;
+  }
+
+  .grundlov-chart-scale,
+  .grundlov-chart-plot {
+    height: 225px;
+  }
+
+  .grundlov-chart-scale span {
+    font-size: 0.68rem;
+  }
+
+  .grundlov-chart-bars,
+  .grundlov-chart-labels {
+    gap: 0.18rem;
+    padding-left: 0.12rem;
+    padding-right: 0.12rem;
+  }
+
+  .grundlov-chart-bar {
+    border-radius: 6px 6px 0 0;
+  }
+
+  .grundlov-chart-value {
+    font-size: 0.67rem;
+    bottom: calc(100% + 0.23rem);
+  }
+
+  .grundlov-chart-labels {
+    font-size: 0.66rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .overshoot-feature {
+    padding: 0.8rem;
+  }
+
+  .overshoot-figure {
+    padding: 1rem 0.8rem;
+  }
+
+  .overshoot-row-head strong {
+    font-size: 1.2rem;
+  }
+}
+
+
+/* 12. Diagram: klimaopbakning (Demokrati & magt) ---------------------------- */
+
+.climate-support-chart {
+  margin: 1.5rem 0;
+  padding: 1.4rem;
+  background: var(--surface-tint);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.climate-support-chart h4 {
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin: 0 0 0.3rem;
+}
+
+/* Dobbelt klasse giver nok vægt til at slå .detail-content p uden !important */
+.climate-support-chart .climate-support-intro {
+  font-size: 0.85rem;
+  margin: 0.15rem 0 1.1rem;
+  color: var(--muted);
+}
+
+.climate-support-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.1rem;
+  font-size: 0.78rem;
+  margin-bottom: 1.15rem;
+}
+
+.climate-support-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.climate-support-swatch {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 3px;
+}
+
+.climate-support-swatch.actual,
+.climate-support-fill.actual {
+  background: var(--accent);
+}
+
+.climate-support-swatch.perceived,
+.climate-support-fill.perceived {
+  background: var(--chart-secondary);
+}
+
+.climate-support-group + .climate-support-group {
+  margin-top: 1.2rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border);
+}
+
+.climate-support-label {
+  font-weight: 750;
+  font-size: 0.92rem;
+  margin-bottom: 0.5rem;
+}
+
+.climate-support-bar-row {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr) 3.3rem;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0.32rem 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.climate-support-bar-label {
+  font-size: 0.75rem;
+  color: var(--text-body);
+}
+
+.climate-support-track {
+  height: 15px;
+  background: var(--chart-track);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.climate-support-fill {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.climate-support-bar-row strong {
+  font-size: 0.82rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.climate-support-chart figcaption {
+  font-size: 0.77rem;
+  line-height: 1.55;
+  color: var(--muted);
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 560px) {
+  .climate-support-chart {
+    padding: 1rem 0.7rem;
+  }
+
+  .climate-support-bar-row {
+    grid-template-columns: 1fr 2.8rem;
+    gap: 0.3rem 0.5rem;
+  }
+
+  .climate-support-bar-label {
+    grid-column: 1 / -1;
+  }
+
+  .climate-support-track {
+    grid-column: 1;
+  }
+
+  .climate-support-bar-row strong {
+    grid-column: 2;
+  }
+}
+
+
+/* 13. Print ----------------------------------------------------------------- */
+
+@media print {
+  .site-header,
+  .site-footer,
+  .grundlov-page .focus-jump,
+  .grundlov-end .button {
+    display: none;
+  }
+
+  .grundlov-page {
+    max-width: 100%;
+  }
+
+  .grundlov-page a {
+    color: inherit;
+  }
+
+  .grundlov-section {
+    break-before: auto;
+  }
+
+  .grundlov-law-card,
+  .grundlov-chart,
+  .overshoot-feature {
+    break-inside: avoid;
+  }
+
+  .grundlov-chart,
+  .overshoot-bar {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
