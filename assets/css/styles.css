@@ -174,10 +174,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{o
 /* Læsbar linjelængde (ca. 65-70 tegn) i foldeteksterne */
 .detail-content p,.detail-content li,.detail-content h3,.detail-content h4{max-width:68ch}
 
-/* "Udvid alle / Luk alle" i samme stil som emne-chips */
-.detail-control{background:var(--surface);border:1px solid var(--border);border-radius:999px;box-shadow:none;color:var(--muted);padding:.35rem .85rem}
-.detail-control:hover{background:var(--surface);color:var(--text);border-color:#bdc5ba}
-
 /* Mobil: emne-chips på én vandret række i stedet for fire rækker */
 .politics-layout>*{min-width:0}
 @media(max-width:800px){
