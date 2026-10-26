@@ -23,6 +23,8 @@ function inlineMarkdown(text) {
   out = out.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   out = out.replace(/\*(.+?)\*/g, '<em>$1</em>');
   out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+  // Interne links (fx politik.html#oekonomi) åbnes i samme fane
+  out = out.replace(/\[([^\]]+)\]\(([a-z0-9-]+\.html(?:#[a-z0-9-]+)?)\)/gi, '<a href="$2">$1</a>');
   out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
   return out;
 }
