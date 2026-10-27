@@ -2065,8 +2065,25 @@ p.overshoot-equivalent {
   border-bottom: 0;
 }
 
+/* Faste kolonnebredder, så den sidste kolonne (typisk grundlaget) får plads */
+.ep-table {
+  table-layout: fixed;
+}
+
+.ep-table th:nth-child(1) {
+  width: 24%;
+}
+
+.ep-table th:nth-child(2) {
+  width: 28%;
+}
+
+.ep-table td:first-child {
+  font-weight: 650;
+  color: var(--text);
+}
+
 .ep-table td:nth-child(2) {
-  white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
 
@@ -2141,6 +2158,10 @@ p.overshoot-equivalent {
     background: none;
   }
 
+  .ep-table {
+    table-layout: auto;
+  }
+
   .ep-table,
   .ep-table tbody,
   .ep-table tr,
@@ -2180,9 +2201,6 @@ p.overshoot-equivalent {
     color: var(--text);
   }
 
-  .ep-table td:nth-child(2) {
-    white-space: normal;
-  }
 
   .ep-table td[data-label]:not(:first-child)::before {
     content: attr(data-label);
