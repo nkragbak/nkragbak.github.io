@@ -2,6 +2,8 @@
 
 Mit udgangspunkt er, at rige samfund som Danmark skal reducere deres samlede materielle og økologiske aftryk markant. **Det er den fysiske opgave. Om BNP samtidig stiger eller falder, er sekundært.**
 
+Danmarks Statistik opgør for 2025 det danske økologiske fodaftryk til **4,4 jordkloder**: Hvis alle levede som os, ville det kræve 4,4 gange Jordens biologiske kapacitet. [Kilde: Danmarks Statistik, indikator 12.2.3](https://www.dst.dk/da/Statistik/temaer/SDG/danske-maalepunkter).
+
 Relativ afkobling er reel, og teknologi, effektivisering, elektrificering, cirkulære løsninger og grøn energi er afgørende. Hvis økonomisk vækst kunne afkobles fuldstændigt, varigt og hurtigt nok fra miljøbelastningen, **så den samlede belastning kom inden for planetens grænser**, ville konflikten mellem vækst og naturens bæreevne kunne ophøre. Men det er ikke, hvad den hidtidige globale udvikling viser. Vi har ikke evidens for en vedvarende, tilstrækkelig absolut afkobling af vækst fra ressourceforbrug og miljøbelastning i den skala og hastighed, en fortsat vækststrategi kræver. Rebound-effekter betyder desuden, at effektiviseringer delvist kan blive omsat til mere aktivitet.
 
 Derfor kan vi ikke ansvarligt gøre fortsat BNP-vækst til en forudsætning og håbe, at det fysiske forbrug følger en anden kurve. Vi må også være villige til direkte at reducere ressourceintensiv produktion og forbrug. Det kan medføre nulvækst eller minusvækst. **BNP-fald er ikke målet i sig selv.** Målet er gode liv inden for naturens bæreevne. Nogle aktiviteter bør vokse kraftigt – eksempelvis vedvarende energi, naturgenopretning og dele af omsorgsøkonomien – mens andre nødvendigvis må fylde mindre.
