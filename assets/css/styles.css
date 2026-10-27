@@ -2231,6 +2231,111 @@ p.overshoot-equivalent {
 }
 
 
+
+/* Én planet: politisk diskussion og konkrete forslag --------------------
+   Kun hovedsiden (.ep-program-page), ikke AI-baggrundsanalyserne. */
+.ep-program-page .ep-policy-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.1rem;
+  margin-top: 1.6rem;
+}
+.ep-program-page .ep-policy {
+  min-width: 0;
+  padding: clamp(1.15rem, 2.2vw, 1.8rem);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  scroll-margin-top: 95px;
+}
+.ep-program-page .ep-policy-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.9rem;
+}
+.ep-program-page .ep-policy-head .scope {
+  font-size: 0.82rem;
+}
+.grundlov-section .ep-policy h3 {
+  margin: 0.8rem 0 0.55rem;
+  font-size: clamp(1.16rem, 1.7vw, 1.35rem);
+}
+.grundlov-section .ep-policy h4 {
+  margin: 1.1rem 0 0.45rem;
+  font-size: 0.94rem;
+  font-weight: 750;
+  color: var(--text);
+}
+.grundlov-section .ep-policy p.ep-policy-thesis {
+  margin: 0.45rem 0 0.85rem;
+  font-size: 1.01rem;
+  line-height: 1.65;
+}
+.ep-program-page .ep-policy ul {
+  margin: 0.35rem 0 1rem;
+  padding-left: 1.3rem;
+}
+.ep-program-page .ep-policy li + li { margin-top: 0.5rem; }
+.ep-program-page .ep-policy-question {
+  border-left: 3px solid var(--accent-border);
+  padding: 0.6rem 0 0.6rem 1rem;
+  color: var(--text-body);
+  line-height: 1.6;
+}
+.grundlov-section .ep-policy p.ep-policy-sources {
+  margin: 0.95rem 0 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+.ep-program-page .ep-direction-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 1.3rem 0;
+}
+.ep-program-page .ep-direction-grid > div {
+  min-width: 0;
+  padding: 1.1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+.grundlov-section .ep-direction-grid h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.08rem;
+}
+.grundlov-section .ep-direction-grid p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.ep-program-page .ep-dilemma-list {
+  border-top: 1px solid var(--border);
+  margin-top: 1.4rem;
+}
+.ep-program-page .ep-dilemma-list details {
+  border-bottom: 1px solid var(--border);
+  padding: 0.9rem 0;
+}
+.ep-program-page .ep-dilemma-list summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.ep-program-page .ep-dilemma-list summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.grundlov-section .ep-dilemma-list details p {
+  margin: 0.65rem 0 0;
+}
+@media (max-width: 700px) {
+  .ep-program-page .ep-direction-grid { grid-template-columns: 1fr; }
+  .ep-program-page .ep-policy-head { align-items: flex-start; }
+}
+
 /* 14. Print ----------------------------------------------------------------- */
 
 @media print {
