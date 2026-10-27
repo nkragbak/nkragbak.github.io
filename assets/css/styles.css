@@ -14,7 +14,8 @@
    10. Fokusområder
    11. Grundlovsforslag (side, tidslinje, søjlediagram, Earth Overshoot Day)
    12. Diagram: klimaopbakning (Demokrati & magt)
-   13. Print
+   13. Fremskrivning: Danmark på én planet (simulator, samleside)
+   14. Print
 
    Breakpoints: 1000px (forside-gitter), 950px (mobilmenu), 800px (mobil-layout),
    740 / 600 / 560 / 420px (diagrammer).
@@ -1594,13 +1595,569 @@ p.overshoot-equivalent {
 }
 
 
-/* 13. Print ----------------------------------------------------------------- */
+/* 13. Fremskrivning: Danmark på én planet (en-planet*.html) ------------------
+   Siderne er ikke i menuen. Simulatoren bruger præfikset .ep- og genbruger
+   ellers grundlovssidens sektioner (.grundlov-section). */
+
+.ep-disclaimer {
+  max-width: 830px;
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--overshoot-after);
+  background: var(--surface);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--text-body);
+  font-size: 0.95rem;
+}
+
+.ep-disclaimer strong {
+  color: var(--text);
+}
+
+/* Nøgletal i udgangspunktet */
+.ep-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.ep-fact {
+  padding: 1rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.ep-fact strong {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.grundlov-section p.ep-fact-label {
+  margin: 0.35rem 0 0;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* Hverdagsfortællingen */
+.ep-story {
+  padding: 1.5rem 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.ep-story p {
+  font-size: 1.04rem;
+}
+
+/* Politikpakkens spor */
+.ep-tracks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1.5rem 0;
+}
+
+.ep-track {
+  padding: 1.25rem 1.35rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.ep-track-wide {
+  grid-column: 1 / -1;
+  background: var(--accent-soft);
+  border-color: var(--accent-border);
+}
+
+.grundlov-section .ep-track h3 {
+  margin: 0.55rem 0 0.4rem;
+  font-size: 1.1rem;
+}
+
+.ep-track ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.ep-track li {
+  font-size: 0.94rem;
+}
+
+.ep-track li + li {
+  margin-top: 0.35rem;
+}
+
+/* Simulatoren */
+.ep-sim {
+  margin: 1.75rem 0 0;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.ep-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0;
+}
+
+.ep-presets button {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--control-border);
+  border-radius: 999px;
+  background: var(--control-bg);
+  color: var(--control-text);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ep-presets button:hover {
+  background: var(--control-bg-hover);
+  border-color: var(--control-border-hover);
+}
+
+.ep-presets button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+}
+
+.grundlov-section p.ep-preset-note {
+  min-height: 1.5em;
+  margin: 0.6rem 0 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.ep-layer {
+  margin-top: 1.75rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--border);
+}
+
+.grundlov-section .ep-layer h3 {
+  margin: 0.25rem 0 0.3rem;
+  font-size: 1.2rem;
+}
+
+.grundlov-section p.ep-layer-intro {
+  margin: 0 0 1.1rem;
+  font-size: 0.93rem;
+}
+
+.ep-levers {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.ep-lever-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.ep-lever-head label {
+  font-weight: 750;
+}
+
+.ep-lever-head output {
+  flex: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.grundlov-section p.ep-lever-desc {
+  margin: 0.15rem 0 0.35rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.ep-lever input[type="range"] {
+  width: 100%;
+  margin: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.ep-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+/* Resultat: datointerval */
+.ep-result {
+  margin: 1.5rem 0 0;
+  padding: 1.25rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.ep-result-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+}
+
+.ep-result-head span {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.ep-result-head strong {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  font-variant-numeric: tabular-nums;
+}
+
+.ep-range-bar {
+  position: relative;
+  height: 22px;
+  margin: 0.7rem 0 0;
+  border-radius: 6px;
+  background: linear-gradient(
+    to right,
+    var(--overshoot-before) 0%,
+    var(--overshoot-before) var(--ep-lo),
+    transparent var(--ep-lo),
+    transparent var(--ep-hi),
+    var(--overshoot-after) var(--ep-hi),
+    var(--overshoot-after) 100%
+  );
+  transition: background 0.2s;
+}
+
+.ep-range-band {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--ep-lo);
+  width: calc(var(--ep-hi) - var(--ep-lo));
+  background: repeating-linear-gradient(
+    135deg,
+    var(--overshoot-before) 0 5px,
+    var(--overshoot-after) 5px 10px
+  );
+}
+
+.ep-today-marker {
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: 21.6%;
+  width: 2px;
+  background: var(--overshoot-marker);
+  transform: translateX(-1px);
+}
+
+.ep-result .overshoot-year-axis {
+  margin-bottom: 0.6rem;
+}
+
+.ep-result-lines {
+  display: grid;
+  gap: 0.2rem;
+  font-size: 0.86rem;
+  color: var(--text-body);
+}
+
+.ep-result-lines strong {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Resterende fodaftryk fordelt på områder */
+.ep-stack-wrap {
+  margin-top: 1.25rem;
+}
+
+.grundlov-section h4.ep-small-title {
+  margin: 0 0 0.45rem;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.ep-stack {
+  position: relative;
+  display: flex;
+  height: 26px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--chart-track);
+}
+
+.ep-stack span {
+  height: 100%;
+  transition: width 0.2s;
+}
+
+.ep-stack span + span {
+  box-shadow: inset 1px 0 0 var(--surface);
+}
+
+.ep-one-planet {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--overshoot-marker);
+  box-shadow: 0 0 0 1px var(--surface);
+  transform: translateX(-1.5px);
+}
+
+.ep-stack-axis {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.ep-axis-one {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.ep-stack-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+  margin-top: 0.55rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.ep-stack-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.ep-stack-legend i {
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 2px;
+  flex: none;
+}
+
+.ep-c-mad { background: #507c64; }
+.ep-c-transport { background: #c98a6b; }
+.ep-c-bolig { background: #7d8fb0; }
+.ep-c-varer { background: #b6a35a; }
+.ep-c-service { background: #9ba69d; }
+
+/* Sammenhængsmåleren */
+.ep-meter {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+.ep-gauge {
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--border);
+  border-top-width: 5px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+
+.ep-gauge[data-state="groen"] { border-top-color: #5f9a72; }
+.ep-gauge[data-state="gul"] { border-top-color: #d6a93c; }
+.ep-gauge[data-state="roed"] { border-top-color: #c2553f; }
+
+.ep-gauge-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-weight: 750;
+  font-size: 0.95rem;
+}
+
+.ep-state {
+  flex: none;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ep-gauge[data-state="groen"] .ep-state { background: #e1efe5; color: #2f6141; }
+.ep-gauge[data-state="gul"] .ep-state { background: #f7ecd0; color: #7a5a12; }
+.ep-gauge[data-state="roed"] .ep-state { background: #f6dfd9; color: #8c3322; }
+
+.grundlov-section p.ep-gauge-text {
+  margin: 0.45rem 0 0;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.ep-verdict {
+  margin: 1rem 0 0;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-control);
+  background: var(--accent-soft);
+  font-size: 0.93rem;
+  font-weight: 600;
+}
+
+/* Antagelser */
+.ep-table-wrap {
+  overflow-x: auto;
+  margin: 1.25rem 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+
+.ep-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.ep-table th,
+.ep-table td {
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+
+.ep-table thead th {
+  background: var(--surface-tint);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.ep-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.ep-table td:nth-child(2) {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.ep-basis {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.ep-basis-kilde { background: var(--accent-soft); color: var(--accent); }
+.ep-basis-skoen { background: #f7ecd0; color: #7a5a12; }
+
+/* Samlesiden */
+.ep-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.ep-hub-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.grundlov-section .ep-hub-card h3 {
+  margin: 0.6rem 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.ep-hub-card p {
+  flex: 1;
+}
+
+.ep-hub-card .button {
+  align-self: flex-start;
+}
+
+.ep-hub-card.is-pending {
+  background: var(--surface-tint);
+  border-style: dashed;
+}
+
+@media (max-width: 800px) {
+  .ep-tracks,
+  .ep-meter,
+  .ep-hub-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ep-sim {
+    padding: 1.1rem;
+  }
+
+  .ep-story {
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ep-facts {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ep-sim {
+    padding: 0.9rem;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+  }
+
+  .ep-result {
+    padding: 1rem 0.85rem;
+  }
+}
+
+
+/* 14. Print ----------------------------------------------------------------- */
 
 @media print {
   .site-header,
   .site-footer,
   .grundlov-page .focus-jump,
-  .grundlov-end .button {
+  .grundlov-end .button,
+  .ep-presets {
     display: none;
   }
 
@@ -1618,7 +2175,9 @@ p.overshoot-equivalent {
 
   .grundlov-law-card,
   .grundlov-chart,
-  .overshoot-feature {
+  .overshoot-feature,
+  .ep-sim,
+  .ep-track {
     break-inside: avoid;
   }
 
