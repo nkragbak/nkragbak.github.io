@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danmark på én planet · Indledende analyse med ChatGPT · Niels Kragbak</title>
+  <meta name="description" content="Et konkret scenarie for Danmarks vej mod et ressourceforbrug inden for planetens grænser. Syv reformspor, fremtidsbillede, seks svære spørgsmål og kildegrundlag.">
+  <meta name="author" content="Niels Kragbak">
+  <link rel="canonical" href="https://nkragbak.github.io/en-planet-chatgpt.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="da_DK">
+  <meta property="og:site_name" content="Niels Kragbak">
+  <meta property="og:title" content="Danmark på én planet – indledende analyse med ChatGPT">
+  <meta property="og:description" content="En indledende systematisk analyse af materialeforbrug, konkrete reformspor og den nødvendige samfundsøkonomiske omstilling.">
+  <meta property="og:url" content="https://nkragbak.github.io/en-planet-chatgpt.html">
+  <meta property="og:image" content="https://nkragbak.github.io/assets/img/niels-portrait.jpg">
+  <meta property="og:image:alt" content="Portræt af Niels Kragbak">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Danmark på én planet – ChatGPT-analysen">
+  <meta name="twitter:description" content="Syv reformspor, en tænkt hverdag og seks svære spørgsmål om at leve inden for planetens grænser.">
+  <meta name="twitter:image" content="https://nkragbak.github.io/assets/img/niels-portrait.jpg">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20261026b">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">Niels Kragbak</a>
+  <button class="menu-toggle" aria-label="Åbn menu" aria-expanded="false">☰</button>
+  <nav class="site-nav" aria-label="Hovednavigation">
+    <a href="index.html">Forside</a><a href="politik.html">Politik</a><a href="fokusomraader.html">Fokusområder</a><a href="grundlovsforslag.html">Grundlovsforslag</a><a href="materialer.html">Tekster &amp; medier</a><a href="projekter.html">Projekter</a><a href="om.html">Om mig</a>
+  </nav>
+</header>
+<main class="content standalone grundlov-page ep-page">
+  <header class="page-intro">
+    <p class="eyebrow">Indledende analyse · <a href="en-planet.html">Tilbage til hovedsiden</a></p>
+    <h1>Et Danmark inden for planetens grænser</h1>
+    <p class="lead">Hvad ville det konkret kræve at bringe Danmarks materielle aftryk væsentligt ned, samtidig med at mennesker har mulighed for gode liv? Her er et forslag til mål, reformer og en mulig fremtid – samt de afgørende spørgsmål, som endnu er ubesvarede.</p>
+    <p class="focus-principle">Naturens bæreevne sætter rammerne. Menneskers trivsel er formålet. Økonomien er vores måde at organisere det på.</p>
+    <div class="proposal-meta"><span class="tag">Indledende analyse B</span><span class="scope">Udarbejdet i dialog med ChatGPT (OpenAI) · 27. oktober 2026</span></div>
+    <p class="ep-disclaimer"><strong>Læsevejledning:</strong> Dette er en scenarieanalyse, ikke en beregnet dansk reformplan eller en prognose. Forskning og officielle statistikker er angivet som kilder. Talmål og politiske forslag, som vi selv har valgt til illustration, er tydeligt markeret. Den separate <a href="en-planet-claude.html">Claude-analyse</a> er et andet udgangspunkt; de to er ikke automatisk forenelige.</p>
+  </header>
+  <nav class="focus-jump" aria-label="På denne side">
+    <a href="#hvorfor">Udgangspunkt</a>
+    <a href="#maal">Mål mod 2050</a>
+    <a href="#sektorer">Hvor griber vi ind?</a>
+    <a href="#politikker">Syv reformspor</a>
+    <a href="#hverdag">Hverdag i 2040</a>
+    <a href="#vanskelige">Seks spørgsmål</a>
+    <a href="#metode">Metode</a>
+    <a href="#kilder">Kilder</a>
+  </nav>
+
+  <section class="grundlov-section" id="hvorfor">
+    <p class="eyebrow">1 · Udfordringens omfang</p>
+    <h2>Hvor står Danmark?</h2>
+    <p>Danmark er et højindkomstland med et stort forbrug af materialer og biologiske ressourcer. Overshoot-begrebet stiller et enkelt spørgsmål: Hvor mange jordkloder ville vi behøve, hvis alle levede med samme økologiske fodaftryk som os?</p>
+    <div class="ep-facts">
+      <div class="ep-fact"><strong>4,4</strong><p class="ep-fact-label">jordkloder ifølge Danmarks Statistiks 2025-indikator. Tallet er estimeret ud fra 2024-data [1].</p></div>
+      <div class="ep-fact"><strong>20. marts</strong><p class="ep-fact-label">Danmarks Overshoot Day 2026 efter den internationale metode, gengivet af Lex [2].</p></div>
+      <div class="ep-fact"><strong>24,8 ton</strong><p class="ep-fact-label">materialefodaftryk pr. dansker i 2024, opgjort i råstofækvivalenter [3].</p></div>
+    </div>
+    <p><strong>Vigtig præcisering:</strong> Tallene er ikke identiske mål. Overshoot bygger på økologisk fodaftryk og biokapacitet, mens materialefodaftrykket opgør råstoffer anvendt globalt til dansk efterspørgsel, inklusive import og fratrukket eksport. Danmarks Statistiks 2025-indikator er heller ikke nøjagtigt samme årgang som den internationale overshoot-dato i 2026. Den anden indledende analyse bruger cirka 4,7 jordkloder; denne analyse bruger 4,4 som basis for et <em>illustrativt</em> reduktionsforløb.</p>
+    <p>Ét økologisk fodaftryk er ikke en tilstrækkelig definition af bæredygtighed. En sådan målsætning må suppleres med klimaaftryk, naturens tilstand, areal, kvælstof og fosfor, vand, miljøfarlige stoffer og materialeforbrug. Planetary Health Check 2026 vurderer, at syv ud af ni planetære grænser er overskredet globalt [4].</p>
+    <p>Den internationale UNEP-rapport <em>Global Resources Outlook 2024</em> viser samtidig store forskelle i materialeforbruget mellem høj- og lavindkomstlande. En dansk omstilling bør derfor også vurderes i et globalt retfærdighedsperspektiv [5].</p>
+  </section>
+
+  <section class="grundlov-section" id="maal">
+    <p class="eyebrow">2 · Et muligt reduktionsforløb</p>
+    <h2>Fra 4,4 jordkloder mod én i 2050</h2>
+    <p>Lad os som et politisk tankeeksperiment sætte et mål om, at danskernes beregnede økologiske fodaftryk skal kunne rummes inden for én global biokapacitet pr. indbygger omkring 2050. Det er ikke i sig selv en dokumenteret eller tilstrækkelig bæredygtighedsgrænse for alle miljøproblemer.</p>
+    <p>Hvis vi tager <strong>4,4 jordkloder i 2025</strong> som udgangspunkt og <strong>1,0 i 2050</strong> som mål, indebærer en jævn procentvis reduktion cirka <strong>5,8 % årligt</strong> i hele perioden. Her er et rent matematisk eksempel – ikke en prognose for virkningen af politiske tiltag:</p>
+    <div class="ep-table-wrap"><table class="ep-table"><thead><tr><th>År</th><th>Illustrativt niveau</th><th>Status</th></tr></thead><tbody>
+      <tr><td>2025</td><td>4,4 jordkloder</td><td>Danmarks Statistiks offentliggjorte indikator [1]</td></tr>
+      <tr><td>2030</td><td>3,3 jordkloder</td><td>Udregnet scenarie – ikke fremskrivning</td></tr>
+      <tr><td>2035</td><td>2,4 jordkloder</td><td>Udregnet scenarie – ikke fremskrivning</td></tr>
+      <tr><td>2040</td><td>1,8 jordkloder</td><td>Udregnet scenarie – ikke fremskrivning</td></tr>
+      <tr><td>2045</td><td>1,3 jordkloder</td><td>Udregnet scenarie – ikke fremskrivning</td></tr>
+      <tr><td>2050</td><td>1,0 jordklode</td><td>Valgt politisk undersøgelsesmål</td></tr>
+    </tbody></table></div>
+    <h3>Et særskilt mål for materialerne</h3>
+    <p>En mulig <em>undersøgelseshypotese</em> er at teste, hvad det ville kræve at komme fra 24,8 ton til <strong>6–8 ton materialefodaftryk pr. indbygger</strong> i 2050: omtrent 68–76 % mindre end i 2024. Intervallet er et scenarievalg, <strong>ikke</strong> en videnskabeligt fastlagt dansk grænse. Vi skal undersøge, om målet er tilstrækkeligt, om det er muligt, og hvordan det spiller sammen med de øvrige miljømål.</p>
+    <p>Vi skal ikke bruge én indikator til at erklære succes på bekostning af andre. Et fald i ton materialer kan for eksempel dække over øget miljøgiftighed, naturødelæggelse eller eksport af belastningen til andre lande.</p>
+  </section>
+
+  <section class="grundlov-section" id="sektorer">
+    <p class="eyebrow">3 · Hvilke behov trækker på ressourcerne?</p>
+    <h2>Hvilke dele af økonomien skal vokse, ændres eller blive mindre?</h2>
+    <p>Spørgsmålet handler ikke bare om BNP. Vi må kortlægge, hvordan energi, materialer, natur og arbejdskraft omsættes til <em>ydelser</em>: boliger, fødevarer, transport, sundhed, omsorg og andre dele af et godt liv.</p>
+    <p>EEA's EU-analyse for 2021 fordelte materialefodaftrykket med cirka 52 % på boliger, 20 % på fødevarer, 11 % på serviceydelser samt 8 % på henholdsvis personlig mobilitet og husholdningsvarer. <strong>Det er tal for EU, ikke en opgørelse over Danmark.</strong> De viser dog, hvorfor boliger og byggematerialer må undersøges grundigt [6].</p>
+    <div class="ep-tracks">
+      <article class="ep-track"><span class="tag">Mulig udbygning</span><h3>Flere tjenester med relativt lavt aftryk</h3><p>Naturgenopretning, forebyggelse og omsorg, vedligeholdelse, uddannelse, reparation og kollektiv mobilitet. Men også disse aktiviteter skal overholde fysiske rammer.</p></article>
+      <article class="ep-track"><span class="tag">Grundlæggende omstilling</span><h3>Samme behov, andre midler</h3><p>Varige produkter frem for hyppig udskiftning, renoverede boliger frem for unødvendigt nybyggeri, mere plantebaseret mad og fælles transport frem for flere private køretøjer.</p></article>
+      <article class="ep-track ep-track-wide"><span class="tag">Mulig reduktion</span><h3>Mindre af den mest belastende aktivitet</h3><p>En mindre animalsk produktion, mindre overflødigt nybyggeri, færre meget ressourcekrævende forbrugsgoder og et lavere samlet behov for primære råstoffer. Hvor meget er et åbent spørgsmål, der kræver sektorregnskaber og politiske valg.</p></article>
+    </div>
+    <p>IPCC's forskning viser, at ændrede måder at tilvejebringe tjenester på – eksempelvis transport, mad og bygninger – kan reducere globale drivhusgasudledninger fra udvalgte slutforbrugssektorer betydeligt. Disse klimatal kan dog ikke omsættes direkte til samme procentuelle reduktion i materialefodaftryk [7].</p>
+  </section>
+
+  <section class="grundlov-section" id="politikker">
+    <p class="eyebrow">4 · Et forslag til sammenhængende politikpakke</p>
+    <h2>Syv reformspor, der skal virke sammen</h2>
+    <p>Forslagene her er udvalgt som mulige elementer i et dansk scenarie. De er <strong>ikke</strong> resultatet af en samlet dansk modelberegning. De syv reformspor er heller ikke identiske med de syv konkrete politikker i Zwetsloot m.fl.'s svenske forskningsartikel [8].</p>
+    <div class="ep-tracks">
+      <article class="ep-track"><span class="tag">A · Fysiske rammer</span><h3>Nationalt ressourcebudget</h3>
+        <p>En ressourcelov kan fastsætte nationale mål for materielt og økologisk fodaftryk samt sektorspecifikke delmål. En uafhængig faglig institution kan vurdere, om politiske beslutninger bringer Danmark tættere på målene.</p>
+        <ul><li>Årlige forbrugsbaserede miljøregnskaber, ikke kun territoriale tal.</li><li>Femårige sektorbudgetter og offentlig konsekvensvurdering.</li><li>Synlige afvejninger af brugen af materialer til boliger, infrastruktur, forsvar og velfærd.</li></ul>
+        <p><strong>Åbent:</strong> Hvor juridisk bindende skal budgetterne være, og hvordan fordeles de mellem sektorer?</p>
+      </article>
+      <article class="ep-track"><span class="tag">B · Land og hav</span><h3>Landbrug, arealer og biodiversitet</h3>
+        <p>Et mindre arealkrævende fødevaresystem kombineret med større sammenhængende naturområder, genoprettede vådområder og mindre næringsstofbelastning.</p>
+        <ul><li>Omlægning af en større del af produktionen til plantebaserede fødevarer.</li><li>Styrket naturbeskyttelse og mål for reelle økologiske resultater.</li><li>Ordninger for jordopkøb, omlægning, kompensation og erhvervsskifte.</li></ul>
+        <p><strong>Åbent:</strong> Hvor meget kan husdyrproduktionen nedskaleres uden blot at flytte problemerne til udlandet?</p>
+      </article>
+      <article class="ep-track"><span class="tag">C · Bygninger</span><h3>Byg mindre nyt, brug mere af det eksisterende</h3>
+        <p>Flyt en større del af investeringerne fra nybyggeri og nedrivning til renovering, ombygning og vedligeholdelse.</p>
+        <ul><li>Ressourcevurdering før nedrivning og store nye byggerier.</li><li>Styrket genbrug af byggematerialer og krav til lang levetid.</li><li>Planlægning, der fremmer god udnyttelse af eksisterende bygningsmasse.</li></ul>
+        <p><strong>Åbent:</strong> Hvordan sikrer vi boliger til befolkningen, hvis nybyggeri begrænses?</p>
+      </article>
+      <article class="ep-track"><span class="tag">D · Mobilitet og energi</span><h3>Adgang til mobilitet med færre ressourcer</h3>
+        <p>Elektrificering er vigtig, men et samlet lavere ressource- og energibehov kræver også ændret transportinfrastruktur og kortere afstande i hverdagen.</p>
+        <ul><li>Tog, busser, cykelstier og deleløsninger, også uden for storbyerne.</li><li>Bilbeskatning med større hensyn til vægt og ressourceforbrug.</li><li>Differentieret beskatning af meget højt flyforbrug, hvor det kan gennemføres.</li></ul>
+        <p><strong>Åbent:</strong> Hvordan undgår vi at svække mobilitet for borgere i områder med få alternativer?</p>
+      </article>
+      <article class="ep-track"><span class="tag">E · Produkter</span><h3>Fra udskiftning til holdbarhed</h3>
+        <p>Incitamenter til varer, der holder længe og kan vedligeholdes og repareres, frem for en økonomi præget af kort produktlevetid.</p>
+        <ul><li>Styrkede standarder for reservedele, reparation og genbrug via EU.</li><li>Offentlige indkøb baseret på livscyklus og reparerbarhed.</li><li>Forsøg med afgifter på udvalgte primære materialer og forurenende produktion.</li></ul>
+        <p><strong>Åbent:</strong> Hvordan måler vi den samlede miljøeffekt og undgår rebound, når effektivitet gør varer billigere?</p>
+      </article>
+      <article class="ep-track"><span class="tag">F · Kapital og kredit</span><h3>Finansiering efter samfundsværdi</h3>
+        <p>Bankers kreditgivning er med til at bestemme investeringernes retning. Når banker yder lån, skaber de samtidig indlånspenge [9]. En økonomi med begrænset ressourcebudget må spørge, hvilke investeringer der er i fællesskabets langsigtede interesse.</p>
+        <ul><li>Offentlige investeringer og eventuelt en investeringsbank med demokratisk mandat.</li><li>Styrket gennemsigtighed om finansierede aktiviteters miljøaftryk.</li><li>Økonomiske rammer, der gør ressourcebelastende investeringer mindre attraktive.</li></ul>
+        <p><strong>Åbent:</strong> Hvor langt bør demokratisk kreditstyring række, og hvad er realistisk inden for EU's og det monetære systems rammer? Statsligt monopol på pengeskabelsen er en særskilt, langt mere vidtgående reform.</p>
+      </article>
+      <article class="ep-track ep-track-wide"><span class="tag">G · Arbejdsmarked og tryghed</span><h3>Kortere arbejdstid, omfordeling og fælles tjenester</h3>
+        <p>En omstilling, hvor nogle sektorer nedskaleres, vil ændre arbejdsmarked og offentlige indtægter. En reduktion i ressourcer må derfor ledsages af omfordeling, omskoling og planlægning af nødvendig arbejdskraft.</p>
+        <ul><li>Afprøvning af 32-timers arbejdsuge og på længere sigt eventuelt 30 timer, hvor vilkårene tillader det.</li><li>Progressiv fordeling af skatter og omstillingsomkostninger.</li><li>Styrkelse af basale offentlige tjenester og overgangsordninger for ansatte.</li><li>Undersøgelse af basisindkomst og andre former for indkomstsikring uden at forudsætte én bestemt løsning.</li></ul>
+        <p><strong>Åbent:</strong> Hvad sker der med finansieringen af velfærd, arbejdstimer i knaphedssektorer og den offentlige gæld?</p>
+      </article>
+    </div>
+    <p><strong>Hvorfor en samlet pakke?</strong> Zwetsloot m.fl. (2026) bruger en systemdynamisk svensk model til at undersøge nedskalering, omfordeling og arbejdstidsreduktion. I modellen kan en sammenhængende pakke reducere miljøpres og sociale problemer, mens isolerede tiltag skaber dilemmaer. Men modellen peger også på voksende langsigtede gældsrisici og kan ikke bruges som færdig dansk facitliste [8].</p>
+  </section>
+
+  <section class="grundlov-section" id="hverdag">
+    <p class="eyebrow">5 · En tænkt fremtid</p>
+    <h2>En almindelig familie i Køge i 2040</h2>
+    <div class="ep-story">
+      <p>Det er tirsdag morgen i Køge. En familie med to børn gør sig klar til skole og arbejde. De bor i et velholdt hus, som er blevet energirenoveret frem for erstattet af nybyggeri. Der er varme, internet, sundhedspleje, skole, fritidsaktiviteter og moderne teknologi. Det er ikke et samfund, der har opgivet bekvemmeligheder.</p>
+      <p>Men mange af de materielle vaner er ændret. Familien har én mindre bil frem for to, fordi en bedre lokal transportforbindelse gør det realistisk at undvære den anden. Den elektronik, de ejer, repareres oftere. Tøj og indbo bruges længere, og en del ting lånes eller deles, fordi det er nemt.</p>
+      <p>På tallerkenen er der flere plantebaserede måltider. I landskabet omkring byen er noget af den tidligere landbrugsjord blevet til skov, vådområder og mere sammenhængende natur. Fjorden er under genopretning.</p>
+      <p>Forældrene arbejder måske færre timer end i 2026 og har mere tid med børnene, i foreningerne og ude i naturen. Deres private materielle forbrug er lavere, men de basale tjenester er gode og tilgængelige. Det er samfundets infrastruktur og regler, ikke alene den enkelte families moralske selvdisciplin, der gør den anderledes hverdag mulig.</p>
+    </div>
+    <p><strong>Dette er en fortælling om en mulig hverdag, ikke en forudsigelse.</strong> Det forudsætter, at reformerne faktisk leverer bedre adgang til basale tjenester, rimelig fordeling og et markant mindre fysisk aftryk. Nogle borgere og erhverv kan samtidig blive dårligere stillet i omstillingsperioden. Det skal undersøges åbent.</p>
+  </section>
+
+  <section class="grundlov-section" id="vanskelige">
+    <p class="eyebrow">6 · Hvor scenariet skal prøves af</p>
+    <h2>De seks svære spørgsmål</h2>
+    <p>Disse spørgsmål er ikke en eftertanke. De skal afgøre, om de foreslåede reformer er økonomisk, socialt og politisk holdbare. De videre analyser samles på <a href="en-planet.html#seks-spoergsmaal">projektets hovedside</a>.</p>
+    <h3>1. Hvilke sektorer skal vokse, ændres og reduceres?</h3>
+    <p>Vi må skelne mellem væksten i nytte og væksten i fysisk produktion. Nogle aktiviteter skal udvikles, mens den mest belastende produktion skal nedbringes. En prioritering må bero på behov, fordeling og miljøeffekter – ikke alene på sektorens BNP-bidrag. <strong>Analysebehov:</strong> dansk input-output- og materialestrømsmodel, opdelt på sektor og efterspørgsel.</p>
+    <h3>2. Hvordan finansierer vi velfærden, hvis BNP ikke vokser?</h3>
+    <p>Finansiering er ikke blot et spørgsmål om skattens sats. Mindre produktion kan ændre lønsummer, kapitalindkomster, skatteindtægter og gældsbetjening; færre arbejdstimer kan udfordre velfærdsområder med mangel på personale. Modsat kan færre miljø- og sundhedsskader aflaste samfundet. <strong>Analysebehov:</strong> flere makroøkonomiske scenarier med skatter, produktivitet, løn, beskæftigelse, renter, pensioner og offentlige ydelser. Zwetsloot m.fl.'s gældsproblem skal tages alvorligt [8].</p>
+    <h3>3. Hvordan undgår vi at eksportere miljøbelastningen?</h3>
+    <p>Danmarks territorialregnskab siger ikke nok om et globalt aftryk. Hvis produktion flyttes, kan hjemlige miljøtal forbedres uden tilsvarende global gevinst. <strong>Analysebehov:</strong> forbrugsbaserede regnskaber, importerede materialer og udledninger, ændret efterspørgsel og mulige lækageeffekter. EU-løsninger kan være nødvendige for ens regler og effektiv håndhævelse.</p>
+    <h3>4. Hvem skal undvære hvad, og hvem skal beskyttes?</h3>
+    <p>Et gennemsnitstal skjuler forskelle i indkomst, bolig, transportbehov og adgang til alternativer. Højere priser på ressourcer kan være effektive, men kan ramme lavindkomstfamilier hårdt. <strong>Analysebehov:</strong> fordelingsberegninger på husholdningstyper; vurdering af progressiv finansiering, basisydelser og ordninger, der beskytter nødvendigt forbrug.</p>
+    <h3>5. Hvor meget skal staten bestemme, og hvad overlades til markedet?</h3>
+    <p>Fysiske grænser gør demokratiske prioriteringer uundgåelige, men offentlig styring kan også skabe fejl, magtkoncentration, lobbyisme og manglende fleksibilitet. <strong>Analysebehov:</strong> vurdering af regler, standarder, afgifter, handel med kvoter, offentlige investeringer og borgerinddragelse; konsekvenser for individuelle frihedsrettigheder og retssikkerhed.</p>
+    <h3>6. Kan vi gennemføre det hurtigt nok?</h3>
+    <p>Reduktion af et aftryk på cirka fire jordkloder til én inden 2050 kræver dybe ændringer inden for få årtier. Bygninger, energi og infrastruktur har lang levetid, og økonomien kan ikke ombygges øjeblikkeligt. <strong>Analysebehov:</strong> realistiske overgangsforløb, kapacitetsbegrænsninger, omstillingshastighed, robusthed og delmål for 2030, 2040 og 2050.</p>
+  </section>
+
+  <section class="grundlov-section" id="metode">
+    <p class="eyebrow">7 · Dokumentation og forbehold</p>
+    <h2>Hvad er forskning, og hvad er vores egne antagelser?</h2>
+    <div class="ep-table-wrap"><table class="ep-table"><thead><tr><th>Udsagn</th><th>Grundlag</th><th>Hvordan må det bruges?</th></tr></thead><tbody>
+      <tr><td>4,4 jordkloder (2025)</td><td><span class="ep-basis ep-basis-kilde">Officiel statistik</span></td><td>Danmarks Statistiks indikator [1]. Ikke det samme som alle planetære grænser.</td></tr>
+      <tr><td>24,8 ton pr. indbygger (2024)</td><td><span class="ep-basis ep-basis-kilde">Officiel statistik</span></td><td>Dansk materialefodaftryk i råstofækvivalenter [3].</td></tr>
+      <tr><td>Boligsystemet 52 % af EU's materialefodaftryk (2021)</td><td><span class="ep-basis ep-basis-kilde">Forskning / EEA</span></td><td>EU-opgørelse; må ikke udlægges som dansk sektortal [6].</td></tr>
+      <tr><td>Én jordklode i 2050; ca. 5,8 % årlig reduktion</td><td><span class="ep-basis ep-basis-skoen">Valgt scenarie</span></td><td>Matematisk målsti, ikke beregnet effekt af reformer.</td></tr>
+      <tr><td>6–8 ton materialefodaftryk i 2050</td><td><span class="ep-basis ep-basis-skoen">Arbejdshypotese</span></td><td>Ikke fastlagt videnskabelig grænse; skal testes mod natur- og trivselsmål.</td></tr>
+      <tr><td>Syv reformområder</td><td><span class="ep-basis ep-basis-skoen">Politikforslag</span></td><td>Hverken vedtaget politik eller samlet kvantificeret konsekvensvurdering.</td></tr>
+      <tr><td>Svensk systemdynamisk studie</td><td><span class="ep-basis ep-basis-kilde">Modelresultat</span></td><td>Inspiration til sammenhæng og risici; kan ikke overføres direkte til Danmark [8].</td></tr>
+    </tbody></table></div>
+    <h3>Fra dette udkast til en reel dansk analyse</h3>
+    <ol>
+      <li>Afklar alle miljøindikatorer og vælg et fælles referenceår.</li>
+      <li>Opdel det danske ressourceforbrug på materialer, sektorer og menneskelige behov.</li>
+      <li>For hver reform: specificér myndighed, lovgrundlag, virkemiddel, tidspunkt, budget og forventet effekt.</li>
+      <li>Modellér afledte effekter: import, eksport, rebound, priser, offentlige finanser, gæld, beskæftigelse og fordeling.</li>
+      <li>Test forskellige politiske pakker og offentliggør antagelser samt indvendinger.</li>
+    </ol>
+  </section>
+
+  <section class="grundlov-section" id="kilder">
+    <p class="eyebrow">Dokumentationsgrundlag</p>
+    <h2>Udvalgte kilder</h2>
+    <ol>
+      <li>[1] <a href="https://www.dst.dk/da/Statistik/temaer/SDG/danske-maalepunkter">Danmarks Statistik: De danske målepunkter, indikator 12.2.3</a> (jordkloder, 2025).</li>
+      <li>[2] <a href="https://lex.dk/Overshoot_Day">Lex: Overshoot Day</a> (dansk dato for 2026).</li>
+      <li>[3] <a href="https://www.dst.dk/da/Statistik/temaer/SDG/globale-verdensmaal/12-ansvarligt-forbrug-og-produktion/delmaal-02/indikator-1">Danmarks Statistik: Materielt fodaftryk, indikator 12.2.1</a> (2024).</li>
+      <li>[4] <a href="https://www.planetaryhealthcheck.org/">Planetary Health Check 2026</a> (planetære grænser).</li>
+      <li>[5] <a href="https://www.unep.org/en/publications/report/global-resources-outlook-2024">UNEP / International Resource Panel: Global Resources Outlook 2024</a>.</li>
+      <li>[6] <a href="https://www.eea.europa.eu/en/analysis/publications/material-footprints-in-european-policy-making">European Environment Agency: From data to decisions – material footprints in European policy making</a> (EU-opdeling for 2021).</li>
+      <li>[7] <a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/">IPCC AR6 WGIII, kapitel 5: Demand, services and social aspects of mitigation</a>.</li>
+      <li>[8] Zwetsloot m.fl. (2026): <a href="https://www.sciencedirect.com/science/article/pii/S0921800926001308">Modelling degrowth policies with system dynamics: Towards policy coherence</a>. Se også <a href="https://www.sei.org/publications/modelling-degrowth-policies-system-dynamics-policy-coherence/">Stockholm Environment Institutes opsummering</a>.</li>
+      <li>[9] <a href="https://www.bankofengland.co.uk/explainers/how-is-money-created">Bank of England: How is money created?</a> (bankernes indlånspengeskabelse ved kreditgivning).</li>
+    </ol>
+    <p>Artiklen fra Sverige er en forskningsmodel med antagelser og begrænsninger; den dokumenterer ikke, at bestemte danske reformer vil føre til et bestemt ressourcefald. Kilderne underbygger udgangspunkt og mulige mekanismer, ikke et gennemregnet slutresultat.</p>
+  </section>
+
+  <section class="grundlov-end">
+    <p class="eyebrow">Videre læsning</p>
+    <h2>To analyser – ét videre arbejde</h2>
+    <p>Se den <a href="en-planet-claude.html">indledende Claude-analyse</a> og den <a href="en-planet.html">fælles hovedside</a>, hvor de åbne spørgsmål og efterfølgende syntese samles.</p>
+    <a class="button primary" href="en-planet.html">Til hovedsiden</a>
+  </section>
+</main>
+<footer class="site-footer"><span>© <span data-year></span> Niels Kragbak</span><a href="om.html#kontakt">Kontakt</a></footer>
+<script src="assets/js/app.js?v=20261026b"></script>
+</body>
+</html>
