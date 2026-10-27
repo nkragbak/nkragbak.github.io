@@ -2133,6 +2133,69 @@ p.overshoot-equivalent {
   }
 }
 
+/* Mobil: hver tabelrække bliver et kort. app.js sætter data-label ud fra thead. */
+@media (max-width: 600px) {
+  .ep-table-wrap {
+    overflow: visible;
+    border: 0;
+    background: none;
+  }
+
+  .ep-table,
+  .ep-table tbody,
+  .ep-table tr,
+  .ep-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .ep-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+
+  .ep-table tr {
+    margin-bottom: 0.75rem;
+    padding: 0.9rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+  }
+
+  .ep-table td {
+    padding: 0;
+    border: 0;
+  }
+
+  .ep-table td + td {
+    margin-top: 0.6rem;
+  }
+
+  .ep-table td:first-child {
+    font-size: 1rem;
+    font-weight: 750;
+    color: var(--text);
+  }
+
+  .ep-table td:nth-child(2) {
+    white-space: normal;
+  }
+
+  .ep-table td[data-label]:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+}
+
 @media (max-width: 600px) {
   .ep-facts {
     grid-template-columns: minmax(0, 1fr);

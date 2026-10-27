@@ -209,3 +209,14 @@ document.querySelectorAll('[data-details-action]').forEach(button => {
     });
   });
 });
+
+// Tabeller i fremskrivningerne: giv hver celle sin kolonneoverskrift,
+// så rækkerne kan vises som kort på mobil.
+document.querySelectorAll('.ep-table').forEach(table => {
+  const headers = [...table.querySelectorAll('thead th')].map(th => th.textContent.trim());
+  table.querySelectorAll('tbody tr').forEach(row => {
+    [...row.children].forEach((cell, i) => {
+      if (headers[i]) cell.setAttribute('data-label', headers[i]);
+    });
+  });
+});
