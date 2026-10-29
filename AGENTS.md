@@ -148,6 +148,14 @@ skærmbillederne ligger.
   `main` udgiver sitet (afsnit 7).
 - Beskriv i pull requesten, hvad der er ændret, og om udseendet er ændret
   (med før/efter fra den visuelle sammenligning, afsnit 5).
+- Er en pull request merget, er dens branch færdig: den slettes, og nyt
+  arbejde starter på en frisk branch fra `main` (eller samme navn startet
+  forfra fra `main`). Byg aldrig videre på en allerede merget branch.
+- Der må kun være to branches på GitHub: `main` og den branch, der arbejdes
+  på lige nu. Find en agent andre branches, tjekker den, om indholdet er på
+  `main`. Er det, slettes de. Er det ikke, spørger den Niels.
+- Kan agenten ikke selv slette en branch, giver den Niels navnene og
+  kommandoen, fx `git push origin --delete <branch>`.
 
 ## 7. Udgivelse
 
