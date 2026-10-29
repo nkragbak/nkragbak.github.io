@@ -30,6 +30,23 @@ Tokens står i `:root` øverst i `styles.css`.
   sticky elementer): `var(--anchor-offset)`.
 - Afrunding: `var(--radius)`, `var(--radius-sm)`, `var(--radius-control)`
   eller `999px` for piller.
+- Skriftstørrelser: altid et trin fra skalaen, aldrig en løs `rem`-værdi.
+  Overskrifter (`h1`, `h2`, `.page-intro h1`) og `.lead` har deres egne
+  flydende `clamp()`-størrelser – dem bruger du ved at bruge elementet.
+
+  | Token | Størrelse | Bruges til |
+  |---|---|---|
+  | `--fs-2xs` | 0,7 rem | Akser og etiketter i diagrammer, små mærkater |
+  | `--fs-xs` | 0,78 rem | Eyebrows, signaturforklaringer, mærkater, figurtekster |
+  | `--fs-sm` | 0,85 rem | Hjælpetekst, kilder, tabeller, chips på mobil |
+  | `--fs-md` | 0,9 rem | Chips, footer, kompakt brødtekst i kort |
+  | `--fs-base` | 1 rem | Brødtekst |
+  | `--fs-lg` | 1,1 rem | Fremhævet tekst, små overskrifter |
+  | `--fs-xl` | 1,25 rem | `h3` |
+  | `--fs-2xl` | 1,5 rem | Store `h3` og nøgletal |
+
+  Passer ingen af trinene, så brug det nærmeste. Et nyt trin kræver
+  Niels' godkendelse.
 - Dæmpet tekst: `var(--muted)`. Brødtekst i længere tekster:
   `var(--text-body)`. Tekst på samme niveau skal have samme farve – fx har
   supplerende tekst under forsidens knapper samme stil som forsidens
