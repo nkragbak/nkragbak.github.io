@@ -1,0 +1,90 @@
+# Regler for arbejde på nkragbak.github.io
+
+Gælder for alle, der ændrer sitet – mennesker og AI-agenter. Formålet er, at
+designet forbliver ét sammenhængende system i stedet for mange næsten ens
+løsninger. Reglerne bliver udvidet, efterhånden som designsystemet bliver
+ryddet op; hver regel er godkendt af Niels.
+
+Sitet er statisk HTML. Al CSS ligger i `assets/css/styles.css`, al delt JS i
+`assets/js/app.js`. Der er ingen byggetrin.
+
+## 1. Udseendet er godkendt – ændr det ikke som bivirkning
+
+- Oprydning i CSS og HTML må **ikke** ændre, hvordan siderne ser ud.
+- En synlig ændring kræver, at Niels har bedt om den eller godkendt den.
+  Små ensretninger (fx en nuance, der afviger fra resten af sitet) skal
+  nævnes konkret med før/efter, ikke gemmes i en større ændring.
+- Bevis det: kør den visuelle sammenligning (afsnit 5) før hver commit, der
+  rører CSS, HTML eller JS, og forklar hver side, der står som `ÆNDRET`.
+
+## 2. Brug design-tokens, ikke løse værdier
+
+Tokens står i `:root` øverst i `styles.css`.
+
+- Farver: brug altid en eksisterende `var(--…)`. En ny farve kræver et nyt,
+  navngivet token med kommentar – aldrig en hex-værdi direkte i en regel.
+  Findes værdien allerede som token, så brug tokenet.
+- Afstand mellem blokke i en sektion (citatboks, knaprække, tekst under
+  knapper): `var(--space-block)`.
+- Ankerhop under det sticky sidehoved (`scroll-margin-top`, `top` på
+  sticky elementer): `var(--anchor-offset)`.
+- Afrunding: `var(--radius)`, `var(--radius-sm)`, `var(--radius-control)`
+  eller `999px` for piller.
+- Dæmpet tekst: `var(--muted)`. Brødtekst i længere tekster:
+  `var(--text-body)`. Tekst på samme niveau skal have samme farve – fx har
+  supplerende tekst under forsidens knapper samme stil som forsidens
+  øvrige sektionstekst (`.hero-note`).
+
+## 3. Kort: brug den fælles komponent
+
+Enhver afgrænset flade (hvid boks med kant og afrunding) er et kort:
+
+| Klasse | Bruges til |
+|---|---|
+| `card` | Grundkortet: hvid flade, kant, `--radius`, padding 1.5rem |
+| `card card-sm` | Mindre kort i gitre og diagrammer (`--radius-sm`) |
+| `card card-inset` | Kort inde i et andet kort (sidens baggrundsfarve) |
+| `card card-accent` | Fremhævet kort i grøn tone (afslutninger, samlede spor) |
+
+- Skriv aldrig `background`, `border` og `border-radius` for en flade igen
+  i en ny klasse. Tilføj `card` (+ variant) i HTML'en, og brug kun en egen
+  klasse (fx `focus-card`) til det, der reelt er særligt: padding, margin,
+  layout, indre typografi.
+- `card`-reglerne står i `:where()` og har specificitet 0, så en egen
+  klasse altid kan justere dem uden `!important` eller rækkefølge-tricks.
+- Tekst i kort er som standard dæmpet (`--muted`). Skal den være mørk, så
+  sæt det i kortets egen klasse.
+- Ny variant kun hvis ingen eksisterende passer – og så tilføjes den i
+  `card`-blokken og i tabellen her.
+- `.ep-table-wrap` er en scroll-container til tabeller, ikke et kort.
+
+## 4. Klasser og struktur
+
+- Ingen døde klasser: en klasse i HTML skal bruges af CSS eller JS, og en
+  klasse i CSS skal findes i HTML eller JS. Klasser, der kun sættes fra JS,
+  står i JS-skabelonerne (fx `ep-c-*` og `ep-lever`).
+- Genbrug før du opfinder. Findes der en komponent, der næsten passer, så
+  udvid den med en variant frem for at lave en ny kopi.
+- Undgå specificitets-kampe (`.x p.y` alene for at slå `.x p`). Står du og
+  skal skrive en, er grundreglen sandsynligvis for bred.
+- Breakpoints står i oversigten øverst i `styles.css`. Brug et eksisterende.
+- Følg den nummererede indholdsfortegnelse øverst i `styles.css`: nye
+  regler placeres i det afsnit, de hører til.
+
+## 5. Visuel sammenligning
+
+```bash
+node tools/visuel-sammenligning.mjs
+```
+
+Tager skærmbilleder af alle sider (desktop 1280 px og mobil 390 px, med alle
+foldefelter åbne) i `HEAD` og i arbejdskopien og sammenligner dem pixel for
+pixel. Angiv en anden git-ref og en output-mappe som argumenter efter behov.
+Skriptet afslutter med kode 1, hvis noget er ændret, og fortæller hvor
+skærmbillederne ligger.
+
+## 6. Udgivelse
+
+Push til `main` udgiver sitet via `.github/workflows/udgiv-site.yml`, som
+selv sætter cache-buster (`?v=…`) på `styles.css` og `app.js`. Ret ikke
+versionsnumrene i hånden.

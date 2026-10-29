@@ -35,7 +35,7 @@ function renderClimateSupportChart() {
     { label: 'Solcelleparker', actual: 66, perceived: 34 }
   ];
 
-  return `<figure class="climate-support-chart" aria-label="Danskernes egen opbakning til landvindmøller og solcelleparker sammenlignet med deres skøn over andres opbakning">
+  return `<figure class="card card-sm card-inset climate-support-chart" aria-label="Danskernes egen opbakning til landvindmøller og solcelleparker sammenlignet med deres skøn over andres opbakning">
     <h4>Vi undervurderer hinandens opbakning</h4>
     <p class="climate-support-intro">Opbakning til anlæg i eget lokalområde – procent af de adspurgte</p>
     <div class="climate-support-legend" aria-hidden="true"><span><i class="climate-support-swatch actual"></i>Støtter selv</span><span><i class="climate-support-swatch perceived"></i>Tror andre støtter</span></div>

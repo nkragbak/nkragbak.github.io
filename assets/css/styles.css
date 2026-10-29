@@ -396,26 +396,47 @@ table.sr-only {
   margin-top: 2.5rem;
 }
 
-/* Kort */
+/* Kort – én fælles komponent for alle afgrænsede flader (se AGENTS.md).
+   Grundklassen og varianterne står i :where(), så de har specificitet 0:
+   en komponentklasse (fx .focus-card) kan altid justere padding, margin
+   eller layout uden at kæmpe med rækkefølge eller !important.
+
+   .card         hvid flade, kant, stor afrunding, padding 1.5rem
+   .card-sm      lille afrunding – til mindre kort i gitre og diagrammer
+   .card-inset   sidens baggrundsfarve – til et kort inde i et andet kort
+   .card-accent  grøn tone – til fremhævede kort (afslutninger, samlede spor) */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
-.card {
+:where(.card) {
   padding: 1.5rem;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
 }
 
-.card h2,
-.card h3 {
+:where(.card-sm) {
+  border-radius: var(--radius-sm);
+}
+
+:where(.card-inset) {
+  background: var(--bg);
+}
+
+:where(.card-accent) {
+  background: var(--accent-soft);
+  border-color: var(--accent-border);
+}
+
+/* Standardtekst i kort: dæmpet. Sektionens egne tekstregler vinder altid. */
+:where(.card) :where(h2, h3) {
   margin-top: 0.5rem;
 }
 
-.card p {
+:where(.card) :where(p) {
   color: var(--muted);
 }
 
@@ -830,9 +851,6 @@ summary {
 .focus-card {
   scroll-margin-top: var(--anchor-offset);
   padding: 2rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
 }
 
 .focus-card-head {
@@ -959,9 +977,6 @@ summary {
 
 /* Paragraftekst */
 .grundlov-law-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   padding: 1.9rem 2rem;
   margin: 1.25rem 0;
 }
@@ -1007,9 +1022,6 @@ summary {
 
 .grundlov-end {
   max-width: 830px;
-  background: var(--accent-soft);
-  border: 1px solid var(--accent-border);
-  border-radius: var(--radius);
   padding: 2.3rem;
   margin: 2rem 0 0;
 }
@@ -1020,6 +1032,7 @@ summary {
 
 .grundlov-end p:not(.eyebrow) {
   max-width: 680px;
+  color: var(--text);
 }
 
 /* Tidslinje over grundlovens revisioner */
@@ -1084,9 +1097,6 @@ p.grundlov-history-source {
 .grundlov-chart {
   margin: 2.5rem 0;
   padding: 1.55rem 1.4rem 1.3rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
 }
 
 .grundlov-chart > .eyebrow {
@@ -1225,10 +1235,6 @@ p.grundlov-history-source {
   gap: 1.65rem;
   align-items: start;
   margin: 2rem 0 2.3rem;
-  padding: 1.5rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   scroll-margin-top: var(--anchor-offset);
 }
 
@@ -1247,9 +1253,6 @@ p.grundlov-history-source {
 .overshoot-figure {
   margin: 0;
   padding: 1.25rem 1rem;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
   min-width: 0;
 }
 
@@ -1483,9 +1486,6 @@ p.overshoot-equivalent {
 .climate-support-chart {
   margin: 1.5rem 0;
   padding: 1.4rem;
-  background: var(--surface-tint);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
 }
 
 .climate-support-chart h4 {
@@ -1639,9 +1639,6 @@ p.overshoot-equivalent {
 
 .ep-fact {
   padding: 1rem 1.1rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
 }
 
 .ep-fact strong {
@@ -1662,9 +1659,6 @@ p.overshoot-equivalent {
 /* Hverdagsfortællingen */
 .ep-story {
   padding: 1.5rem 1.75rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
 }
 
 .ep-story p {
@@ -1681,15 +1675,10 @@ p.overshoot-equivalent {
 
 .ep-track {
   padding: 1.25rem 1.35rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
 }
 
 .ep-track-wide {
   grid-column: 1 / -1;
-  background: var(--accent-soft);
-  border-color: var(--accent-border);
 }
 
 .grundlov-section .ep-track h3 {
@@ -1713,10 +1702,6 @@ p.overshoot-equivalent {
 /* Simulatoren */
 .ep-sim {
   margin: 1.75rem 0 0;
-  padding: 1.5rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
 }
 
 .ep-presets {
@@ -1821,9 +1806,6 @@ p.overshoot-equivalent {
 .ep-result {
   margin: 1.5rem 0 0;
   padding: 1.25rem;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
 }
 
 .ep-result-head {
@@ -1995,10 +1977,7 @@ p.overshoot-equivalent {
 
 .ep-gauge {
   padding: 0.95rem 1rem;
-  border: 1px solid var(--border);
   border-top-width: 5px;
-  border-radius: var(--radius-sm);
-  background: var(--surface);
 }
 
 .ep-gauge[data-state="groen"] { border-top-color: #5f9a72; }
@@ -2120,10 +2099,6 @@ p.overshoot-equivalent {
 .ep-hub-card {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
 }
 
 .grundlov-section .ep-hub-card h3 {
@@ -2245,9 +2220,6 @@ p.overshoot-equivalent {
 .ep-program-page .ep-policy {
   min-width: 0;
   padding: clamp(1.15rem, 2.2vw, 1.8rem);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
   scroll-margin-top: var(--anchor-offset);
 }
 .ep-program-page .ep-policy-head {
@@ -2299,9 +2271,6 @@ p.overshoot-equivalent {
 .ep-program-page .ep-direction-grid > div {
   min-width: 0;
   padding: 1.1rem 1.15rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: var(--surface);
 }
 .grundlov-section .ep-direction-grid h3 {
   margin: 0 0 0.45rem;
