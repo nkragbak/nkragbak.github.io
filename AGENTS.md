@@ -58,6 +58,22 @@ Enhver afgrænset flade (hvid boks med kant og afrunding) er et kort:
   `card`-blokken og i tabellen her.
 - `.ep-table-wrap` er en scroll-container til tabeller, ikke et kort.
 
+## 3b. Fremhævede bokse: brug `callout`
+
+En boks med farvet venstrekant er en `callout`:
+
+| Klasse | Bruges til |
+|---|---|
+| `callout` | Grøn tone og grøn kant: noter og pointer |
+| `callout callout-warn` | Hvid flade med orange kant: forbehold og advarsler |
+| `callout callout-quiet` | Kun en lys kant, ingen flade: spørgsmål i en tekst |
+
+- Venstrekanten er altid 4 px. Skriv aldrig en ny `border-left`-boks selv.
+- Står i `:where()` ligesom `card`. En egen klasse (fx `focus-principle`,
+  der er en større callout med fed tekst) justerer kun padding, bredde og
+  typografi.
+- `.ep-verdict` (simulatorens resultatlinje uden kant) er ikke en callout.
+
 ## 4. Klasser og struktur
 
 - Ingen døde klasser: en klasse i HTML skal bruges af CSS eller JS, og en

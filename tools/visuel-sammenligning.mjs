@@ -6,7 +6,9 @@
 //
 // Alle <details> foldes ud før skærmbilledet, så indhold i foldefelter
 // (fx diagrammet under Demokrati & magt) også bliver sammenlignet.
-// Scriptet afslutter med kode 1, hvis en side er ændret.
+// Forskelle på højst TOLERANCE (af 255) i en farvekanal ignoreres: de opstår
+// ved kantudglatning og er usynlige. Scriptet afslutter med kode 1, hvis en
+// side er ændret.
 
 import { createRequire } from 'node:module';
 import { execSync } from 'node:child_process';
@@ -18,6 +20,7 @@ import { join, extname, resolve } from 'node:path';
 const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
 
+const TOLERANCE = 2;
 const ref = process.argv[2] || 'HEAD';
 const out = resolve(process.argv[3] || mkdtempSync(join(tmpdir(), 'visuel-')));
 const repo = execSync('git rev-parse --show-toplevel').toString().trim();
@@ -71,7 +74,7 @@ async function shoot(browser, root, label) {
 // Sammenligner to PNG'er i browseren og returnerer det område, der er ændret.
 async function compare(browser, a, b) {
   const page = await browser.newPage();
-  const result = await page.evaluate(async ([a, b]) => {
+  const result = await page.evaluate(async ([a, b, tolerance]) => {
     const load = src => new Promise(ok => { const i = new Image(); i.onload = () => ok(i); i.src = src; });
     const [ia, ib] = await Promise.all([load(a), load(b)]);
     if (ia.width !== ib.width || ia.height !== ib.height) {
@@ -85,16 +88,17 @@ async function compare(browser, a, b) {
       return ctx.getImageData(0, 0, img.width, img.height).data;
     };
     const da = data(ia), db = data(ib);
+    const differs = i => Math.abs(da[i] - db[i]) > tolerance;
     let top = -1, bottom = -1;
     for (let i = 0; i < da.length; i += 4) {
-      if (da[i] !== db[i] || da[i + 1] !== db[i + 1] || da[i + 2] !== db[i + 2]) {
+      if (differs(i) || differs(i + 1) || differs(i + 2)) {
         const y = Math.floor(i / 4 / ia.width);
         if (top < 0) top = y;
         bottom = y;
       }
     }
     return top < 0 ? null : { rows: `y ${top}–${bottom}` };
-  }, [`data:image/png;base64,${a.toString('base64')}`, `data:image/png;base64,${b.toString('base64')}`]);
+  }, [`data:image/png;base64,${a.toString('base64')}`, `data:image/png;base64,${b.toString('base64')}`, TOLERANCE]);
   await page.close();
   return result;
 }

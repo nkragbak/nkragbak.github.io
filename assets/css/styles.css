@@ -478,14 +478,37 @@ table.sr-only {
   border-color: var(--border-strong);
 }
 
-/* Fremhævet grundprincip */
+/* Fremhævet boks med farvet venstrekant – én fælles komponent (se AGENTS.md).
+   Står i :where() (specificitet 0) ligesom .card.
+
+   .callout         grøn tone og grøn kant – noter og pointer
+   .callout-warn    hvid flade med orange kant – forbehold og advarsler
+   .callout-quiet   kun en lys kant, ingen flade – spørgsmål i en tekst */
+:where(.callout) {
+  padding: 1rem 1.25rem;
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+:where(.callout-warn) {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--overshoot-after);
+}
+
+:where(.callout-quiet) {
+  padding: 0.6rem 0 0.6rem 1rem;
+  background: none;
+  border-left-color: var(--accent-border);
+  border-radius: 0;
+}
+
+/* Fremhævet grundprincip – en større .callout */
 .focus-principle {
   max-width: 820px;
   margin: var(--space-block) 0 0;
   padding: 1.25rem 1.5rem;
-  background: var(--accent-soft);
-  border-left: 4px solid var(--accent);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   font-size: 1.12rem;
   font-weight: 750;
 }
@@ -1011,13 +1034,6 @@ summary {
 
 .grundlov-sources li + li {
   margin-top: 0.75rem;
-}
-
-.grundlov-note {
-  padding: 1rem 1.25rem;
-  border-left: 3px solid var(--accent);
-  background: var(--accent-soft);
-  border-radius: 0 var(--radius-control) var(--radius-control) 0;
 }
 
 .grundlov-end {
@@ -1616,11 +1632,6 @@ p.overshoot-equivalent {
 .ep-disclaimer {
   max-width: 830px;
   margin: 1.5rem 0 0;
-  padding: 1rem 1.25rem;
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--overshoot-after);
-  background: var(--surface);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   color: var(--text-body);
   font-size: 0.95rem;
 }
@@ -2252,8 +2263,6 @@ p.overshoot-equivalent {
 }
 .ep-program-page .ep-policy li + li { margin-top: 0.5rem; }
 .ep-program-page .ep-policy-question {
-  border-left: 3px solid var(--accent-border);
-  padding: 0.6rem 0 0.6rem 1rem;
   color: var(--text-body);
   line-height: 1.6;
 }
