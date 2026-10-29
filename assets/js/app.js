@@ -35,7 +35,7 @@ function renderClimateSupportChart() {
     { label: 'Solcelleparker', actual: 66, perceived: 34 }
   ];
 
-  return `<figure class="climate-support-chart" aria-label="Danskernes egen opbakning til landvindmøller og solcelleparker sammenlignet med deres skøn over andres opbakning">
+  return `<figure class="card card-sm card-inset climate-support-chart" aria-label="Danskernes egen opbakning til landvindmøller og solcelleparker sammenlignet med deres skøn over andres opbakning">
     <h4>Vi undervurderer hinandens opbakning</h4>
     <p class="climate-support-intro">Opbakning til anlæg i eget lokalområde – procent af de adspurgte</p>
     <div class="climate-support-legend" aria-hidden="true"><span><i class="climate-support-swatch actual"></i>Støtter selv</span><span><i class="climate-support-swatch perceived"></i>Tror andre støtter</span></div>
@@ -207,6 +207,33 @@ document.querySelectorAll('[data-details-action]').forEach(button => {
     container.querySelectorAll('details').forEach(detail => {
       detail.open = shouldOpen;
     });
+  });
+});
+
+// Lysboks: links med data-lightbox viser billedet i fuld størrelse oven på siden.
+// Uden JS åbner linket bare billedet. Lukkes med Esc, klik eller lukkeknappen.
+document.querySelectorAll('a[data-lightbox]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    const dialog = document.createElement('dialog');
+    dialog.className = 'lightbox';
+    dialog.setAttribute('aria-label', link.getAttribute('aria-label') || 'Billede');
+    const image = document.createElement('img');
+    image.src = link.href;
+    image.alt = link.querySelector('img')?.alt || '';
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.className = 'lightbox-close';
+    close.setAttribute('aria-label', 'Luk');
+    close.textContent = '✕';
+    dialog.append(close, image);
+    dialog.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('close', () => {
+      dialog.remove();
+      link.focus();
+    });
+    document.body.append(dialog);
+    dialog.showModal();
   });
 });
 
