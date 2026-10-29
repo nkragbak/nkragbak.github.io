@@ -18,7 +18,7 @@ Forsvarsbehovet skal vurderes ud fra de trusler og opgaver, vi skal kunne håndt
 
 ## Robuste forsyninger og internationalt samarbejde
 
-Målet er, at befolkningens grundlæggende behov kan dækkes, også når normale forsyninger svigter. Et generelt krav om 100 procent selvforsyning ville være for dogmatisk. Vi skal konkret vurdere, hvilken kombination af egen kapacitet, lagre, forskellige forsyningsveje og internationalt samarbejde der giver den nødvendige robusthed.
+Målet er, at befolkningens grundlæggende behov kan dækkes, også når normale forsyninger svigter. Et krav om 100 procent selvforsyning ville dog være for dogmatisk. Vi skal konkret vurdere, hvilken kombination af egen kapacitet, lagre, forskellige forsyningsveje og internationalt samarbejde der giver den nødvendige robusthed.
 
 Vi kan godt være afhængige af hinanden på tværs af landegrænser. Men vi skal forstå vores afhængigheder og kunne håndtere, at væsentlige leverancer eller samarbejder bliver afbrudt.
 
@@ -39,4 +39,4 @@ Jeg vil arbejde for:
 
 Både akut beskyttelse og langsigtet forebyggelse kræver arbejdskraft, materialer og økonomiske midler. Derfor skal prioriteringen omfatte hele økonomien: Hvilke aktiviteter skal fylde mindre, så vi får plads til sikkerhed, velfærd og den nødvendige samfundsomstilling? Det spørgsmål er en nødvendig del af arbejdet med et gennemreformeret samfund.
 
-*Status: foreløbigt standpunkt – udvikles i takt med ny viden og erfaring.*
+*Status: Udvikles i takt med indhentning af ny viden og erfaring.*
