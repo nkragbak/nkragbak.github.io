@@ -105,6 +105,9 @@
   /* Skygger */
   --shadow-menu: 0 12px 30px rgba(0, 0, 0, 0.08);
   --shadow-portrait: 0 18px 45px rgba(0, 0, 0, 0.1);
+
+  /* Lysboks (billede i fuld størrelse) */
+  --overlay: rgba(20, 22, 19, 0.88);
 }
 
 
@@ -547,6 +550,44 @@ summary {
   max-width: 68ch;
 }
 
+/* Lysboks: billede i fuld størrelse. app.js åbner den for links med data-lightbox. */
+.lightbox {
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  overflow: visible;
+}
+
+.lightbox::backdrop {
+  background: var(--overlay);
+}
+
+.lightbox img {
+  display: block;
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 2rem);
+  border-radius: var(--radius-sm);
+  cursor: zoom-out;
+}
+
+.lightbox-close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
 .loading,
 .no-results {
   color: var(--muted);
@@ -627,6 +668,13 @@ summary {
   max-width: 660px;
 }
 
+/* Portrættet er et link til billedet i fuld størrelse (lysboks, se afsnit 5) */
+.portrait-link {
+  display: block;
+  border-radius: 22px;
+  cursor: zoom-in;
+}
+
 .portrait {
   display: block;
   width: 100%;
@@ -649,9 +697,12 @@ summary {
     gap: 1.5rem;
   }
 
+  .portrait-link {
+    order: -1;
+  }
+
   .portrait {
     width: min(100%, 320px);
-    order: -1;
   }
 }
 

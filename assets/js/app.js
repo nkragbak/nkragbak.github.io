@@ -210,6 +210,33 @@ document.querySelectorAll('[data-details-action]').forEach(button => {
   });
 });
 
+// Lysboks: links med data-lightbox viser billedet i fuld størrelse oven på siden.
+// Uden JS åbner linket bare billedet. Lukkes med Esc, klik eller lukkeknappen.
+document.querySelectorAll('a[data-lightbox]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    const dialog = document.createElement('dialog');
+    dialog.className = 'lightbox';
+    dialog.setAttribute('aria-label', link.getAttribute('aria-label') || 'Billede');
+    const image = document.createElement('img');
+    image.src = link.href;
+    image.alt = link.querySelector('img')?.alt || '';
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.className = 'lightbox-close';
+    close.setAttribute('aria-label', 'Luk');
+    close.textContent = '✕';
+    dialog.append(close, image);
+    dialog.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('close', () => {
+      dialog.remove();
+      link.focus();
+    });
+    document.body.append(dialog);
+    dialog.showModal();
+  });
+});
+
 // Tabeller i fremskrivningerne: giv hver celle sin kolonneoverskrift,
 // så rækkerne kan vises som kort på mobil.
 document.querySelectorAll('.ep-table').forEach(table => {

@@ -99,7 +99,19 @@ pixel. Angiv en anden git-ref og en output-mappe som argumenter efter behov.
 Skriptet afslutter med kode 1, hvis noget er ændret, og fortæller hvor
 skærmbillederne ligger.
 
-## 6. Udgivelse
+## 6. Arbejdsgang: pull requests
+
+- Medmindre andet er aftalt, laver en agent sine ændringer på en separat
+  branch og opretter en pull request mod `main`.
+- Vurderer agenten, at ændringen er meget lille (fx en tastefejl eller en
+  enkelt formulering), må den **spørge** Niels, om den skal merges direkte
+  til `main` i stedet. Uden et ja oprettes en pull request.
+- En agent pusher aldrig direkte til `main` på eget initiativ – et push til
+  `main` udgiver sitet (afsnit 7).
+- Beskriv i pull requesten, hvad der er ændret, og om udseendet er ændret
+  (med før/efter fra den visuelle sammenligning, afsnit 5).
+
+## 7. Udgivelse
 
 Push til `main` udgiver sitet via `.github/workflows/udgiv-site.yml`, som
 selv sætter cache-buster (`?v=…`) på `styles.css` og `app.js`. Ret ikke
