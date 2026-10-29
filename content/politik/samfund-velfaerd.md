@@ -25,3 +25,7 @@ Omsorg, undervisning, relationelt arbejde og sundhed kan ikke altid effektiviser
 ## Et godt liv er mere end forbrug
 
 Jeg er interesseret i, hvordan politik kan skabe mere reel livskvalitet gennem blandt andet tid, fællesskab, natur, tryghed og deltagelse. Det er vigtigt, fordi en omstilling til et samfund inden for naturens grænser bliver langt mere plausibel, hvis den opleves som en forbedring af livet snarere end som en permanent øvelse i afsavn.
+
+En mulighed er at bruge en del af fremtidens produktivitetsgevinster på **kortere arbejdstid frem for stadig større produktion**. Det kunne give mere tid til børn, familie og venner, foreningsliv, natur, egne projekter – eller bare til at være. Den tid er også en form for velstand.
+
+Hvad mennesker vælger at bruge den på, er naturligvis ikke noget, staten skal bestemme. Politik skal skabe mulighederne, ikke planlægge vores fritid. Det kræver samtidig, at en kortere arbejdsuge kan gennemføres med økonomisk tryghed og uden blot at øge arbejdspresset eller forringe velfærden. Men fremskridt kan også måles i **større råderum over vores eget liv**, ikke kun i flere varer og tjenester.
