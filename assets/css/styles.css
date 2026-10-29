@@ -106,6 +106,17 @@
   --radius: 16px;
   --radius-sm: 12px;
   --radius-control: 10px;
+
+  /* Skriftstørrelser – vælg altid et trin her (se AGENTS.md).
+     Overskrifter (h1, h2), sideoverskrift og ingress bruger clamp() for sig. */
+  --fs-2xs: 0.7rem;   /* akser og etiketter i diagrammer, små mærkater */
+  --fs-xs: 0.78rem;   /* eyebrows, signaturforklaringer, mærkater, figurtekster */
+  --fs-sm: 0.85rem;   /* hjælpetekst, kilder, tabeller, chips på mobil */
+  --fs-md: 0.9rem;    /* chips, footer, kompakt brødtekst i kort */
+  --fs-base: 1rem;    /* brødtekst */
+  --fs-lg: 1.1rem;    /* fremhævet tekst, små overskrifter */
+  --fs-xl: 1.25rem;   /* h3 */
+  --fs-2xl: 1.5rem;   /* store h3 og nøgletal */
   --space-block: 2rem; /* afstand mellem blokke i en sektion (fx citat, knapper, tekst) */
   --anchor-offset: 95px; /* plads til det sticky sidehoved ved hop til #anker */
 
@@ -175,7 +186,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: var(--fs-xl);
 }
 
 /* Kun for skærmlæsere. !important er bevidst: hjælpeklassen skal altid vinde. */
@@ -242,7 +253,7 @@ table.sr-only {
   background: var(--surface);
   border-radius: var(--radius-control);
   padding: 0.4rem 0.65rem;
-  font-size: 1.2rem;
+  font-size: var(--fs-xl);
 }
 
 .site-footer {
@@ -254,7 +265,7 @@ table.sr-only {
   padding: 2rem var(--gutter) 3rem;
   color: var(--muted);
   border-top: 1px solid var(--border);
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
 }
 
 .site-footer a {
@@ -314,7 +325,7 @@ table.sr-only {
 .eyebrow {
   margin: 0 0 0.65rem;
   color: var(--accent);
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -472,7 +483,7 @@ table.sr-only {
   background: var(--surface);
   color: var(--muted);
   font: inherit;
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
@@ -507,7 +518,7 @@ table.sr-only {
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 0.75rem;
+  font-size: var(--fs-xs);
   font-weight: 800;
 }
 
@@ -518,7 +529,7 @@ table.sr-only {
 
 :where(.badge-sm) {
   padding: 0.05rem 0.45rem;
-  font-size: 0.7rem;
+  font-size: var(--fs-2xs);
 }
 
 /* Række af chips til at hoppe mellem afsnit (Fokusområder, Grundlovsforslag) */
@@ -560,7 +571,7 @@ table.sr-only {
   max-width: 820px;
   margin: var(--space-block) 0 0;
   padding: 1.25rem 1.5rem;
-  font-size: 1.12rem;
+  font-size: var(--fs-lg);
   font-weight: 750;
 }
 
@@ -631,7 +642,7 @@ summary {
   background: var(--surface);
   color: var(--text);
   font: inherit;
-  font-size: 1.25rem;
+  font-size: var(--fs-xl);
   line-height: 1;
   cursor: pointer;
 }
@@ -657,7 +668,7 @@ summary {
   }
 
   :where(.chip) {
-    font-size: 0.82rem;
+    font-size: var(--fs-sm);
   }
 }
 
@@ -735,7 +746,7 @@ summary {
 }
 
 .project-grid .card h2 {
-  font-size: 1.5rem;
+  font-size: var(--fs-2xl);
   margin: 0.6rem 0 0.5rem;
 }
 
@@ -866,7 +877,7 @@ summary {
   color: var(--control-text);
   padding: 0.34rem 0.62rem;
   font: inherit;
-  font-size: 0.79rem;
+  font-size: var(--fs-xs);
   font-weight: 700;
   cursor: pointer;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
@@ -889,7 +900,7 @@ summary {
 }
 
 .markdown-static-intro h3 {
-  font-size: 1.25rem;
+  font-size: var(--fs-xl);
   margin: 0 0 0.65rem;
 }
 
@@ -977,7 +988,7 @@ summary {
 
 .focus-card h3 {
   margin: 1.5rem 0 0.65rem;
-  font-size: 1rem;
+  font-size: var(--fs-base);
   letter-spacing: 0;
 }
 
@@ -997,13 +1008,13 @@ summary {
 .focus-subtitle {
   margin: -0.2rem 0 1.1rem;
   color: var(--muted);
-  font-size: 1rem;
+  font-size: var(--fs-base);
   font-style: italic;
 }
 
 .scope {
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
   font-weight: 700;
 }
 
@@ -1065,7 +1076,7 @@ summary {
 }
 
 .grundlov-section h3 {
-  font-size: 1.25rem;
+  font-size: var(--fs-xl);
   letter-spacing: -0.02em;
   margin: 2.1rem 0 0.7rem;
   line-height: 1.32;
@@ -1100,13 +1111,13 @@ summary {
 }
 
 .grundlov-law-card h3 {
-  font-size: 1.5rem;
+  font-size: var(--fs-2xl);
   margin: 0.8rem 0 1.1rem;
 }
 
 .grundlov-law-card p {
   color: var(--text);
-  font-size: 1.06rem;
+  font-size: var(--fs-lg);
   line-height: 1.8;
 }
 
@@ -1173,7 +1184,7 @@ summary {
 }
 
 .grundlov-year {
-  font-size: 1.1rem;
+  font-size: var(--fs-lg);
   font-weight: 800;
   color: var(--accent);
   line-height: 1.45;
@@ -1181,7 +1192,7 @@ summary {
 }
 
 .grundlov-timeline h3 {
-  font-size: 1.1rem;
+  font-size: var(--fs-lg);
   margin: 0 0 0.35rem;
 }
 
@@ -1191,7 +1202,7 @@ summary {
 
 /* p.… giver nok vægt til at slå .grundlov-section p uden !important */
 p.grundlov-history-source {
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
   color: var(--muted);
   margin: 1.5rem 0 2rem;
 }
@@ -1208,7 +1219,7 @@ p.grundlov-history-source {
 
 .grundlov-chart h3 {
   margin: 0 0 2.1rem;
-  font-size: 1.28rem;
+  font-size: var(--fs-xl);
 }
 
 .grundlov-chart-visual {
@@ -1228,7 +1239,7 @@ p.grundlov-history-source {
   position: absolute;
   right: 0;
   transform: translateY(-50%);
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   color: var(--muted);
   white-space: nowrap;
 }
@@ -1299,7 +1310,7 @@ p.grundlov-history-source {
   bottom: calc(100% + 0.3rem);
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   font-weight: 800;
   color: var(--text);
   white-space: nowrap;
@@ -1312,7 +1323,7 @@ p.grundlov-history-source {
   gap: clamp(0.35rem, 2vw, 1.15rem);
   padding: 0.6rem 0.65rem 0;
   text-align: center;
-  font-size: 0.76rem;
+  font-size: var(--fs-xs);
   line-height: 1.35;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
@@ -1326,7 +1337,7 @@ p.grundlov-history-source {
 
 .grundlov-chart figcaption {
   margin: 1.5rem 0 0;
-  font-size: 0.88rem;
+  font-size: var(--fs-md);
   color: var(--muted);
   line-height: 1.55;
 }
@@ -1344,12 +1355,12 @@ p.grundlov-history-source {
 /* Står efter .grundlov-section h3 med samme vægt og vinder derfor uden !important */
 .overshoot-explainer h3 {
   margin: 0.25rem 0 1rem;
-  font-size: 1.4rem;
+  font-size: var(--fs-2xl);
   line-height: 1.25;
 }
 
 .overshoot-explainer p:not(.eyebrow) {
-  font-size: 0.97rem;
+  font-size: var(--fs-base);
   line-height: 1.65;
 }
 
@@ -1360,14 +1371,14 @@ p.grundlov-history-source {
 }
 
 .overshoot-figure h4 {
-  font-size: 1.08rem;
+  font-size: var(--fs-lg);
   line-height: 1.3;
   letter-spacing: -0.015em;
   margin: 0;
 }
 
 .overshoot-figure .overshoot-chart-intro {
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
   margin: 0.3rem 0 1.4rem;
   color: var(--muted);
 }
@@ -1380,7 +1391,7 @@ p.grundlov-history-source {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
-  font-size: 0.84rem;
+  font-size: var(--fs-sm);
   line-height: 1.35;
 }
 
@@ -1389,7 +1400,7 @@ p.grundlov-history-source {
 }
 
 .overshoot-row-head strong {
-  font-size: 1.3rem;
+  font-size: var(--fs-xl);
   color: var(--text);
   font-variant-numeric: tabular-nums;
 }
@@ -1423,7 +1434,7 @@ p.grundlov-history-source {
 /* p.… giver nok vægt til at slå .grundlov-section p uden !important */
 p.overshoot-equivalent {
   margin: 0.25rem 0 0;
-  font-size: 0.81rem;
+  font-size: var(--fs-xs);
 }
 
 .overshoot-year-axis {
@@ -1433,7 +1444,7 @@ p.overshoot-equivalent {
   margin: 0.35rem 0 0.95rem;
   padding-top: 0.55rem;
   border-top: 1px solid var(--border);
-  font-size: 0.76rem;
+  font-size: var(--fs-xs);
   font-variant-numeric: tabular-nums;
   color: var(--muted);
 }
@@ -1442,7 +1453,7 @@ p.overshoot-equivalent {
   display: flex;
   gap: 0.4rem 1rem;
   flex-wrap: wrap;
-  font-size: 0.76rem;
+  font-size: var(--fs-xs);
   line-height: 1.4;
   color: var(--muted);
 }
@@ -1471,7 +1482,7 @@ p.overshoot-equivalent {
 
 .overshoot-figure figcaption {
   margin: 1.2rem 0 0;
-  font-size: 0.79rem;
+  font-size: var(--fs-xs);
   color: var(--muted);
   line-height: 1.55;
 }
@@ -1486,7 +1497,7 @@ p.overshoot-equivalent {
   }
 
   .grundlov-law-card p {
-    font-size: 1rem;
+    font-size: var(--fs-base);
   }
 
   .grundlov-end {
@@ -1510,7 +1521,7 @@ p.overshoot-equivalent {
   }
 
   .overshoot-explainer h3 {
-    font-size: 1.2rem;
+    font-size: var(--fs-xl);
   }
 }
 
@@ -1522,7 +1533,7 @@ p.overshoot-equivalent {
   }
 
   .grundlov-year {
-    font-size: 0.98rem;
+    font-size: var(--fs-base);
   }
 
   .grundlov-chart {
@@ -1530,7 +1541,7 @@ p.overshoot-equivalent {
   }
 
   .grundlov-chart h3 {
-    font-size: 1.05rem;
+    font-size: var(--fs-lg);
     margin-bottom: 2rem;
   }
 
@@ -1545,7 +1556,7 @@ p.overshoot-equivalent {
   }
 
   .grundlov-chart-scale span {
-    font-size: 0.68rem;
+    font-size: var(--fs-2xs);
   }
 
   .grundlov-chart-bars,
@@ -1560,12 +1571,12 @@ p.overshoot-equivalent {
   }
 
   .grundlov-chart-value {
-    font-size: 0.67rem;
+    font-size: var(--fs-2xs);
     bottom: calc(100% + 0.23rem);
   }
 
   .grundlov-chart-labels {
-    font-size: 0.66rem;
+    font-size: var(--fs-2xs);
   }
 }
 
@@ -1576,10 +1587,6 @@ p.overshoot-equivalent {
 
   .overshoot-figure {
     padding: 1rem 0.8rem;
-  }
-
-  .overshoot-row-head strong {
-    font-size: 1.2rem;
   }
 }
 
@@ -1592,7 +1599,7 @@ p.overshoot-equivalent {
 }
 
 .climate-support-chart h4 {
-  font-size: 1.1rem;
+  font-size: var(--fs-lg);
   letter-spacing: -0.01em;
   line-height: 1.3;
   margin: 0 0 0.3rem;
@@ -1600,7 +1607,7 @@ p.overshoot-equivalent {
 
 /* Dobbelt klasse giver nok vægt til at slå .detail-content p uden !important */
 .climate-support-chart .climate-support-intro {
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   margin: 0.15rem 0 1.1rem;
   color: var(--muted);
 }
@@ -1609,7 +1616,7 @@ p.overshoot-equivalent {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem 1.1rem;
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   margin-bottom: 1.15rem;
 }
 
@@ -1644,7 +1651,7 @@ p.overshoot-equivalent {
 
 .climate-support-label {
   font-weight: 750;
-  font-size: 0.92rem;
+  font-size: var(--fs-md);
   margin-bottom: 0.5rem;
 }
 
@@ -1658,7 +1665,7 @@ p.overshoot-equivalent {
 }
 
 .climate-support-bar-label {
-  font-size: 0.75rem;
+  font-size: var(--fs-xs);
   color: var(--text-body);
 }
 
@@ -1676,13 +1683,13 @@ p.overshoot-equivalent {
 }
 
 .climate-support-bar-row strong {
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
   text-align: right;
   white-space: nowrap;
 }
 
 .climate-support-chart figcaption {
-  font-size: 0.77rem;
+  font-size: var(--fs-xs);
   line-height: 1.55;
   color: var(--muted);
   margin-top: 1.25rem;
@@ -1720,7 +1727,7 @@ p.overshoot-equivalent {
   max-width: 830px;
   margin: 1.5rem 0 0;
   color: var(--text-body);
-  font-size: 0.95rem;
+  font-size: var(--fs-md);
 }
 
 .ep-disclaimer strong {
@@ -1741,7 +1748,7 @@ p.overshoot-equivalent {
 
 .ep-fact strong {
   display: block;
-  font-size: 1.6rem;
+  font-size: var(--fs-2xl);
   line-height: 1.15;
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
@@ -1749,7 +1756,7 @@ p.overshoot-equivalent {
 
 .grundlov-section p.ep-fact-label {
   margin: 0.35rem 0 0;
-  font-size: 0.86rem;
+  font-size: var(--fs-sm);
   line-height: 1.45;
   color: var(--muted);
 }
@@ -1760,7 +1767,7 @@ p.overshoot-equivalent {
 }
 
 .ep-story p {
-  font-size: 1.04rem;
+  font-size: var(--fs-base);
 }
 
 /* Politikpakkens spor */
@@ -1781,7 +1788,7 @@ p.overshoot-equivalent {
 
 .grundlov-section .ep-track h3 {
   margin: 0.55rem 0 0.4rem;
-  font-size: 1.1rem;
+  font-size: var(--fs-lg);
 }
 
 .ep-track ul {
@@ -1790,7 +1797,7 @@ p.overshoot-equivalent {
 }
 
 .ep-track li {
-  font-size: 0.94rem;
+  font-size: var(--fs-md);
 }
 
 .ep-track li + li {
@@ -1812,7 +1819,7 @@ p.overshoot-equivalent {
 .grundlov-section p.ep-preset-note {
   min-height: 1.5em;
   margin: 0.6rem 0 0;
-  font-size: 0.88rem;
+  font-size: var(--fs-md);
   color: var(--muted);
 }
 
@@ -1824,12 +1831,12 @@ p.overshoot-equivalent {
 
 .grundlov-section .ep-layer h3 {
   margin: 0.25rem 0 0.3rem;
-  font-size: 1.2rem;
+  font-size: var(--fs-xl);
 }
 
 .grundlov-section p.ep-layer-intro {
   margin: 0 0 1.1rem;
-  font-size: 0.93rem;
+  font-size: var(--fs-md);
 }
 
 .ep-levers {
@@ -1850,7 +1857,7 @@ p.overshoot-equivalent {
 
 .ep-lever-head output {
   flex: none;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   font-weight: 700;
   color: var(--accent);
   font-variant-numeric: tabular-nums;
@@ -1858,7 +1865,7 @@ p.overshoot-equivalent {
 
 .grundlov-section p.ep-lever-desc {
   margin: 0.15rem 0 0.35rem;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   line-height: 1.5;
   color: var(--muted);
 }
@@ -1873,7 +1880,7 @@ p.overshoot-equivalent {
 .ep-scale {
   display: flex;
   justify-content: space-between;
-  font-size: 0.72rem;
+  font-size: var(--fs-2xs);
   color: var(--muted);
 }
 
@@ -1892,12 +1899,12 @@ p.overshoot-equivalent {
 }
 
 .ep-result-head span {
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   font-weight: 600;
 }
 
 .ep-result-head strong {
-  font-size: 1.35rem;
+  font-size: var(--fs-xl);
   line-height: 1.25;
   font-variant-numeric: tabular-nums;
 }
@@ -1949,7 +1956,7 @@ p.overshoot-equivalent {
 .ep-result-lines {
   display: grid;
   gap: 0.2rem;
-  font-size: 0.86rem;
+  font-size: var(--fs-sm);
   color: var(--text-body);
 }
 
@@ -1964,7 +1971,7 @@ p.overshoot-equivalent {
 
 .grundlov-section h4.ep-small-title {
   margin: 0 0 0.45rem;
-  font-size: 0.95rem;
+  font-size: var(--fs-md);
   letter-spacing: -0.01em;
 }
 
@@ -2001,7 +2008,7 @@ p.overshoot-equivalent {
   display: flex;
   justify-content: space-between;
   margin-top: 0.3rem;
-  font-size: 0.72rem;
+  font-size: var(--fs-2xs);
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
@@ -2019,7 +2026,7 @@ p.overshoot-equivalent {
   flex-wrap: wrap;
   gap: 0.35rem 0.9rem;
   margin-top: 0.55rem;
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   color: var(--muted);
 }
 
@@ -2065,7 +2072,7 @@ p.overshoot-equivalent {
   align-items: baseline;
   gap: 0.5rem;
   font-weight: 750;
-  font-size: 0.95rem;
+  font-size: var(--fs-md);
 }
 
 /* Statusmærke (.badge) med versaler */
@@ -2081,7 +2088,7 @@ p.overshoot-equivalent {
 
 .grundlov-section p.ep-gauge-text {
   margin: 0.45rem 0 0;
-  font-size: 0.84rem;
+  font-size: var(--fs-sm);
   line-height: 1.5;
 }
 
@@ -2090,7 +2097,7 @@ p.overshoot-equivalent {
   padding: 0.85rem 1rem;
   border-radius: var(--radius-control);
   background: var(--accent-soft);
-  font-size: 0.93rem;
+  font-size: var(--fs-md);
   font-weight: 600;
 }
 
@@ -2107,7 +2114,7 @@ p.overshoot-equivalent {
   width: 100%;
   table-layout: fixed; /* faste kolonnebredder, så den sidste kolonne (typisk grundlaget) får plads */
   border-collapse: collapse;
-  font-size: 0.86rem;
+  font-size: var(--fs-sm);
   line-height: 1.45;
 }
 
@@ -2121,7 +2128,7 @@ p.overshoot-equivalent {
 
 .ep-table thead th {
   background: var(--surface-tint);
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted);
@@ -2168,7 +2175,7 @@ p.overshoot-equivalent {
 
 .grundlov-section .ep-hub-card h3 {
   margin: 0.6rem 0 0.5rem;
-  font-size: 1.3rem;
+  font-size: var(--fs-xl);
 }
 
 .ep-hub-card p {
@@ -2241,7 +2248,7 @@ p.overshoot-equivalent {
   }
 
   .ep-table td:first-child {
-    font-size: 1rem;
+    font-size: var(--fs-base);
     font-weight: 750;
     color: var(--text);
   }
@@ -2250,7 +2257,7 @@ p.overshoot-equivalent {
     content: attr(data-label);
     display: block;
     margin-bottom: 0.1rem;
-    font-size: 0.7rem;
+    font-size: var(--fs-2xs);
     font-weight: 800;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -2294,21 +2301,21 @@ p.overshoot-equivalent {
   gap: 0.5rem 0.9rem;
 }
 .ep-program-page .ep-policy-head .scope {
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
 }
 .grundlov-section .ep-policy h3 {
   margin: 0.8rem 0 0.55rem;
-  font-size: clamp(1.16rem, 1.7vw, 1.35rem);
+  font-size: var(--fs-xl);
 }
 .grundlov-section .ep-policy h4 {
   margin: 1.1rem 0 0.45rem;
-  font-size: 0.94rem;
+  font-size: var(--fs-md);
   font-weight: 750;
   color: var(--text);
 }
 .grundlov-section .ep-policy p.ep-policy-thesis {
   margin: 0.45rem 0 0.85rem;
-  font-size: 1.01rem;
+  font-size: var(--fs-base);
   line-height: 1.65;
 }
 .ep-program-page .ep-policy ul {
@@ -2322,7 +2329,7 @@ p.overshoot-equivalent {
 }
 .grundlov-section .ep-policy p.ep-policy-sources {
   margin: 0.95rem 0 0;
-  font-size: 0.86rem;
+  font-size: var(--fs-sm);
   color: var(--muted);
 }
 .ep-program-page .ep-direction-grid {
@@ -2337,11 +2344,11 @@ p.overshoot-equivalent {
 }
 .grundlov-section .ep-direction-grid h3 {
   margin: 0 0 0.45rem;
-  font-size: 1.08rem;
+  font-size: var(--fs-lg);
 }
 .grundlov-section .ep-direction-grid p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
   line-height: 1.55;
 }
 .ep-program-page .ep-dilemma-list {
