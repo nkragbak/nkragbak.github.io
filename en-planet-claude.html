@@ -62,21 +62,21 @@
     <p class="lead">Hvis alle levede som os, skulle der bruges cirka 4,7 jordkloder. Her er et bud på, hvordan et dansk hverdagsliv og en samlet politikpakke kunne se ud, hvis vi for alvor satte kursen mod én.</p>
     <p class="callout focus-principle">Naturens bæreevne sætter rammerne. Menneskers trivsel er formålet. Økonomien er vores måde at organisere det på.</p>
     <div class="proposal-meta">
-      <span class="tag">Fremskrivning A</span>
+      <span class="badge">Fremskrivning A</span>
       <span class="scope">Udarbejdet med AI-modellen Claude (Anthropic) · 27. oktober 2026</span>
     </div>
     <p class="callout callout-warn ep-disclaimer"><strong>Sådan skal siden læses:</strong> Dette er en illustration af størrelsesordener og sammenhænge, ikke en prognose. Analysen og simulatoren er lavet i samarbejde med en AI-model på baggrund af offentligt tilgængelig forskning. Hvor tallene bygger på kilder, og hvor de bygger på skøn, står i <a href="#antagelser">antagelserne</a>. En <a href="en-planet.html">tilsvarende fremskrivning</a> er lavet med en anden AI-model, så de to kan sammenlignes.</p>
   </header>
 
   <nav class="focus-jump" aria-label="På denne side">
-    <a href="#udgangspunkt">Udgangspunktet</a>
-    <a href="#hverdag-2045">Hverdag i 2045</a>
-    <a href="#politikpakken">Politikpakken</a>
-    <a href="#simulator">Simulatoren</a>
-    <a href="#forskningen">Hvad forskningen viser</a>
-    <a href="#modargumenter">Modargumenter</a>
-    <a href="#antagelser">Antagelser</a>
-    <a href="#kilder">Kilder</a>
+    <a class="chip" href="#udgangspunkt">Udgangspunktet</a>
+    <a class="chip" href="#hverdag-2045">Hverdag i 2045</a>
+    <a class="chip" href="#politikpakken">Politikpakken</a>
+    <a class="chip" href="#simulator">Simulatoren</a>
+    <a class="chip" href="#forskningen">Hvad forskningen viser</a>
+    <a class="chip" href="#modargumenter">Modargumenter</a>
+    <a class="chip" href="#antagelser">Antagelser</a>
+    <a class="chip" href="#kilder">Kilder</a>
   </nav>
 
   <section id="udgangspunkt" class="grundlov-section">
@@ -130,7 +130,7 @@
 
     <div class="ep-tracks">
       <article class="card card-sm ep-track">
-        <span class="tag">Spor 1 · Rammen</span>
+        <span class="badge">Spor 1 · Rammen</span>
         <h3>Lov om et fodaftryksbudget</h3>
         <ul>
           <li>Bindende, faldende loft for Danmarks forbrugsbaserede aftryk, målt både som økologisk fodaftryk og materialeforbrug.</li>
@@ -140,7 +140,7 @@
         </ul>
       </article>
       <article class="card card-sm ep-track">
-        <span class="tag">Spor 2 · Priser</span>
+        <span class="badge">Spor 2 · Priser</span>
         <h3>Priser, der fortæller sandheden</h3>
         <ul>
           <li>CO₂-afgift på forbrug, også af importerede varer via EU's grænsetilpasning.</li>
@@ -150,7 +150,7 @@
         </ul>
       </article>
       <article class="card card-sm ep-track">
-        <span class="tag">Spor 3 · Mad og jord</span>
+        <span class="badge">Spor 3 · Mad og jord</span>
         <h3>Plantebaseret som udgangspunkt</h3>
         <ul>
           <li>Offentlige køkkener omlægges til primært plantebaseret mad.</li>
@@ -160,7 +160,7 @@
         </ul>
       </article>
       <article class="card card-sm ep-track">
-        <span class="tag">Spor 4 · Bolig</span>
+        <span class="badge">Spor 4 · Bolig</span>
         <h3>Renovering før nybyggeri</h3>
         <ul>
           <li>Nybyggeri kræver dokumentation for, at eksisterende bygninger ikke kan bruges.</li>
@@ -170,7 +170,7 @@
         </ul>
       </article>
       <article class="card card-sm ep-track">
-        <span class="tag">Spor 5 · Transport</span>
+        <span class="badge">Spor 5 · Transport</span>
         <h3>Færre kilometer, bedre alternativer</h3>
         <ul>
           <li>Markant udbygning af kollektiv trafik og cykelstier.</li>
@@ -179,7 +179,7 @@
         </ul>
       </article>
       <article class="card card-sm ep-track">
-        <span class="tag">Spor 6 · Ting</span>
+        <span class="badge">Spor 6 · Ting</span>
         <h3>Færre, bedre og længerevarende ting</h3>
         <ul>
           <li>Ret til reparation, krav om reservedele og mindste levetid.</li>
@@ -189,7 +189,7 @@
         </ul>
       </article>
       <article class="card card-sm card-accent ep-track ep-track-wide">
-        <span class="tag">Spor 7 · Det sociale fundament</span>
+        <span class="badge">Spor 7 · Det sociale fundament</span>
         <h3>Det, der gør resten muligt</h3>
         <ul>
           <li>Gradvist kortere normal arbejdstid, for eksempel 30 timer i 2035 og 28 timer i 2045, så det arbejde, der er, deles.</li>
@@ -212,11 +212,11 @@
       <h3 class="sr-only">Simulator</h3>
       <p class="eyebrow">Start fra et scenarie</p>
       <div class="ep-presets" role="group" aria-label="Færdige scenarier">
-        <button type="button" data-preset="nu">Ingen nye tiltag</button>
-        <button type="button" data-preset="teknologi">Kun teknologi</button>
-        <button type="button" data-preset="afgifter">Kun afgifter og nedskalering</button>
-        <button type="button" data-preset="borgerloen">Kun borgerløn</button>
-        <button type="button" data-preset="pakke">Hele pakken</button>
+        <button type="button" class="chip chip-control" data-preset="nu">Ingen nye tiltag</button>
+        <button type="button" class="chip chip-control" data-preset="teknologi">Kun teknologi</button>
+        <button type="button" class="chip chip-control" data-preset="afgifter">Kun afgifter og nedskalering</button>
+        <button type="button" class="chip chip-control" data-preset="borgerloen">Kun borgerløn</button>
+        <button type="button" class="chip chip-control" data-preset="pakke">Hele pakken</button>
       </div>
       <p class="ep-preset-note" id="ep-preset-note" aria-live="polite"></p>
 
@@ -310,19 +310,19 @@
           <tr><th>Antagelse</th><th>Værdi</th><th>Grundlag</th></tr>
         </thead>
         <tbody>
-          <tr><td>Udgangspunkt</td><td>20. marts · 4,7 jordkloder</td><td><span class="ep-basis ep-basis-kilde">Kilde</span><br>Global Footprint Network, Country Overshoot Days 2026.</td></tr>
-          <tr><td>Fordeling på områder</td><td>Mad 30 %, transport 22 %, bolig 19 %, varer 15 %, service og offentligt 14 %</td><td><span class="ep-basis ep-basis-kilde">Kilde</span> <span class="ep-basis ep-basis-skoen">Skøn</span><br>Midtpunkter fra EU-27-opgørelsen i Nature Food (2023), brugt som skøn for Danmark. Danmarks madandel er sandsynligvis højere.</td></tr>
-          <tr><td>CO₂-andel af madens aftryk</td><td>20 %</td><td><span class="ep-basis ep-basis-kilde">Kilde</span><br>Samme EU-27-opgørelse: CO₂-arealet udgør omkring en femtedel af madens fodaftryk.</td></tr>
-          <tr><td>CO₂-andel af øvrige områder</td><td>Transport 90 %, bolig 65 %, varer 55 %, service 60 %</td><td><span class="ep-basis ep-basis-skoen">Skøn</span><br>Egne antagelser. Giver en samlet CO₂-andel på omkring 55 %.</td></tr>
-          <tr><td>Energi: fossilfri energi, også i importerede varer</td><td>50–85 % af CO₂-delen</td><td><span class="ep-basis ep-basis-skoen">Skøn</span><br>Danmark kan styre sin egen energi, men mere end halvdelen af klimaaftrykket ligger i udlandet. WWF vurderer, at drivhusgasser skal ned med 85 %. Det svenske studie finder 89 % for fossil CO₂ med hele pakken.</td></tr>
-          <tr><td>Mad: plantebaseret kost og mindre madspild</td><td>35–65 % af madens aftryk</td><td><span class="ep-basis ep-basis-kilde">Kilde</span> <span class="ep-basis ep-basis-skoen">Skøn</span><br>En helt plantebaseret kost kan skære landbrugsarealet med omkring 76 % (Poore og Nemecek 2018). Planetary Health-kosten i rige lande giver omkring 62 % lavere landbrugsudledninger (Sun m.fl. 2022). Spændet tager højde for, at kosten ikke bliver helt plantebaseret.</td></tr>
-          <tr><td>Bolig: mindre plads per person og renovering</td><td>20–40 % af boligens aftryk</td><td><span class="ep-basis ep-basis-kilde">Kilde</span> <span class="ep-basis ep-basis-skoen">Skøn</span><br>At gå fra cirka 47 til 30–35 m² per person kan sænke energien til opvarmning med 25–36 % (Bierwirth og Thomas 2019). Mindre nybyggeri sparer materialer oveni.</td></tr>
-          <tr><td>Transport: færre bil- og flykilometer</td><td>35–65 % af transportens aftryk</td><td><span class="ep-basis ep-basis-skoen">Skøn</span><br>Bilfri hverdag og færre langdistanceflyvninger hører til de tiltag med størst effekt i forskningen (Ivanova m.fl. 2020). Transport er den største post i danskernes klimaaftryk (Concito 2023).</td></tr>
-          <tr><td>Ting: levetid, reparation og mindre volumen</td><td>25–50 % af varernes aftryk</td><td><span class="ep-basis ep-basis-kilde">Kilde</span> <span class="ep-basis ep-basis-skoen">Skøn</span><br>Circularity Gap Report Denmark vurderer, at cirkulære strategier kan sænke materialeforbruget med 39 % og CO₂-aftrykket med 42 %.</td></tr>
-          <tr><td>Service og offentligt forbrug</td><td>Kun påvirket af energi</td><td><span class="ep-basis ep-basis-skoen">Skøn</span><br>En forenkling. Offentligt forbrug og investeringer kan også ændres politisk, men det er ikke modelleret.</td></tr>
-          <tr><td>Verdensbefolkning 2045</td><td>Ca. 9,5 mia.</td><td><span class="ep-basis ep-basis-kilde">Kilde</span> <span class="ep-basis ep-basis-skoen">Skøn</span><br>Interpoleret fra FN's 2024-fremskrivning (8,2 mia. i 2024, 9,7 mia. i 2050). Forudsætter uændret samlet biokapacitet.</td></tr>
-          <tr><td>Sammenhængsmåleren</td><td>Grøn · gul · rød</td><td><span class="ep-basis ep-basis-skoen">Skøn</span><br>Kvalitative tærskler, der afspejler de afvejninger, det svenske studie finder. Ikke beregnede tal.</td></tr>
-          <tr><td>Kortere arbejdstid og forbrug</td><td>Ikke medregnet</td><td><span class="ep-basis ep-basis-skoen">Skøn</span><br>Kortere arbejdstid kan i sig selv sænke forbruget en smule. Det er udeladt for ikke at tælle dobbelt med tingshåndtaget.</td></tr>
+          <tr><td>Udgangspunkt</td><td>20. marts · 4,7 jordkloder</td><td><span class="badge badge-sm ep-basis">Kilde</span><br>Global Footprint Network, Country Overshoot Days 2026.</td></tr>
+          <tr><td>Fordeling på områder</td><td>Mad 30 %, transport 22 %, bolig 19 %, varer 15 %, service og offentligt 14 %</td><td><span class="badge badge-sm ep-basis">Kilde</span> <span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Midtpunkter fra EU-27-opgørelsen i Nature Food (2023), brugt som skøn for Danmark. Danmarks madandel er sandsynligvis højere.</td></tr>
+          <tr><td>CO₂-andel af madens aftryk</td><td>20 %</td><td><span class="badge badge-sm ep-basis">Kilde</span><br>Samme EU-27-opgørelse: CO₂-arealet udgør omkring en femtedel af madens fodaftryk.</td></tr>
+          <tr><td>CO₂-andel af øvrige områder</td><td>Transport 90 %, bolig 65 %, varer 55 %, service 60 %</td><td><span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Egne antagelser. Giver en samlet CO₂-andel på omkring 55 %.</td></tr>
+          <tr><td>Energi: fossilfri energi, også i importerede varer</td><td>50–85 % af CO₂-delen</td><td><span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Danmark kan styre sin egen energi, men mere end halvdelen af klimaaftrykket ligger i udlandet. WWF vurderer, at drivhusgasser skal ned med 85 %. Det svenske studie finder 89 % for fossil CO₂ med hele pakken.</td></tr>
+          <tr><td>Mad: plantebaseret kost og mindre madspild</td><td>35–65 % af madens aftryk</td><td><span class="badge badge-sm ep-basis">Kilde</span> <span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>En helt plantebaseret kost kan skære landbrugsarealet med omkring 76 % (Poore og Nemecek 2018). Planetary Health-kosten i rige lande giver omkring 62 % lavere landbrugsudledninger (Sun m.fl. 2022). Spændet tager højde for, at kosten ikke bliver helt plantebaseret.</td></tr>
+          <tr><td>Bolig: mindre plads per person og renovering</td><td>20–40 % af boligens aftryk</td><td><span class="badge badge-sm ep-basis">Kilde</span> <span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>At gå fra cirka 47 til 30–35 m² per person kan sænke energien til opvarmning med 25–36 % (Bierwirth og Thomas 2019). Mindre nybyggeri sparer materialer oveni.</td></tr>
+          <tr><td>Transport: færre bil- og flykilometer</td><td>35–65 % af transportens aftryk</td><td><span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Bilfri hverdag og færre langdistanceflyvninger hører til de tiltag med størst effekt i forskningen (Ivanova m.fl. 2020). Transport er den største post i danskernes klimaaftryk (Concito 2023).</td></tr>
+          <tr><td>Ting: levetid, reparation og mindre volumen</td><td>25–50 % af varernes aftryk</td><td><span class="badge badge-sm ep-basis">Kilde</span> <span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Circularity Gap Report Denmark vurderer, at cirkulære strategier kan sænke materialeforbruget med 39 % og CO₂-aftrykket med 42 %.</td></tr>
+          <tr><td>Service og offentligt forbrug</td><td>Kun påvirket af energi</td><td><span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>En forenkling. Offentligt forbrug og investeringer kan også ændres politisk, men det er ikke modelleret.</td></tr>
+          <tr><td>Verdensbefolkning 2045</td><td>Ca. 9,5 mia.</td><td><span class="badge badge-sm ep-basis">Kilde</span> <span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Interpoleret fra FN's 2024-fremskrivning (8,2 mia. i 2024, 9,7 mia. i 2050). Forudsætter uændret samlet biokapacitet.</td></tr>
+          <tr><td>Sammenhængsmåleren</td><td>Grøn · gul · rød</td><td><span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Kvalitative tærskler, der afspejler de afvejninger, det svenske studie finder. Ikke beregnede tal.</td></tr>
+          <tr><td>Kortere arbejdstid og forbrug</td><td>Ikke medregnet</td><td><span class="badge badge-warn badge-sm ep-basis">Skøn</span><br>Kortere arbejdstid kan i sig selv sænke forbruget en smule. Det er udeladt for ikke at tælle dobbelt med tingshåndtaget.</td></tr>
         </tbody>
       </table>
     </div>
@@ -590,7 +590,7 @@
     const gauges = social();
     meterEl.innerHTML = gauges.map(g => `
       <div class="card card-sm ep-gauge" data-state="${g.state}">
-        <div class="ep-gauge-title"><span>${g.title}</span><span class="ep-state">${STATE_LABEL[g.state]}</span></div>
+        <div class="ep-gauge-title"><span>${g.title}</span><span class="badge badge-sm ep-state">${STATE_LABEL[g.state]}</span></div>
         <p class="ep-gauge-text">${g.text}</p>
       </div>`).join('');
 

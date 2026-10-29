@@ -74,6 +74,27 @@ En boks med farvet venstrekant er en `callout`:
   typografi.
 - `.ep-verdict` (simulatorens resultatlinje uden kant) er ikke en callout.
 
+## 3c. Piller: `chip` (klikbar) og `badge` (fast mærkat)
+
+| Klasse | Bruges til |
+|---|---|
+| `chip` | Klikbar pille, link eller knap: hop mellem afsnit, emner |
+| `chip chip-control` | Grå knap-variant: valg i et værktøj (simulatorens forvalg) |
+| `chip` + `aria-pressed="true"` | Valgt chip (grøn) – styres af `aria-pressed`, ikke en klasse |
+| `badge` | Lille fast mærkat, ikke klikbar: "Ændring 1", "Forslag 2" |
+| `badge badge-warn` | Gul mærkat: skøn og forbehold |
+| `badge badge-sm` | Mindre mærkat i tabeller og tætte diagrammer |
+
+- En række chips placeres i en container (fx `.focus-jump`), der kun styrer
+  layout (flex, gap, margin). Selve pillen er altid `chip`.
+- Står i `:where()` ligesom `card`. En egen klasse må kun tilføje det, der
+  er særligt (fx højere trykflade på mobil eller versaler i `.ep-state`).
+- Klikbar = `chip`, ikke klikbar = `badge`. Bland dem ikke.
+- `.detail-control` ("Udvid alle"/"Luk alle") er en kantet knap, ikke en
+  chip.
+- Den globale linkfarve står i `:where(a)` (specificitet 0), så en
+  komponent altid kan sætte sin egen linkfarve.
+
 ## 4. Klasser og struktur
 
 - Ingen døde klasser: en klasse i HTML skal bruges af CSS eller JS, og en
